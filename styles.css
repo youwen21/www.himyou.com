@@ -1,0 +1,507 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20px;
+}
+
+.logo h1 {
+    color: #2196F3;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #2196F3;
+}
+
+/* 主要内容区样式 */
+.hero {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+    color: white;
+    text-align: center;
+    padding: 120px 0 80px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FFC107;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FFB300;
+}
+
+/* 工具展示区样式 */
+.tools-section {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.tools-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.tool-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+.tool-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.tool-card h3 {
+    margin-bottom: 10px;
+    color: #2196F3;
+}
+
+/* 关于我们样式 */
+.about-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* 修改联系方式样式 */
+.contact-section {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.contact-item {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    margin-bottom: 20px;
+}
+
+.contact-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-item h3 {
+    color: #2196F3;
+    margin-bottom: 15px;
+}
+
+.contact-item p {
+    color: #666;
+    margin: 8px 0;
+}
+
+.qr-code {
+    width: 200px;
+    height: 200px;
+    margin: 15px 0;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+/* 删除旧的联系表单相关样式 */
+.contact-form,
+.contact-form input,
+.contact-form textarea,
+.submit-button {
+    display: none;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.beian {
+    font-size: 14px;
+}
+
+.beian a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.beian img {
+    width: 14px;
+    height: 14px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero p {
+        font-size: 18px;
+    }
+    
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .beian {
+        font-size: 12px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .qr-code {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* 产品详情模块样式 */
+.product-details-section {
+    padding: 40px 0;
+}
+
+.product-detail {
+    padding: 60px 0;
+}
+
+.product-detail:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.detail-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.product-detail.reverse .detail-content {
+    flex-direction: row-reverse;
+}
+
+.detail-text {
+    flex: 1;
+}
+
+.detail-text h3 {
+    color: #2196F3;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.feature-icon {
+    font-size: 24px;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+    border-radius: 50%;
+}
+
+.feature-info h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.feature-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.detail-image {
+    flex: 0.8;
+    text-align: center;
+    /* background: white; */
+    padding: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.08); */
+    transition: transform 0.3s ease;
+}
+
+.detail-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(33, 150, 243, 0.15);
+}
+
+.detail-image h3 {
+    color: #2196F3;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.detail-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.detail-image p {
+    color: #666;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .detail-content {
+        flex-direction: column-reverse !important;
+        gap: 30px;
+    }
+
+    .detail-text h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .feature-list li {
+        margin-bottom: 20px;
+    }
+
+    .feature-icon {
+        font-size: 20px;
+        min-width: 35px;
+        height: 35px;
+    }
+
+    .detail-image {
+        padding: 20px;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .detail-image h3 {
+        font-size: 20px;
+    }
+
+    .detail-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .detail-image p {
+        font-size: 14px;
+    }
+}
+
+/* 修改真题列表样式 */
+.paper-grid {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    gap: 10px;
+}
+
+.paper-item {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    /* width:fit-content; */
+    /* width: 100%; */
+}
+
+.paper-item:hover {
+    background: #2196F3;
+    color: white;
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.2);
+    cursor: pointer;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .paper-item {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+}
+
+/* APP预览部分样式 */
+.app-preview-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+}
+
+.app-preview-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2196F3;
+    font-size: 32px;
+}
+
+.app-preview-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.app-preview-grid img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    /* 添加设备边框效果 */
+    border: 12px solid #333;
+    position: relative;
+}
+
+.app-preview-grid img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(33, 150, 243, 0.2);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .app-preview-section {
+        padding: 40px 0;
+    }
+
+    .app-preview-section h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .app-preview-grid {
+        gap: 30px;
+    }
+
+    .app-preview-grid img {
+        max-width: 250px;
+        border-width: 8px;
+    }
+}
