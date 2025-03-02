@@ -1,0 +1,278 @@
+.bgQa {
+    padding: 20px;
+    background: #fff;
+}
+
+.passage-title {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.paragragh {
+    font-size: 18px;
+    margin-top: 1em;
+    text-indent: 2em;
+    word-break: break-word;
+    text-align: justify;
+    line-height: 28px;
+    color: rgb(27, 27, 27);
+}
+.paragragh:first-child {
+    margin-top: 0;
+}
+
+.paragragh::first-letter {
+    text-transform: capitalize;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.translation {
+    text-indent: 2em;
+    word-break: break-word;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    color: rgb(29, 29, 29);
+    line-height: 26px;
+}
+
+.translation::first-letter {
+    text-transform: capitalize;
+}
+
+
+/* 添加左右布局样式 */
+.box {
+    /* display: flex; */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+     /* min-height: 100vh;  /* 确保最小高度占满视口 */
+}
+
+.left {
+    flex: 1;  /* 占用剩余空间的一半 */
+    border-right: 1px solid #eee;  /* 添加分隔线 */
+}
+
+.right {
+    flex: 1;  /* 占用剩余空间的一半 */
+}
+
+/* 确保body和html没有默认边距 */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* 标题样式 */
+.title {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Part标题样式 */
+.part-title {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+
+.part-title span:first-child {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333;
+}
+
+.part-title span:last-child {
+    font-size: 20px;
+    font-weight: 900;
+    /* color: #666; */
+    color: #333;
+}
+
+/* 预览区域样式 */
+.preview {
+    padding: 20px;
+}
+
+.preview-title {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.preview-content {
+    padding: 15px 0;
+}
+
+.preview-item {
+    cursor: pointer;
+    padding: 10px;
+    color: #666;
+}
+
+.preview-item:hover {
+    background-color: #f5f5f5;
+}
+
+/* 容器样式 */
+.container {
+    padding: 40px 20px;  /* 修改水平内边距 */
+    margin: 20px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.container h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #666;
+    border-radius: 2px;
+}
+
+/* 修改图片容器样式 */
+.image-preview-swipper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));  /* 改为2列 */
+    gap: 40px;  /* 增加间距 */
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin: 0 40px;  /* 增加左右边距 */
+}
+
+/* 修改图片样式 */
+.image-preview-swipper img {
+    width: 85%;  /* 减小宽度，留出更多空间 */
+    height: auto;
+    margin: 0 auto;
+    border-radius: 32px;
+    padding: 15px;
+    background-color: white;
+    border: 8px solid #333;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    /* object-fit: cover; */
+    aspect-ratio: 9/16;
+    position: relative;
+}
+
+/* 添加手机外观效果 */
+.image-preview-swipper img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 3px;
+    background-color: #e0e0e0;
+    border-radius: 0 0 4px 4px;
+    margin-top: 6px;
+}
+
+/* 优化悬停效果 */
+.image-preview-swipper img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #bdbdbd;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .image-preview-swipper {
+        grid-template-columns: 1fr;  /* 小屏幕时改为单列 */
+        gap: 30px;
+        margin: 0 20px;
+    }
+    
+    .image-preview-swipper img {
+        width: 70%;  /* 单列时减小图片宽度 */
+    }
+}
+
+@media (max-width: 480px) {
+    .image-preview-swipper img {
+        width: 85%;  /* 更小屏幕时增加图片宽度 */
+    }
+}
+
+/* 添加more-data样式 */
+.more-data {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+}
+
+.more-data p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.more-data img {
+    width: 180px;  /* 二维码尺寸 */
+    height: 180px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .more-data {
+        padding: 30px 15px;
+    }
+
+    .more-data img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.more-data p.app-free {
+    font-size: 20px;
+    color: #fb5454;
+    margin-top: 10px;
+}

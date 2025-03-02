@@ -11,6 +11,17 @@ body {
     color: #333;
 }
 
+a {
+    text-decoration: none;
+}
+a.logo {
+    color: inherit;  /* 继承父元素的颜色 */
+    text-decoration: none;  /* 移除下划线 */
+}
+.logo a:visited {
+    color: inherit;  /* 确保访问过的链接保持继承的颜色 */
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -413,10 +424,9 @@ footer {
 
 /* 修改真题列表样式 */
 .paper-grid {
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: row; */
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* 一行3列 */
+    gap: 20px;  /* 增加间距使布局更清晰 */
 }
 
 .paper-item {
@@ -428,8 +438,7 @@ footer {
     color: #666;
     border: 1px solid #e0e0e0;
     transition: all 0.3s ease;
-    /* width:fit-content; */
-    /* width: 100%; */
+    width: 100%;  /* 确保item填充grid单元格 */
 }
 
 .paper-item:hover {
@@ -442,9 +451,20 @@ footer {
 
 /* 响应式调整 */
 @media (max-width: 768px) {
+    .paper-grid {
+        grid-template-columns: repeat(2, 1fr);  /* 在移动端改为一行2列 */
+        gap: 15px;
+    }
+    
     .paper-item {
         padding: 10px 15px;
         font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .paper-grid {
+        grid-template-columns: 1fr;  /* 在更小的屏幕上改为单列 */
     }
 }
 

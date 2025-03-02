@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{.PaperTitle}}</title>
+    <link rel="stylesheet" href="/asset/css/cet5.css">
+</head>
+
+<body>
+    <div class="box">
+        <section class="main">
+            <div class="title">
+                <div class="paper-title">{{.PaperTitle}}</div>
+                <div class="paper-subtitle">{{.PaperSubtitle}}</div>
+            </div>
+
+            <div class="bgQa">
+                <div class="part-title">{{.PartTitle}}</div>
+                <div class="section-title">{{.SectionTitle}}</div>
+                
+                <div class="directions">
+                    {{.Directions}}
+                </div>
+
+                <div class="dialogue-title">{{.DialogueTitle}}</div>
+                
+                <div class="options-list">
+                    {{range .Options}}
+                    <div>{{.Name}}: {{.Value}}</div>
+                    {{end}}
+                </div>
+
+                <div class="rich-oral-box">
+                    {{range .DialogItems}}
+                    <div class="dialog-item">
+                        <span class="someone">{{.Speaker}}:</span>
+                        {{if .IsQuestion}}
+                        <span class="ques" data-qa-index="{{.QuestionIndex}}">
+                            &nbsp;&nbsp;&nbsp;&nbsp; {{.QuestionIndex}} &nbsp;&nbsp;&nbsp;&nbsp;
+                        </span>
+                        {{else}}
+                        {{.Content}}
+                        {{end}}
+                    </div>
+                    {{end}}
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="more-data">
+                <p>微信扫一扫 查看完整数据</p>
+                <img src="/images/beigua-shenshuo-qr.jpg" alt="北瓜申硕英语">
+                <p>微信小程序 《北瓜申硕英语》 提供历年真题数据，真题解析，高频单词，高频词组。</p>
+                <p class="app-free">小程序免费，免费，免费！！！</p>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container">
+                <h2>小程序预览</h2>
+                <div class="image-preview-swipper">
+                    <img src="/images/cet5/home.jpg" alt="北瓜学位-home">
+                    <img src="/images/cet5/exam-list.jpg" alt="北瓜学位-exam-list">
+                    <img src="/images/cet5/oral.jpg" alt="北瓜学位-oral">
+                    <img src="/images/cet5/reading.jpg" alt="北瓜学位-reading">
+                    <img src="/images/cet5/selection.jpg" alt="北瓜学位-selection">
+                    <img src="/images/cet5/frequency.jpg" alt="北瓜学位-frequency">
+                    <img src="/images/cet5/words.jpg" alt="北瓜学位-words">
+                    <img src="/images/cet5/phrase.jpg" alt="北瓜学位-phrase">
+                    <img src="/images/cet5/answer-result.jpg" alt="北瓜学位-answer-result">
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html> 

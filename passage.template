@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="passage.css">
+    <style></style>
+</head>
+
+<body>
+    <div class="box">
+        <section class="main">
+            <div class="title">
+                <h1>{{ .ExamName }}</h1>
+            </div>
+            
+            <div class="bgQa">
+                <div class="part-title">
+                    <span>{{ .PartName }}</span>
+                    <span>{{ .PartTitle }}</span>
+                </div>
+
+                <div class="passage-title">{{ .PassageTitle }}</div>
+                <div id="passageContent">
+                    {{ range .Paragraphs }}
+                    <div class="paragragh">
+                        {{ .English }}
+                    </div>
+                    <div class="translation">
+                        {{ .Chinese }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="more-data">
+                <p>微信扫一扫 查看2024年11月北京学位英语真题完整数据</p>
+                <img src="images/beigua-xuewei-qr.jpg" alt="北瓜学位英语">
+                <p>微信小程序 《北瓜英语》 提供超15年真题数据，真题解析，高频单词，高频词组。</p>
+                <p class="app-free">小程序免费，免费，免费！！！</p>
+            </div>
+        </section>
+
+        <section class="">
+            <div class="container">
+                <h2>小程序预览</h2>
+                <div class="image-preview-swipper">
+                    <img src="images/cet3/home.jpg" alt="北瓜学位-home">
+                    <img src="images/cet3/exam-list.jpg" alt="北瓜学位-exam-list">
+                    <img src="images/cet3/passage-trans.jpg" alt="北瓜学位-passage-trans">
+                    <img src="images/cet3/cloze-explain.jpg" alt="北瓜学位-cloze">
+                    <img src="images/cet3/cloze-selection.jpg" alt="北瓜学位-cloze">
+                    <img src="images/cet3/frequency.jpg" alt="北瓜学位-frequency">
+                    <img src="images/cet3/words.jpg" alt="北瓜学位-words">
+                    <img src="images/cet3/phrase.jpg" alt="北瓜学位-phrase">
+                    <img src="images/cet3/answer-result.jpg" alt="北瓜学位-answer-result">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html> 
