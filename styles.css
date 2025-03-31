@@ -192,11 +192,9 @@ a.logo {
 }
 
 .qr-code {
-    width: 200px;
-    height: 200px;
-    margin: 15px 0;
-    border: 1px solid #eee;
-    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
 }
 
 /* 删除旧的联系表单相关样式 */
