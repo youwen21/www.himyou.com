@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二级菜单 - 北瓜英语</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .secondary-menu {
+            background: #f8f9fa;
+            padding: 20px 0;
+            margin-top: 60px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .secondary-menu .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .menu-item {
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .menu-item:hover {
+            background: #e9ecef;
+        }
+
+        .menu-item.active {
+            background: #2196F3;
+            color: white;
+        }
+
+        .menu-item.active a {
+            color: white;
+        }
+
+        .menu-item a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .secondary-menu .container {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.jpg" alt="北瓜英语" class="logo-img">
+                    <h1>北瓜英语</h1>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="secondary-menu">
+        <div class="container">
+            <div class="menu-item active">
+                <a href="list.html">真题列表</a>
+            </div>
+            <div class="menu-item">
+                <a href="../words/list.html">高频词汇</a>
+            </div>
+            <div class="menu-item">
+                <a href="../practice/list.html">在线练习</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="content">
+        <!-- 页面主要内容将在这里 -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 北瓜英语. 保留所有权利。</p>
+                <p class="beian">
+                    <a href="https://beian.miit.gov.cn/" target="_blank">
+                        <img src="../images/beian-icon.png" alt="备案图标">
+                        冀ICP备2024067335号-1
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
