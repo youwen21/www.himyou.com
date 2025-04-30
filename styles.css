@@ -22,7 +22,7 @@ a.logo {
     color: inherit;  /* 确保访问过的链接保持继承的颜色 */
 }
 
-.logo-img {
+img.logo-img {
     width: 40px;
     height: 40px;
     vertical-align: middle;
