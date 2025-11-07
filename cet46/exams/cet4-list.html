@@ -6,13 +6,13 @@
     <title>大学英语四级真题列表 - 北瓜大四六英语</title>
     <meta name="description" content="大学英语四级历年真题列表，包含2016到最新真题+真题解析">
     <link rel="stylesheet" href="../../styles.css">
-    <link rel="stylesheet" href="../../asset/css/cet4.css">
+    <link rel="stylesheet" href="../../asset/css/cet46.css">
     <style>
         .exam-list {
             max-width: 800px;
             margin: 2rem auto;
             padding: 1rem;
-            padding-top: 80px;
+            padding-top: 20px;
         }
 
         .exam-list h1 {
@@ -63,6 +63,43 @@
         .back-link:hover {
             color: #007bff;
         }
+
+        /* 二级菜单切换样式 */
+        .secondary-nav {
+            padding: 15px 0;
+            margin-top: 120px;
+            z-index: 999;
+        }
+
+        .secondary-nav .container {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+        }
+
+        .nav-tab {
+            padding: 10px 30px;
+            background: transparent;
+            border: none;
+            color: #666;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid transparent;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-tab:hover {
+            color: #2196F3;
+            background: rgba(33, 150, 243, 0.05);
+        }
+
+        .nav-tab.active {
+            color: #2196F3;
+            border-bottom-color: #2196F3;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
@@ -77,35 +114,45 @@
         </div>
     </nav>
 
+    <nav class="secondary-nav">
+        <div class="container">
+            <a href="cet4-list.html" class="nav-tab active">大学英语四级</a>
+            <a href="cet6-list.html" class="nav-tab">大学英语六级</a>
+        </div>
+    </nav>
+
     <main class="exam-list">
         <h1>大学英语四级历年真题</h1>
         <div class="exam-grid">
             <div class="exam-item">
-                <a href="#more-data">2024年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2025年6月大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2023年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2024全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2022年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2023全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2021年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2022全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2020年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2021全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2019年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2020全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2018年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2019全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2017年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2018全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
             <div class="exam-item">
-                <a href="#more-data">2016年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+                <a href="#more-data">2017全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
+            </div>
+            <div class="exam-item">
+                <a href="#more-data">2016全年大学英语四级真题 + 真题解析 + 高频单词 + 专项练习 + 听力</a>
             </div>
         </div>
 
@@ -113,10 +160,9 @@
     </main>
     <section class="" id="more-data">
         <div class="more-data">
-            <p>微信扫一扫 查看完整数据</p>
+            <p>微信扫一扫 在线真题练习</p>
             <img src="/images/beigua-46-qr.png" alt="北瓜大四六英语">
             <p>微信小程序 《北瓜大四六英语》 提供历年真题数据，真题解析，高频单词，专项练习，听力。</p>
-            <p>英语四级真题PDF数据整理中，敬请期待。</p>
         </div>
     </section>
 
