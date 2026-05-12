@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,13 +32,13 @@
             background: #fff;
             padding: 1rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s ease;
         }
 
         .exam-item:hover {
             transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         }
 
         .exam-item a {
@@ -62,14 +63,41 @@
         .back-link:hover {
             color: #007bff;
         }
+
+
+        .more-data {
+            text-align: center;
+            margin: 2em 0;
+            padding: 1em;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .more-data p {
+            margin: 1em 0;
+            color: rgb(27, 27, 27);
+        }
+
+        .more-data img {
+            max-width: 200px;
+            margin: 1em auto;
+        }
+
+        .app-free {
+            color: #ff6b6b !important;
+            font-weight: 700;
+        }
     </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="/" style="display: flex; align-items: center;">
-                    <img src="/images/logo.jpg" alt="北瓜英语" class="logo-img" style="width: 40px; height: 40px; margin-right: 8px;">
+                    <img src="/images/logo.jpg" alt="北瓜英语" class="logo-img"
+                        style="width: 40px; height: 40px; margin-right: 8px;">
                     <h1>北瓜英语</h1>
                 </a>
             </div>
@@ -138,11 +166,11 @@
         <a href="/" class="back-link">返回首页</a>
     </main>
     <div class="more-data" id="more-data">
-        <p>微信扫一扫 查看数据</p>
+        <p>微信扫一扫 打开小程序使用</p>
         <img src="/images/beigua-xuewei-qr.jpg" alt="北瓜学位英语">
         <p>微信小程序 《北瓜英语》 提供超15年真题数据，真题解析，高频单词，高频词组。</p>
     </div>
-    
+
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -159,11 +187,12 @@
 </body>
 <script>
     var _hmt = _hmt || [];
-    (function() {
+    (function () {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?a4ffc788690883ae7cb20b610ca73a13";
-        var s = document.getElementsByTagName("script")[0]; 
+        var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();
-    </script>
-</html> 
+</script>
+
+</html>
