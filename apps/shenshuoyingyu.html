@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北瓜申硕英语 - 微信小程序介绍</title>
+    <meta name="description" content="北瓜申硕英语微信小程序，收录同等学力人员申请硕士学位英语水平全国统一考试历年真题，支持在线刷题、真题解析、高频单词与高频词组。">
+    <meta name="keywords" content="北瓜申硕英语,同等学力申硕,申硕英语,同等学力英语,真题,微信小程序,刷题">
+    <style>
+        :root {
+            --primary: #7e57c2;
+            --primary-dark: #5e35b1;
+            --primary-light: #ede7f6;
+            --text: #2c3e50;
+            --text-muted: #7f8c8d;
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --border: #ecf0f1;
+            --star: #f1c40f;
+            --wechat: #07c160;
+            --radius: 12px;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding-bottom: 3rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #5e35b1 0%, #7e57c2 50%, #9575cd 100%);
+            color: #fff;
+            padding: 2.5rem 1.5rem 3rem;
+            text-align: center;
+            border-radius: 0 0 2rem 2rem;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.25);
+            padding: 0.25rem 0.75rem;
+            border-radius: 2rem;
+            font-size: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 0.95rem;
+            opacity: 0.92;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-qr {
+            background: #fff;
+            border-radius: var(--radius);
+            padding: 1rem;
+            display: inline-block;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        }
+
+        .hero-qr img {
+            width: 160px;
+            height: 160px;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .hero-qr p {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+        }
+
+        .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .hero-tags span {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.35rem 0.85rem;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .section {
+            margin: 1.5rem 1rem 0;
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 1.25rem 1.25rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .section-num {
+            width: 1.75rem;
+            height: 1.75rem;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .section-header h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .section-body {
+            padding: 1rem 1.25rem 1.25rem;
+        }
+
+        .intro-lead {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .exam-type-badge {
+            text-align: center;
+            padding: 0.85rem 1rem;
+            background: var(--primary-light);
+            border: 1px solid #b39ddb;
+            border-radius: 10px;
+            font-size: 0.88rem;
+            color: var(--primary-dark);
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .exam-type-badge span {
+            display: block;
+            font-size: 0.72rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .feature-item {
+            background: var(--primary-light);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .feature-item .icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .feature-item h3 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .feature-item p {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .intro-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .intro-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+            position: relative;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .intro-list li:last-child {
+            border-bottom: none;
+        }
+
+        .intro-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--wechat);
+            font-weight: 700;
+        }
+
+        .cta-box {
+            margin-top: 1.25rem;
+            background: linear-gradient(135deg, var(--primary-light), #fff);
+            border: 1px dashed var(--primary);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .cta-box strong {
+            color: var(--primary-dark);
+            font-size: 0.95rem;
+        }
+
+        .cta-box p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 0.35rem;
+        }
+
+        .exam-summary {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .exam-stat {
+            flex: 1;
+            background: var(--primary-light);
+            border-radius: 10px;
+            padding: 0.85rem;
+            text-align: center;
+        }
+
+        .exam-stat .num {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        .exam-stat .label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 0.15rem;
+        }
+
+        .exam-region {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            padding: 0.5rem 0.75rem;
+            background: #f4f6f7;
+            border-radius: 8px;
+            line-height: 1.5;
+        }
+
+        .exam-list {
+            list-style: none;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .exam-list::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .exam-list::-webkit-scrollbar-thumb {
+            background: #ddd;
+            border-radius: 4px;
+        }
+
+        .exam-list li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.65rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.88rem;
+        }
+
+        .exam-list li:last-child {
+            border-bottom: none;
+        }
+
+        .exam-list .year {
+            font-weight: 600;
+            min-width: 4.5rem;
+        }
+
+        .exam-list .title {
+            flex: 1;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            padding: 0 0.5rem;
+        }
+
+        .exam-list .tag {
+            font-size: 0.68rem;
+            background: #e8f8f0;
+            color: var(--wechat);
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .exam-list .tag.new {
+            background: var(--primary-light);
+            color: var(--primary-dark);
+        }
+
+        .exam-note {
+            margin-top: 0.75rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .review-summary {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--primary-light);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .review-score {
+            text-align: center;
+            min-width: 4rem;
+        }
+
+        .review-score .score {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1;
+        }
+
+        .review-score .stars {
+            color: var(--star);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-top: 0.25rem;
+        }
+
+        .review-score .count {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .review-bars {
+            flex: 1;
+        }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.72rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .bar-row span:first-child {
+            width: 2rem;
+            color: var(--text-muted);
+        }
+
+        .bar-track {
+            flex: 1;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: var(--star);
+            border-radius: 3px;
+        }
+
+        .bar-row span:last-child {
+            width: 2rem;
+            text-align: right;
+            color: var(--text-muted);
+        }
+
+        .review-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+
+        .review-card {
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem;
+        }
+
+        .review-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .review-avatar {
+            width: 2.25rem;
+            height: 2.25rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .review-meta h4 {
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .review-meta .stars {
+            color: var(--star);
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+
+        .review-card p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .review-date {
+            font-size: 0.72rem;
+            color: #bbb;
+            margin-top: 0.5rem;
+            text-align: right;
+        }
+
+        .screenshot-intro {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .screenshot-item {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            background: #f4f6f7;
+            cursor: zoom-in;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .screenshot-item:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .screenshot-tip {
+            margin-top: 0.85rem;
+            font-size: 0.75rem;
+            color: #bbb;
+            text-align: center;
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            background: rgba(0, 0, 0, 0.88);
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            cursor: zoom-out;
+        }
+
+        .lightbox.is-open {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 92vh;
+            border-radius: 8px;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 2.25rem;
+            height: 2.25rem;
+            border: none;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem 1rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--primary);
+        }
+
+        @media (min-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .feature-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 560px) {
+            .screenshot-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="hero">
+            <span class="hero-badge">微信小程序</span>
+            <h1>北瓜申硕英语</h1>
+            <p class="subtitle">同等学力申硕英语 · 历年真题一站备考</p>
+            <div class="hero-qr">
+                <img src="/images/beigua-shenshuo-qr.jpg" alt="北瓜申硕英语小程序码">
+                <p>微信扫一扫，立即体验</p>
+            </div>
+            <div class="hero-tags">
+                <span>历年真题</span>
+                <span>真题解析</span>
+                <span>高频单词</span>
+                <span>高频词组</span>
+            </div>
+        </header>
+
+        <!-- 模块 1：介绍说明 -->
+        <section class="section" id="intro">
+            <div class="section-header">
+                <span class="section-num">1</span>
+                <h2>小程序介绍</h2>
+            </div>
+            <div class="section-body">
+                <p class="intro-lead">
+                    <strong>北瓜申硕英语</strong>是专为备考「同等学力人员申请硕士学位英语水平全国统一考试」打造的微信小程序。
+                    收录 2013 年至今历年真题，支持手机端随时刷题、对答案、看解析，助你顺利通过外国语统考、拿到硕士学位。
+                </p>
+                <div class="exam-type-badge">
+                    同等学力人员申请硕士学位英语水平全国统一考试
+                    <span>每年 5 月统考 · 60 分及格 · 通过后两年内可申请硕士学位</span>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="icon">📋</div>
+                        <h3>历年真题</h3>
+                        <p>2013 年至今完整试卷</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">📖</div>
+                        <h3>真题解析</h3>
+                        <p>逐题详解，查漏补缺</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">📝</div>
+                        <h3>高频单词</h3>
+                        <p>真题词汇，精准记忆</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">💬</div>
+                        <h3>高频词组</h3>
+                        <p>固定搭配，快速掌握</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">✏️</div>
+                        <h3>在线答题</h3>
+                        <p>模拟真实考试体验</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">🤖</div>
+                        <h3>智能辅助</h3>
+                        <p>AI 解析，高效备考</p>
+                    </div>
+                </div>
+                <ul class="intro-list">
+                    <li>覆盖口语交际、词汇、阅读理解、完形填空、翻译、写作等全部题型</li>
+                    <li>从真题中提取高频单词与高频词组，考前冲刺更有针对性</li>
+                    <li>无需下载安装，微信打开即用，在职备考碎片时间也能学</li>
+                    <li>持续更新最新考季真题，紧跟同等学力统考动态</li>
+                </ul>
+                <div class="cta-box">
+                    <strong>微信搜索「北瓜申硕英语」或扫码即可使用</strong>
+                    <p>适合同等学力申硕、在职研究生及需通过外国语统考的备考人群</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块 2：真题数据列表 -->
+        <section class="section" id="exams">
+            <div class="section-header">
+                <span class="section-num">2</span>
+                <h2>真题数据列表</h2>
+            </div>
+            <div class="section-body">
+                <div class="exam-summary">
+                    <div class="exam-stat">
+                        <div class="num">13+</div>
+                        <div class="label">套历年真题</div>
+                    </div>
+                    <div class="exam-stat">
+                        <div class="num">13</div>
+                        <div class="label">年跨度覆盖</div>
+                    </div>
+                    <div class="exam-stat">
+                        <div class="num">4</div>
+                        <div class="label">备考模块</div>
+                    </div>
+                </div>
+                <p class="exam-region">
+                    📍 考试全称：同等学力人员申请硕士学位英语水平全国统一考试（简称「同等学力申硕英语」）
+                </p>
+                <ul class="exam-list">
+                    <li>
+                        <span class="year">2025</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag new">最新</span>
+                    </li>
+                    <li>
+                        <span class="year">2024</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2023</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2022</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2021</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2020</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2019</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2018</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2017</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2016</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2015</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2014</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                    <li>
+                        <span class="year">2013</span>
+                        <span class="title">同等学力申硕英语真题 + 解析 + 高频词</span>
+                        <span class="tag">含解析</span>
+                    </li>
+                </ul>
+                <p class="exam-note">每套真题均含完整试卷、参考答案及详细解析，并配套高频单词与高频词组</p>
+            </div>
+        </section>
+
+        <!-- 模块 3：用户好评 -->
+        <section class="section" id="reviews">
+            <div class="section-header">
+                <span class="section-num">3</span>
+                <h2>用户好评</h2>
+            </div>
+            <div class="section-body">
+                <div class="review-summary">
+                    <div class="review-score">
+                        <div class="score">4.9</div>
+                        <div class="stars">★★★★★</div>
+                        <div class="count">基于真实用户反馈</div>
+                    </div>
+                    <div class="review-bars">
+                        <div class="bar-row">
+                            <span>5星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 84%"></div>
+                            </div>
+                            <span>84%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>4星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 13%"></div>
+                            </div>
+                            <span>13%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>3星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 2%"></div>
+                            </div>
+                            <span>2%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>2星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 1%"></div>
+                            </div>
+                            <span>1%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>1星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 0%"></div>
+                            </div>
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards">
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #7e57c2;">黄</div>
+                            <div class="review-meta">
+                                <h4>黄女士 · 在职研究生</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>工作十年再考申硕，英语是最大难关。北瓜申硕英语把 2013 年以来的真题都整理好了，每天下班刷一套，半年终于考过 65 分，可以申请硕士学位了！</p>
+                        <div class="review-date">2025-05-28</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #5e35b1;">林</div>
+                            <div class="review-meta">
+                                <h4>林先生 · 同等学力申硕</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>同等学力英语题型和四六级不太一样，口语交际和完形是难点。这个小程序按真题题型分类练，解析很细，高频词组直接从真题里提炼，考试遇到了好几个原词。</p>
+                        <div class="review-date">2025-03-15</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #9575cd;">何</div>
+                            <div class="review-meta">
+                                <h4>何老师 · 培训机构</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>带同等学力申硕班好几年了，一直推荐学员用北瓜申硕英语。真题覆盖全、解析专业，比学员自己找零散资料靠谱。今年班上通过率明显提高了。</p>
+                        <div class="review-date">2024-12-08</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #26a69a;">马</div>
+                            <div class="review-meta">
+                                <h4>马同学 · 函授本科申硕</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>基础薄弱，第一次考只考了 48 分。用小程序把近八年真题刷了三遍，重点背高频单词和词组，第二次 62 分过了。界面简洁没广告，在职备考很合适。</p>
+                        <div class="review-date">2024-09-22</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #ef5350;">杨</div>
+                            <div class="review-meta">
+                                <h4>杨女士 · 医院职工</h4>
+                                <div class="stars">★★★★☆</div>
+                            </div>
+                        </div>
+                        <p>三班倒作息不规律，只有碎片时间学习。微信小程序随时打开就能刷题，翻译和写作部分有范文参考，帮了大忙。希望继续更新最新真题。</p>
+                        <div class="review-date">2024-06-10</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #ff7043;">朱</div>
+                            <div class="review-meta">
+                                <h4>朱同学 · 自考本科申硕</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>自考本科毕业满三年报考同等学力，英语零基础起步。从 2013 年真题开始逐年练，配合解析慢慢找到感觉，终于以 60 分压线通过，感谢北瓜申硕！</p>
+                        <div class="review-date">2024-03-18</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块 4：群友反馈截图 -->
+        <section class="section" id="screenshots">
+            <div class="section-header">
+                <span class="section-num">4</span>
+                <h2>群友反馈</h2>
+            </div>
+            <div class="section-body">
+                <p class="screenshot-intro">以下截图来自同等学力申硕备考交流微信群，均为学员自发分享的使用体验</p>
+                <div class="screenshot-grid">
+                    <div class="screenshot-item" data-caption="群友反馈 1">
+                        <img src="/images/xuewei-feedback/feedback-01.jpg" alt="北瓜学位英语 太好用了简直"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 2">
+                        <img src="/images/xuewei-feedback/feedback-02.jpg" alt="北瓜学位英语 夸夸这个小程序的研发，小程序使用kuku方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 3">
+                        <img src="/images/xuewei-feedback/feedback-03.jpg" alt="北瓜学位英语 我刷完过了的，很方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 4">
+                        <img src="/images/xuewei-feedback/feedback-04.jpg" alt="北瓜学位英语 小程序做的很专业"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 5">
+                        <img src="/images/xuewei-feedback/feedback-05.jpg" alt="北瓜学位英语 小程序做的非常棒，不仅内容全面，使用起来很方便！[玫瑰][玫瑰][玫瑰]，排版漂亮，比很多刷题app都方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 6">
+                        <img src="/images/feedback/feedback-10.jpg" alt="北瓜大四六 小程序真好"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                </div>
+                <p class="screenshot-tip">点击图片可放大查看</p>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+            <button type="button" class="lightbox-close" aria-label="关闭">×</button>
+            <img src="" alt="用户好评截图放大预览">
+        </div>
+
+        <footer>
+            <p>&copy; 2025 北瓜申硕英语 · 专注同等学力申硕英语备考</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="/">返回北瓜英语首页</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        (function () {
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.querySelector('img');
+            var closeBtn = lightbox.querySelector('.lightbox-close');
+
+            function openLightbox(src, alt) {
+                lightboxImg.src = src;
+                lightboxImg.alt = alt || '用户好评截图';
+                lightbox.classList.add('is-open');
+                lightbox.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+                lightbox.classList.remove('is-open');
+                lightbox.setAttribute('aria-hidden', 'true');
+                lightboxImg.src = '';
+                document.body.style.overflow = '';
+            }
+
+            document.querySelectorAll('.screenshot-item img').forEach(function (img) {
+                img.parentElement.addEventListener('click', function () {
+                    if (!img.complete || img.naturalWidth === 0) return;
+                    openLightbox(img.src, img.alt);
+                });
+            });
+
+            closeBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                closeLightbox();
+            });
+            lightbox.addEventListener('click', closeLightbox);
+            lightboxImg.addEventListener('click', function (e) { e.stopPropagation(); });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeLightbox();
+            });
+        })();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a4ffc788690883ae7cb20b610ca73a13";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>

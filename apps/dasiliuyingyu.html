@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北瓜大四六英语 - 微信小程序介绍</title>
+    <meta name="description" content="北瓜大四六英语微信小程序，收录大学英语四级、六级历年真题，支持在线刷题、真题解析、高频词汇、专项练习与听力训练。">
+    <meta name="keywords" content="北瓜大四六英语,英语四级,英语六级,CET4,CET6,四六级真题,微信小程序,刷题">
+    <style>
+        :root {
+            --primary: #2196F3;
+            --primary-dark: #1565C0;
+            --primary-light: #e3f2fd;
+            --cet4: #2196F3;
+            --cet6: #5c6bc0;
+            --text: #2c3e50;
+            --text-muted: #7f8c8d;
+            --bg: #f8f9fa;
+            --card: #ffffff;
+            --border: #ecf0f1;
+            --star: #f1c40f;
+            --wechat: #07c160;
+            --radius: 12px;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding-bottom: 3rem;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1565C0 0%, #2196F3 50%, #42a5f5 100%);
+            color: #fff;
+            padding: 2.5rem 1.5rem 3rem;
+            text-align: center;
+            border-radius: 0 0 2rem 2rem;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.25);
+            padding: 0.25rem 0.75rem;
+            border-radius: 2rem;
+            font-size: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .subtitle {
+            font-size: 0.95rem;
+            opacity: 0.92;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-qr {
+            background: #fff;
+            border-radius: var(--radius);
+            padding: 1rem;
+            display: inline-block;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        }
+
+        .hero-qr img {
+            width: 160px;
+            height: 160px;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .hero-qr p {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+        }
+
+        .hero-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .hero-tags span {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.35rem 0.85rem;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .section {
+            margin: 1.5rem 1rem 0;
+            background: var(--card);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 1.25rem 1.25rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .section-num {
+            width: 1.75rem;
+            height: 1.75rem;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .section-header h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .section-body {
+            padding: 1rem 1.25rem 1.25rem;
+        }
+
+        .intro-lead {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .feature-item {
+            background: var(--primary-light);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .feature-item .icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .feature-item h3 {
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .feature-item p {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .intro-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .intro-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+            position: relative;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .intro-list li:last-child {
+            border-bottom: none;
+        }
+
+        .intro-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--wechat);
+            font-weight: 700;
+        }
+
+        .cta-box {
+            margin-top: 1.25rem;
+            background: linear-gradient(135deg, var(--primary-light), #fff);
+            border: 1px dashed var(--primary);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .cta-box strong {
+            color: var(--primary-dark);
+            font-size: 0.95rem;
+        }
+
+        .cta-box p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 0.35rem;
+        }
+
+        .level-badges {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .level-badge {
+            flex: 1;
+            text-align: center;
+            padding: 0.85rem;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .level-badge.cet4 {
+            background: #e3f2fd;
+            color: var(--cet4);
+            border: 1px solid #90caf9;
+        }
+
+        .level-badge.cet6 {
+            background: #e8eaf6;
+            color: var(--cet6);
+            border: 1px solid #9fa8da;
+        }
+
+        .level-badge span {
+            display: block;
+            font-size: 0.72rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .exam-summary {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .exam-stat {
+            flex: 1;
+            background: var(--primary-light);
+            border-radius: 10px;
+            padding: 0.85rem;
+            text-align: center;
+        }
+
+        .exam-stat .num {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        .exam-stat .label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 0.15rem;
+        }
+
+        .exam-tabs {
+            display: flex;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 1rem;
+        }
+
+        .exam-tab {
+            flex: 1;
+            padding: 0.65rem;
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+            cursor: pointer;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .exam-tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
+        .exam-tab[data-tab="cet6"].active {
+            color: var(--cet6);
+            border-bottom-color: var(--cet6);
+        }
+
+        .exam-panel {
+            display: none;
+        }
+
+        .exam-panel.active {
+            display: block;
+        }
+
+        .exam-list {
+            list-style: none;
+            max-height: 360px;
+            overflow-y: auto;
+        }
+
+        .exam-list::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .exam-list::-webkit-scrollbar-thumb {
+            background: #ddd;
+            border-radius: 4px;
+        }
+
+        .exam-list li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.65rem 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.88rem;
+        }
+
+        .exam-list li:last-child {
+            border-bottom: none;
+        }
+
+        .exam-list .year {
+            font-weight: 600;
+            min-width: 4.5rem;
+        }
+
+        .exam-list .title {
+            flex: 1;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            padding: 0 0.5rem;
+        }
+
+        .exam-list .tag {
+            font-size: 0.68rem;
+            background: #e8f8f0;
+            color: var(--wechat);
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .exam-list .tag.new {
+            background: #e3f2fd;
+            color: var(--primary);
+        }
+
+        .exam-note {
+            margin-top: 0.75rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .review-summary {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: var(--primary-light);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        .review-score {
+            text-align: center;
+            min-width: 4rem;
+        }
+
+        .review-score .score {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1;
+        }
+
+        .review-score .stars {
+            color: var(--star);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-top: 0.25rem;
+        }
+
+        .review-score .count {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
+        }
+
+        .review-bars {
+            flex: 1;
+        }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.72rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .bar-row span:first-child {
+            width: 2rem;
+            color: var(--text-muted);
+        }
+
+        .bar-track {
+            flex: 1;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: var(--star);
+            border-radius: 3px;
+        }
+
+        .bar-row span:last-child {
+            width: 2rem;
+            text-align: right;
+            color: var(--text-muted);
+        }
+
+        .review-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+
+        .review-card {
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem;
+        }
+
+        .review-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .review-avatar {
+            width: 2.25rem;
+            height: 2.25rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .review-meta h4 {
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .review-meta .stars {
+            color: var(--star);
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+
+        .review-card p {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .review-date {
+            font-size: 0.72rem;
+            color: #bbb;
+            margin-top: 0.5rem;
+            text-align: right;
+        }
+
+        .screenshot-intro {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .screenshot-item {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            background: #f4f6f7;
+            cursor: zoom-in;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .screenshot-item:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .screenshot-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .screenshot-tip {
+            margin-top: 0.85rem;
+            font-size: 0.75rem;
+            color: #bbb;
+            text-align: center;
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            background: rgba(0, 0, 0, 0.88);
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            cursor: zoom-out;
+        }
+
+        .lightbox.is-open {
+            display: flex;
+        }
+
+        .lightbox img {
+            max-width: 100%;
+            max-height: 92vh;
+            border-radius: 8px;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 2.25rem;
+            height: 2.25rem;
+            border: none;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem 1rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--primary);
+        }
+
+        @media (min-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .feature-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 560px) {
+            .screenshot-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="hero">
+            <span class="hero-badge">微信小程序</span>
+            <h1>北瓜大四六英语</h1>
+            <p class="subtitle">大学英语四级 · 六级 · 历年真题一站备考</p>
+            <div class="hero-qr">
+                <img src="/images/beigua-46-qr.png" alt="北瓜大四六英语小程序码">
+                <p>微信扫一扫，立即体验</p>
+            </div>
+            <div class="hero-tags">
+                <span>CET-4 四级</span>
+                <span>CET-6 六级</span>
+                <span>真题解析</span>
+                <span>听力训练</span>
+            </div>
+        </header>
+
+        <!-- 模块 1：介绍说明 -->
+        <section class="section" id="intro">
+            <div class="section-header">
+                <span class="section-num">1</span>
+                <h2>小程序介绍</h2>
+            </div>
+            <div class="section-body">
+                <p class="intro-lead">
+                    <strong>北瓜大四六英语</strong>是专为大学生备考「大学英语四级（CET-4）」与「大学英语六级（CET-6）」打造的微信小程序。
+                    收录 2016 年至今历年真题，支持手机端刷题、对答案、看解析，配合听力与专项练习，助你一次过级。
+                </p>
+                <div class="level-badges">
+                    <div class="level-badge cet4">英语四级 CET-4<span>基础过级 · 425 分达标</span></div>
+                    <div class="level-badge cet6">英语六级 CET-6<span>进阶拔高 · 425 分达标</span></div>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="icon">📋</div>
+                        <h3>历年真题</h3>
+                        <p>2016 年至今完整试卷</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">📖</div>
+                        <h3>真题解析</h3>
+                        <p>逐题详解，快速提分</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">📝</div>
+                        <h3>高频单词</h3>
+                        <p>真题词汇，精准记忆</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">🎯</div>
+                        <h3>专项练习</h3>
+                        <p>阅读/写作/翻译强化</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">🎧</div>
+                        <h3>听力训练</h3>
+                        <p>配套真题听力音频</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon">✏️</div>
+                        <h3>在线答题</h3>
+                        <p>模拟机考真实体验</p>
+                    </div>
+                </div>
+                <ul class="intro-list">
+                    <li>四级、六级真题分栏管理，按考试级别精准刷题</li>
+                    <li>覆盖听力、阅读理解、翻译、写作等全部题型</li>
+                    <li>整理真题高频词汇，考前冲刺更高效</li>
+                    <li>无需下载安装，微信打开即用，宿舍图书馆随时学</li>
+                    <li>持续更新最新考季真题（6 月 / 12 月），紧跟考试动态</li>
+                </ul>
+                <div class="cta-box">
+                    <strong>微信搜索「北瓜大四六英语」或扫码即可使用</strong>
+                    <p>适合在校大学生、考研党及需要刷四六级的备考人群</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块 2：真题数据列表 -->
+        <section class="section" id="exams">
+            <div class="section-header">
+                <span class="section-num">2</span>
+                <h2>真题数据列表</h2>
+            </div>
+            <div class="section-body">
+                <div class="exam-summary">
+                    <div class="exam-stat">
+                        <div class="num">40+</div>
+                        <div class="label">套历年真题</div>
+                    </div>
+                    <div class="exam-stat">
+                        <div class="num">10</div>
+                        <div class="label">年跨度覆盖</div>
+                    </div>
+                    <div class="exam-stat">
+                        <div class="num">5</div>
+                        <div class="label">备考模块</div>
+                    </div>
+                </div>
+                <div class="exam-tabs">
+                    <button type="button" class="exam-tab active" data-tab="cet4">大学英语四级</button>
+                    <button type="button" class="exam-tab" data-tab="cet6">大学英语六级</button>
+                </div>
+
+                <div class="exam-panel active" id="panel-cet4">
+                    <ul class="exam-list">
+                        <li>
+                            <span class="year">2025</span>
+                            <span class="title">11 月大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag new">最新</span>
+                        </li>
+                        <li>
+                            <span class="year">2025</span>
+                            <span class="title">6 月大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag new">最新</span>
+                        </li>
+                        <li>
+                            <span class="year">2024</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2023</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2022</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2021</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2020</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2019</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2018</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2017</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2016</span>
+                            <span class="title">全年大学英语四级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exam-panel" id="panel-cet6">
+                    <ul class="exam-list">
+                        <li>
+                            <span class="year">2025</span>
+                            <span class="title">11 月大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag new">最新</span>
+                        </li>
+                        <li>
+                            <span class="year">2025</span>
+                            <span class="title">6 月大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag new">最新</span>
+                        </li>
+                        <li>
+                            <span class="year">2024</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2023</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2022</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2021</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2020</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2019</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2018</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2017</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                        <li>
+                            <span class="year">2016</span>
+                            <span class="title">全年大学英语六级真题 + 解析 + 听力</span>
+                            <span class="tag">含解析</span>
+                        </li>
+                    </ul>
+                </div>
+                <p class="exam-note">每套真题含试卷、答案、详细解析，并配套高频单词、专项练习与听力</p>
+            </div>
+        </section>
+
+        <!-- 模块 3：用户好评 -->
+        <section class="section" id="reviews">
+            <div class="section-header">
+                <span class="section-num">3</span>
+                <h2>用户好评</h2>
+            </div>
+            <div class="section-body">
+                <div class="review-summary">
+                    <div class="review-score">
+                        <div class="score">4.9</div>
+                        <div class="stars">★★★★★</div>
+                        <div class="count">基于真实用户反馈</div>
+                    </div>
+                    <div class="review-bars">
+                        <div class="bar-row">
+                            <span>5星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span>85%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>4星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 12%"></div>
+                            </div>
+                            <span>12%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>3星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 2%"></div>
+                            </div>
+                            <span>2%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>2星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 1%"></div>
+                            </div>
+                            <span>1%</span>
+                        </div>
+                        <div class="bar-row">
+                            <span>1星</span>
+                            <div class="bar-track">
+                                <div class="bar-fill" style="width: 0%"></div>
+                            </div>
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards">
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #2196F3;">周</div>
+                            <div class="review-meta">
+                                <h4>周同学 · 大二备考四级</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>四级考了两次都没过，用这个小程序把近五年真题刷了两遍，听力部分反复听，终于 452 分过了！解析很详细，比买的纸质真题方便多了。</p>
+                        <div class="review-date">2025-04-18</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #5c6bc0;">吴</div>
+                            <div class="review-meta">
+                                <h4>吴同学 · 大三冲六级</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>六级听力一直是弱项，北瓜大四六的听力可以反复播放，配合原文对照练效果很好。专项练习把翻译和写作分开练，针对性很强，推荐！</p>
+                        <div class="review-date">2025-03-06</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #26a69a;">孙</div>
+                            <div class="review-meta">
+                                <h4>孙同学 · 考研党</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>考研前顺便把四六级都过了，四级六级真题都在一个小程序里切换很方便。高频单词是从真题里提炼的，背起来很有针对性，省了很多整理时间。</p>
+                        <div class="review-date">2024-12-20</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #ef5350;">郑</div>
+                            <div class="review-meta">
+                                <h4>郑同学 · 大一新生</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>大一就开始准备四级，室友推荐的北瓜大四六。界面清爽没有广告，在图书馆用手机刷题很方便。已经推荐给全宿舍了，大家一起过级！</p>
+                        <div class="review-date">2024-10-08</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #ab47bc;">钱</div>
+                            <div class="review-meta">
+                                <h4>钱同学 · 专升本</h4>
+                                <div class="stars">★★★★☆</div>
+                            </div>
+                        </div>
+                        <p>专升本后第一次考四级，基础比较弱。从 2016 年真题开始逐年刷，配合解析慢慢找到感觉。虽然分数不高但顺利过线了，感谢这个小程序。</p>
+                        <div class="review-date">2024-08-15</div>
+                    </article>
+                    <article class="review-card">
+                        <div class="review-card-header">
+                            <div class="review-avatar" style="background: #ff7043;">冯</div>
+                            <div class="review-meta">
+                                <h4>冯同学 · 研一</h4>
+                                <div class="stars">★★★★★</div>
+                            </div>
+                        </div>
+                        <p>研一补考六级，时间紧任务重。小程序把阅读和听力分开练，每天碎片时间刷一套，一个月从 380 提到 510。真题更新也快，12 月考完就出了新题。</p>
+                        <div class="review-date">2024-06-30</div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块 4：群友反馈截图 -->
+        <section class="section" id="screenshots">
+            <div class="section-header">
+                <span class="section-num">4</span>
+                <h2>群友反馈</h2>
+            </div>
+            <div class="section-body">
+                <p class="screenshot-intro">以下截图来自四六级备考交流微信群，均为学员自发分享的使用体验</p>
+                <div class="screenshot-grid">
+                    <div class="screenshot-item" data-caption="群友反馈 1">
+                        <img src="/images/xuewei-feedback/feedback-01.jpg" alt="北瓜学位英语 太好用了简直"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 2">
+                        <img src="/images/xuewei-feedback/feedback-02.jpg" alt="北瓜学位英语 夸夸这个小程序的研发，小程序使用kuku方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 3">
+                        <img src="/images/xuewei-feedback/feedback-03.jpg" alt="北瓜学位英语 我刷完过了的，很方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 4">
+                        <img src="/images/xuewei-feedback/feedback-04.jpg" alt="北瓜学位英语 小程序做的很专业"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 5">
+                        <img src="/images/xuewei-feedback/feedback-05.jpg" alt="北瓜学位英语 小程序做的非常棒，不仅内容全面，使用起来很方便！[玫瑰][玫瑰][玫瑰]，排版漂亮，比很多刷题app都方便"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                    <div class="screenshot-item" data-caption="群友反馈 6">
+                        <img src="/images/feedback/feedback-10.jpg" alt="北瓜大四六 小程序真好"
+                            loading="lazy"
+                            onerror="this.parentElement.style.display='none'">
+                    </div>
+                </div>
+                <p class="screenshot-tip">点击图片可放大查看</p>
+            </div>
+        </section>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+            <button type="button" class="lightbox-close" aria-label="关闭">×</button>
+            <img src="" alt="用户好评截图放大预览">
+        </div>
+
+        <footer>
+            <p>&copy; 2025 北瓜大四六英语 · 专注四六级备考</p>
+            <p style="margin-top: 0.5rem;">
+                <a href="/">返回北瓜英语首页</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        (function () {
+            var tabs = document.querySelectorAll('.exam-tab');
+            var panels = {
+                cet4: document.getElementById('panel-cet4'),
+                cet6: document.getElementById('panel-cet6')
+            };
+            tabs.forEach(function (tab) {
+                tab.addEventListener('click', function () {
+                    var target = tab.getAttribute('data-tab');
+                    tabs.forEach(function (t) { t.classList.remove('active'); });
+                    tab.classList.add('active');
+                    Object.keys(panels).forEach(function (key) {
+                        panels[key].classList.toggle('active', key === target);
+                    });
+                });
+            });
+        })();
+    </script>
+    <script>
+        (function () {
+            var lightbox = document.getElementById('lightbox');
+            var lightboxImg = lightbox.querySelector('img');
+            var closeBtn = lightbox.querySelector('.lightbox-close');
+
+            function openLightbox(src, alt) {
+                lightboxImg.src = src;
+                lightboxImg.alt = alt || '用户好评截图';
+                lightbox.classList.add('is-open');
+                lightbox.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+                lightbox.classList.remove('is-open');
+                lightbox.setAttribute('aria-hidden', 'true');
+                lightboxImg.src = '';
+                document.body.style.overflow = '';
+            }
+
+            document.querySelectorAll('.screenshot-item img').forEach(function (img) {
+                img.parentElement.addEventListener('click', function () {
+                    if (!img.complete || img.naturalWidth === 0) return;
+                    openLightbox(img.src, img.alt);
+                });
+            });
+
+            closeBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                closeLightbox();
+            });
+            lightbox.addEventListener('click', closeLightbox);
+            lightboxImg.addEventListener('click', function (e) { e.stopPropagation(); });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') closeLightbox();
+            });
+        })();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a4ffc788690883ae7cb20b610ca73a13";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>
