@@ -1,0 +1,8532 @@
+{
+  "operations": {
+    "title": "OPERATIONS",
+    "subtitle": "100 words",
+    "words": [
+      {
+        "word": "come",
+        "emoji": "🚶‍♂️",
+        "translation": "来",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "Please come to my house for dinner.",
+        "exampleCn": "请来我家吃晚饭。",
+        "id": 1
+      },
+      {
+        "word": "get",
+        "emoji": "🛒",
+        "translation": "得到",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "I need to get some groceries from the store.",
+        "exampleCn": "我需要从商店买些杂货。",
+        "id": 2
+      },
+      {
+        "word": "give",
+        "emoji": "🎁",
+        "translation": "给予",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "She gave me a present on my birthday.",
+        "exampleCn": "她在我的生日上给了我一个礼物。",
+        "id": 3
+      },
+      {
+        "word": "go",
+        "emoji": "🚶‍♀️",
+        "translation": "去",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "Let's go for a walk in the park.",
+        "exampleCn": "我们去公园散步吧。",
+        "id": 4
+      },
+      {
+        "word": "keep",
+        "emoji": "🤲",
+        "translation": "保持",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "Please keep the door closed.",
+        "exampleCn": "请保持门关着。",
+        "id": 5
+      },
+      {
+        "word": "let",
+        "emoji": "🙏",
+        "translation": "让",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "Can you let me borrow your pen?",
+        "exampleCn": "你可以借给我你的笔吗？",
+        "id": 6
+      },
+      {
+        "word": "make",
+        "emoji": "👷‍♂️",
+        "translation": "制造",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "She made a delicious cake for the party.",
+        "exampleCn": "她为派对做了一个美味的蛋糕。",
+        "id": 7
+      },
+      {
+        "word": "put",
+        "emoji": "📦",
+        "translation": "放置",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "Put your shoes on the shoe rack, please.",
+        "exampleCn": "请把你的鞋子放在鞋架上。",
+        "id": 8
+      },
+      {
+        "word": "seem",
+        "emoji": "🧐",
+        "translation": "似乎",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "He seems to be upset about something.",
+        "exampleCn": "他似乎对某事感到不快。",
+        "id": 9
+      },
+      {
+        "word": "take",
+        "emoji": "🤲",
+        "translation": "拿",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "Take an umbrella with you.",
+        "exampleCn": "带一把伞走。",
+        "id": 10
+      },
+      {
+        "word": "be",
+        "emoji": "💭",
+        "translation": "是",
+        "pos": "动词",
+        "frequency": "★★★★★",
+        "example": "I am happy to see you.",
+        "exampleCn": "见到你我很高兴。",
+        "id": 11
+      },
+      {
+        "word": "do",
+        "emoji": "✅",
+        "translation": "做",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "What do you want to do this weekend?",
+        "exampleCn": "这个周末你想做什么？",
+        "id": 12
+      },
+      {
+        "word": "have",
+        "emoji": "🈶",
+        "translation": "有",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "She has a beautiful garden in her backyard.",
+        "exampleCn": "她后院有一个漂亮的花园。",
+        "id": 13
+      },
+      {
+        "word": "say",
+        "emoji": "🗣️",
+        "translation": "说",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "Can you hear what I'm saying?",
+        "exampleCn": "你能听到我在说什么吗？",
+        "id": 14
+      },
+      {
+        "word": "see",
+        "emoji": "👀",
+        "translation": "看见",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "I saw a movie last night.",
+        "exampleCn": "昨晚我看了一部电影。",
+        "id": 15
+      },
+      {
+        "word": "send",
+        "emoji": "📤",
+        "translation": "发送",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "Please send me an email with the details.",
+        "exampleCn": "请给我发送一封包含详情的电子邮件。",
+        "id": 16
+      },
+      {
+        "word": "may",
+        "emoji": "🤔",
+        "translation": "可以",
+        "pos": "动词",
+        "frequency": "★★☆☆☆",
+        "example": "May I ask you a question?",
+        "exampleCn": "我可以问你一个问题吗？",
+        "id": 17
+      },
+      {
+        "word": "will",
+        "emoji": "🌟",
+        "translation": "将会",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "I will meet you at the restaurant at 7 o'clock.",
+        "exampleCn": "我会在七点钟在餐厅见你。",
+        "id": 18
+      },
+      {
+        "word": "about",
+        "emoji": "🤔",
+        "translation": "关于",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "Let's talk about our plans for the weekend.",
+        "exampleCn": "让我们谈谈我们的周末计划。",
+        "id": 19
+      },
+      {
+        "word": "across",
+        "emoji": "🚶‍♂️",
+        "translation": "横过",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "She walked across the bridge to get to the park.",
+        "exampleCn": "她横过桥去公园。",
+        "id": 20
+      },
+      {
+        "word": "after",
+        "emoji": "⏰",
+        "translation": "之后",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "We will meet for coffee after work.",
+        "exampleCn": "我们下班后会见面喝咖啡。",
+        "id": 21
+      },
+      {
+        "word": "against",
+        "emoji": "🙅‍♀️",
+        "translation": "对抗",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "He leaned against the wall and closed his eyes.",
+        "exampleCn": "他靠在墙上闭上眼睛。",
+        "id": 22
+      },
+      {
+        "word": "among",
+        "emoji": "😄",
+        "translation": "在...中",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "There is a lot of diversity among the students.",
+        "exampleCn": "学生们之间有很多种类的差异。",
+        "id": 23
+      },
+      {
+        "word": "at",
+        "emoji": "📍",
+        "translation": "在",
+        "pos": "介词",
+        "frequency": "★★★★★",
+        "example": "Meet me at the park at noon.",
+        "exampleCn": "中午在公园见我。",
+        "id": 24
+      },
+      {
+        "word": "before",
+        "emoji": "⏰",
+        "translation": "在之前",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "Let's have a meeting before lunch.",
+        "exampleCn": "让我们在午餐前开个会。",
+        "id": 25
+      },
+      {
+        "word": "between",
+        "emoji": "↔️",
+        "translation": "在...之间",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "The library is located between the school and the park.",
+        "exampleCn": "图书馆位于学校和公园之间。",
+        "id": 26
+      },
+      {
+        "word": "by",
+        "emoji": "📖",
+        "translation": "通过",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "You can reach me by phone or email.",
+        "exampleCn": "你可以通过电话或电子邮件联系到我。",
+        "id": 27
+      },
+      {
+        "word": "down",
+        "emoji": "⬇️",
+        "translation": "下",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "Please write your name down on the form.",
+        "exampleCn": "请在表格上写下你的名字。",
+        "id": 28
+      },
+      {
+        "word": "from",
+        "emoji": "🏡",
+        "translation": "来自",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "I received a gift from my friend.",
+        "exampleCn": "我收到了一份来自朋友的礼物。",
+        "id": 29
+      },
+      {
+        "word": "in",
+        "emoji": "📌",
+        "translation": "在",
+        "pos": "介词",
+        "frequency": "★★★★★",
+        "example": "The book is on the shelf in the living room.",
+        "exampleCn": "这本书在客厅的书架上。",
+        "id": 30
+      },
+      {
+        "word": "off",
+        "emoji": "📴",
+        "translation": "关闭",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "Please turn off the lights when you leave.",
+        "exampleCn": "你离开时请关灯。",
+        "id": 31
+      },
+      {
+        "word": "on",
+        "emoji": "🔛",
+        "translation": "开启",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "Can you turn on the TV, please?",
+        "exampleCn": "请你打开电视好吗？",
+        "id": 32
+      },
+      {
+        "word": "over",
+        "emoji": "🔄",
+        "translation": "在...上",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "She placed a cloth over the table.",
+        "exampleCn": "她在桌子上铺了一块布。",
+        "id": 33
+      },
+      {
+        "word": "through",
+        "emoji": "⤵️",
+        "translation": "通过",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "We walked through the park to get to the museum.",
+        "exampleCn": "我们穿过公园去博物馆。",
+        "id": 34
+      },
+      {
+        "word": "to",
+        "emoji": "🎯",
+        "translation": "到",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "I need to go to the store to buy some groceries.",
+        "exampleCn": "我需要去商店买些杂货。",
+        "id": 35
+      },
+      {
+        "word": "under",
+        "emoji": "📦",
+        "translation": "在...下",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "The cat hid under the bed during the storm.",
+        "exampleCn": "猫在风暴期间躲在床底下。",
+        "id": 36
+      },
+      {
+        "word": "up",
+        "emoji": "⬆️",
+        "translation": "上",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "Please pick up your toys before leaving.",
+        "exampleCn": "离开前请捡起你的玩具。",
+        "id": 37
+      },
+      {
+        "word": "with",
+        "emoji": "👥",
+        "translation": "与",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "I went to the concert with my friends.",
+        "exampleCn": "我和朋友一起去听音乐会。",
+        "id": 38
+      },
+      {
+        "word": "as",
+        "emoji": "🔄",
+        "translation": "如同",
+        "pos": "连词",
+        "frequency": "★★★☆☆",
+        "example": "She sang beautifully, as always.",
+        "exampleCn": "她如往常一样唱得很美。",
+        "id": 39
+      },
+      {
+        "word": "for",
+        "emoji": "🎁",
+        "translation": "对于",
+        "pos": "介词",
+        "frequency": "★★★★☆",
+        "example": "This gift is for you.",
+        "exampleCn": "这个礼物是给你的。",
+        "id": 40
+      },
+      {
+        "word": "of",
+        "emoji": "📚",
+        "translation": "的",
+        "pos": "介词",
+        "frequency": "★★★★★",
+        "example": "The cover of the book is blue.",
+        "exampleCn": "这本书的封面是蓝色的。",
+        "id": 41
+      },
+      {
+        "word": "till",
+        "emoji": "⏰",
+        "translation": "直到",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "They worked from morning till night.",
+        "exampleCn": "他们从早到晚都在工作。",
+        "id": 42
+      },
+      {
+        "word": "than",
+        "emoji": "🔄",
+        "translation": "比",
+        "pos": "介词",
+        "frequency": "★★★☆☆",
+        "example": "She is taller than her sister.",
+        "exampleCn": "她比她妹妹高。",
+        "id": 43
+      },
+      {
+        "word": "a",
+        "emoji": "1️⃣",
+        "translation": "一个",
+        "pos": "冠词",
+        "frequency": "★★★★★",
+        "example": "I need a pen to write the letter.",
+        "exampleCn": "我需要一支笔来写信。",
+        "id": 44
+      },
+      {
+        "word": "the",
+        "emoji": "📖",
+        "translation": "这个",
+        "pos": "冠词",
+        "frequency": "★★★☆☆",
+        "example": "The cat is sleeping on the mat.",
+        "exampleCn": "猫正在垫子上睡觉。",
+        "id": 45
+      },
+      {
+        "word": "all",
+        "emoji": "🌟",
+        "translation": "所有",
+        "pos": "代词",
+        "frequency": "★★★★☆",
+        "example": "All students must attend the meeting.",
+        "exampleCn": "所有学生都必须参加会议。",
+        "id": 46
+      },
+      {
+        "word": "any",
+        "emoji": "❓",
+        "translation": "任何",
+        "pos": "代词",
+        "frequency": "★★★☆☆",
+        "example": "Is there any milk in the fridge?",
+        "exampleCn": "冰箱里有牛奶吗？",
+        "id": 47
+      },
+      {
+        "word": "every",
+        "emoji": "🔁",
+        "translation": "每个",
+        "pos": "代词",
+        "frequency": "★★★☆☆",
+        "example": "Every child deserves love and care.",
+        "exampleCn": "每个孩子都应该得到爱和关怀。",
+        "id": 48
+      },
+      {
+        "word": "little",
+        "emoji": "📏",
+        "translation": "少许",
+        "pos": "代词",
+        "frequency": "★★☆☆☆",
+        "example": "Please give me a little more time to finish.",
+        "exampleCn": "请给我一点时间来完成。",
+        "id": 49
+      },
+      {
+        "word": "much",
+        "emoji": "👍",
+        "translation": "很多",
+        "pos": "代词",
+        "frequency": "★★★☆☆",
+        "example": "Thank you very much for your help.",
+        "exampleCn": "非常感谢你的帮助。",
+        "id": 50
+      },
+      {
+        "word": "no",
+        "emoji": "⛔️",
+        "translation": "没有",
+        "pos": "代词",
+        "frequency": "★★★☆☆",
+        "example": "There is no water in the bottle.",
+        "exampleCn": "瓶子里没有水。",
+        "id": 51
+      },
+      {
+        "word": "other",
+        "emoji": "➕",
+        "translation": "其他",
+        "pos": "代词",
+        "frequency": "★★★☆☆",
+        "example": "I have to finish this project before starting another one.",
+        "exampleCn": "我必须在开始新项目之前完成这个项目。",
+        "id": 52
+      },
+      {
+        "word": "some",
+        "emoji": "🤔🔹",
+        "translation": "一些",
+        "pos": "代词",
+        "frequency": "★★★★☆",
+        "example": "Can I have some water, please?",
+        "exampleCn": "我可以请你给我一些水吗？",
+        "id": 53
+      },
+      {
+        "word": "such",
+        "emoji": "😮🔹",
+        "translation": "这样的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "It was such a beautiful sunset.",
+        "exampleCn": "那是一场如此美丽的日落。",
+        "id": 54
+      },
+      {
+        "word": "that",
+        "emoji": "😐🔹",
+        "translation": "那",
+        "pos": "代词",
+        "frequency": "★★★★★",
+        "example": "The book that I borrowed is on the table.",
+        "exampleCn": "我借的那本书在桌子上。",
+        "id": 55
+      },
+      {
+        "word": "this",
+        "emoji": "😊🔹",
+        "translation": "这",
+        "pos": "代词",
+        "frequency": "★★★★★",
+        "example": "This is my favorite song.",
+        "exampleCn": "这是我最喜欢的歌曲。",
+        "id": 56
+      },
+      {
+        "word": "i",
+        "emoji": "😄🔸",
+        "translation": "我",
+        "pos": "代词",
+        "frequency": "★★★★★",
+        "example": "I love to read books.",
+        "exampleCn": "我喜欢阅读书籍。",
+        "id": 57
+      },
+      {
+        "word": "he",
+        "emoji": "👨🔸",
+        "translation": "他",
+        "pos": "代词",
+        "frequency": "★★★★☆",
+        "example": "He is my best friend.",
+        "exampleCn": "他是我最好的朋友。",
+        "id": 58
+      },
+      {
+        "word": "you",
+        "emoji": "😊🔸",
+        "translation": "你",
+        "pos": "代词",
+        "frequency": "★★★★★",
+        "example": "Can you help me with my homework?",
+        "exampleCn": "你能帮我做作业吗？",
+        "id": 59
+      },
+      {
+        "word": "who",
+        "emoji": "🤔🔹",
+        "translation": "谁",
+        "pos": "代词",
+        "frequency": "★★★★☆",
+        "example": "Who is that girl over there?",
+        "exampleCn": "那边那个女孩是谁？",
+        "id": 60
+      },
+      {
+        "word": "and",
+        "emoji": "➕🔹",
+        "translation": "和",
+        "pos": "连词",
+        "frequency": "★★★★★",
+        "example": "I like to read and write.",
+        "exampleCn": "我喜欢阅读和写作。",
+        "id": 61
+      },
+      {
+        "word": "because",
+        "emoji": "🤔🔸",
+        "translation": "因为",
+        "pos": "连词",
+        "frequency": "★★★★☆",
+        "example": "I didn't go to the party because I was tired.",
+        "exampleCn": "我没去参加聚会，因为我累了。",
+        "id": 62
+      },
+      {
+        "word": "but",
+        "emoji": "😐🔸",
+        "translation": "但是",
+        "pos": "连词",
+        "frequency": "★★★★☆",
+        "example": "I want to go, but I don't have time.",
+        "exampleCn": "我想去，但我没有时间。",
+        "id": 63
+      },
+      {
+        "word": "or",
+        "emoji": "🤔🔸",
+        "translation": "或者",
+        "pos": "连词",
+        "frequency": "★★★★☆",
+        "example": "Would you like tea or coffee?",
+        "exampleCn": "你想要茶还是咖啡？",
+        "id": 64
+      },
+      {
+        "word": "if",
+        "emoji": "🤔🔸",
+        "translation": "如果",
+        "pos": "连词",
+        "frequency": "★★★★★",
+        "example": "If it rains, we will stay indoors.",
+        "exampleCn": "如果下雨，我们会呆在室内。",
+        "id": 65
+      },
+      {
+        "word": "though",
+        "emoji": "😐🔹",
+        "translation": "虽然",
+        "pos": "连词",
+        "frequency": "★★★☆☆",
+        "example": "Though he was tired, he kept working.",
+        "exampleCn": "虽然他累了，他还是继续工作。",
+        "id": 66
+      },
+      {
+        "word": "while",
+        "emoji": "🤔🔸",
+        "translation": "当",
+        "pos": "连词",
+        "frequency": "★★★★☆",
+        "example": "I like to listen to music while I study.",
+        "exampleCn": "我喜欢一边学习一边听音乐。",
+        "id": 67
+      },
+      {
+        "word": "how",
+        "emoji": "😮🔹",
+        "translation": "如何",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "How did you solve the problem?",
+        "exampleCn": "你是如何解决这个问题的？",
+        "id": 68
+      },
+      {
+        "word": "when",
+        "emoji": "🤔🔸",
+        "translation": "什么时候",
+        "pos": "副词",
+        "frequency": "★★★★★",
+        "example": "When will you arrive at the airport?",
+        "exampleCn": "你什么时候到达机场？",
+        "id": 69
+      },
+      {
+        "word": "where",
+        "emoji": "🤔🔸",
+        "translation": "在哪里",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "Where is the nearest supermarket?",
+        "exampleCn": "最近的超市在哪里？",
+        "id": 70
+      },
+      {
+        "word": "why",
+        "emoji": "🤔🔸",
+        "translation": "为什么",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "Why are you crying?",
+        "exampleCn": "你为什么在哭？",
+        "id": 71
+      },
+      {
+        "word": "again",
+        "emoji": "😊🔹",
+        "translation": "再次",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "Let's try again.",
+        "exampleCn": "让我们再试一次。",
+        "id": 72
+      },
+      {
+        "word": "ever",
+        "emoji": "🤔🔹",
+        "translation": "曾经",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "Have you ever been to Paris?",
+        "exampleCn": "你曾经去过巴黎吗？",
+        "id": 73
+      },
+      {
+        "word": "far",
+        "emoji": "😊🔹",
+        "translation": "远",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "The school is not far from here.",
+        "exampleCn": "学校离这里不远。",
+        "id": 74
+      },
+      {
+        "word": "forward",
+        "emoji": "😊🔹",
+        "translation": "向前",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "We need to move forward and find a solution.",
+        "exampleCn": "我们需要向前迈进并找到解决办法。",
+        "id": 75
+      },
+      {
+        "word": "here",
+        "emoji": "😊🔹",
+        "translation": "这里",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "I will meet you here at 7 PM.",
+        "exampleCn": "我会在晚上7点在这里见你。",
+        "id": 76
+      },
+      {
+        "word": "near",
+        "emoji": "😊🔹",
+        "translation": "附近",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "There is a park near our house.",
+        "exampleCn": "我们家附近有一个公园。",
+        "id": 77
+      },
+      {
+        "word": "now",
+        "emoji": "😊🔹",
+        "translation": "现在",
+        "pos": "副词",
+        "frequency": "★★★★★",
+        "example": "I am busy right now.",
+        "exampleCn": "我现在很忙。",
+        "id": 78
+      },
+      {
+        "word": "out",
+        "emoji": "😊🔹",
+        "translation": "外面",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "Let's go out for a walk.",
+        "exampleCn": "让我们出去散步一下。",
+        "id": 79
+      },
+      {
+        "word": "still",
+        "emoji": "😐🔹",
+        "translation": "仍然",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "She is still waiting for the bus.",
+        "exampleCn": "她仍在等待公交车。",
+        "id": 80
+      },
+      {
+        "word": "then",
+        "emoji": "😊🔹",
+        "translation": "然后",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "First, we eat breakfast. Then, we go to work.",
+        "exampleCn": "首先，我们吃早餐。然后，我们去上班。",
+        "id": 81
+      },
+      {
+        "word": "there",
+        "emoji": "😊🔹",
+        "translation": "那里",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "The keys are over there on the table.",
+        "exampleCn": "钥匙在那边的桌子上。",
+        "id": 82
+      },
+      {
+        "word": "together",
+        "emoji": "😊🔹",
+        "translation": "在一起",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "Let's go watch a movie together.",
+        "exampleCn": "让我们一起去看电影吧。",
+        "id": 83
+      },
+      {
+        "word": "well",
+        "emoji": "😊🔹",
+        "translation": "好",
+        "pos": "副词",
+        "frequency": "★★★☆☆",
+        "example": "She speaks English very well.",
+        "exampleCn": "她英语说得很好。",
+        "id": 84
+      },
+      {
+        "word": "almost",
+        "emoji": "😐🔹",
+        "translation": "几乎",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "The cake is almost finished.",
+        "exampleCn": "蛋糕几乎吃完了。",
+        "id": 85
+      },
+      {
+        "word": "enough",
+        "emoji": "😐🔹",
+        "translation": "足够",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "I have had enough to eat.",
+        "exampleCn": "我吃饱了。",
+        "id": 86
+      },
+      {
+        "word": "even",
+        "emoji": "😐🔹",
+        "translation": "甚至",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "He didn't even apologize for his mistake.",
+        "exampleCn": "他甚至没有为他的错误道歉。",
+        "id": 87
+      },
+      {
+        "word": "not",
+        "emoji": "🙅🔹",
+        "translation": "不",
+        "pos": "副词",
+        "frequency": "★★★★★",
+        "example": "I am not going to the party tonight.",
+        "exampleCn": "今晚我不去参加聚会。",
+        "id": 88
+      },
+      {
+        "word": "only",
+        "emoji": "😐🔹",
+        "translation": "只有",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "She is the only person I trust.",
+        "exampleCn": "她是我唯一信任的人。",
+        "id": 89
+      },
+      {
+        "word": "quite",
+        "emoji": "😊🔹",
+        "translation": "相当",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "The movie was quite interesting.",
+        "exampleCn": "这电影相当有趣。",
+        "id": 90
+      },
+      {
+        "word": "so",
+        "emoji": "😊🔸",
+        "translation": "如此",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "The weather is so nice today.",
+        "exampleCn": "今天的天气真好。",
+        "id": 91
+      },
+      {
+        "word": "very",
+        "emoji": "😊🔸",
+        "translation": "非常",
+        "pos": "副词",
+        "frequency": "★★★★★",
+        "example": "She is very talented.",
+        "exampleCn": "她非常有天赋。",
+        "id": 92
+      },
+      {
+        "word": "tomorrow",
+        "emoji": "😊🔹",
+        "translation": "明天",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "I have a meeting tomorrow morning.",
+        "exampleCn": "明天早上我有一个会议。",
+        "id": 93
+      },
+      {
+        "word": "yesterday",
+        "emoji": "😊🔹",
+        "translation": "昨天",
+        "pos": "副词",
+        "frequency": "★★★★☆",
+        "example": "We went to the beach yesterday.",
+        "exampleCn": "我们昨天去了海滩。",
+        "id": 94
+      },
+      {
+        "word": "north",
+        "emoji": "🧭🔹",
+        "translation": "北方",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The mountain range is to the north.",
+        "exampleCn": "山脉在北方。",
+        "id": 95
+      },
+      {
+        "word": "south",
+        "emoji": "🧭🔹",
+        "translation": "南方",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "They live in the south of the country.",
+        "exampleCn": "他们住在南方国家。",
+        "id": 96
+      },
+      {
+        "word": "east",
+        "emoji": "🧭🔹",
+        "translation": "东方",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The sun rises in the east.",
+        "exampleCn": "太阳从东方升起。",
+        "id": 97
+      },
+      {
+        "word": "west",
+        "emoji": "🧭🔹",
+        "translation": "西方",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The beach is to the west of the city.",
+        "exampleCn": "海滩在城市的西方。",
+        "id": 98
+      },
+      {
+        "word": "please",
+        "emoji": "🙏🔹",
+        "translation": "请",
+        "pos": "动词",
+        "frequency": "★★★★☆",
+        "example": "Can you please pass me the salt?",
+        "exampleCn": "你能请递给我盐吗？",
+        "id": 99
+      },
+      {
+        "word": "yes",
+        "emoji": "✅🔹",
+        "translation": "是",
+        "pos": "动词",
+        "frequency": "★★★★★",
+        "example": "Yes, I would like to order a pizza.",
+        "exampleCn": "是的，我想订购一份比萨饼。",
+        "id": 100
+      }
+    ]
+  },
+  "things_general": {
+    "title": "THINGS",
+    "subtitle": "400 General words",
+    "words": [
+      {
+        "word": "account",
+        "emoji": "📄💼",
+        "translation": "账户",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "I need to check my bank account.",
+        "exampleCn": "我需要查看一下我的银行账户。",
+        "id": 1
+      },
+      {
+        "word": "act",
+        "emoji": "🎭🎬",
+        "translation": "行为",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "The police arrived quickly and acted without hesitation.",
+        "exampleCn": "警察很快赶到并且毫不犹豫地采取行动。",
+        "id": 2
+      },
+      {
+        "word": "addition",
+        "emoji": "➕",
+        "translation": "增加",
+        "pos": "名词",
+        "frequency": "★★☆☆☆",
+        "example": "In addition to English, he can also speak French.",
+        "exampleCn": "除了英语，他还会说法语。",
+        "id": 3
+      },
+      {
+        "word": "adjustment",
+        "emoji": "🔧⚙️",
+        "translation": "调整",
+        "pos": "名词",
+        "frequency": "★★☆☆☆",
+        "example": "The engineer made some adjustments to the machine.",
+        "exampleCn": "工程师对机器进行了一些调整。",
+        "id": 4
+      },
+      {
+        "word": "advertisement",
+        "emoji": "📺📰",
+        "translation": "广告",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The company placed an advertisement in the newspaper.",
+        "exampleCn": "公司在报纸上刊登了一则广告。",
+        "id": 5
+      },
+      {
+        "word": "agreement",
+        "emoji": "✍️🤝",
+        "translation": "协议",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "They reached an agreement on the terms of the contract.",
+        "exampleCn": "他们就合同条款达成了一致。",
+        "id": 6
+      },
+      {
+        "word": "air",
+        "emoji": "💨",
+        "translation": "空气",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "The air in the mountains is fresh and clean.",
+        "exampleCn": "山里的空气清新而干净。",
+        "id": 7
+      },
+      {
+        "word": "amount",
+        "emoji": "📈💰",
+        "translation": "数量",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "She spent a large amount of money on clothes.",
+        "exampleCn": "她在衣服上花了大量的钱。",
+        "id": 8
+      },
+      {
+        "word": "amusement",
+        "emoji": "🎢🎡",
+        "translation": "娱乐",
+        "pos": "名词",
+        "frequency": "★★☆☆☆",
+        "example": "The theme park offers a variety of amusements for visitors.",
+        "exampleCn": "这个主题公园为游客提供各种娱乐项目。",
+        "id": 9
+      },
+      {
+        "word": "animal",
+        "emoji": "🐱🐶",
+        "translation": "动物",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "Tigers are wild animals found in Asia.",
+        "exampleCn": "老虎是发现在亚洲的野生动物。",
+        "id": 10
+      },
+      {
+        "word": "answer",
+        "emoji": "✍️❓",
+        "translation": "回答",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "She asked a question, but he didn't know the answer.",
+        "exampleCn": "她问了一个问题，但他不知道答案。",
+        "id": 11
+      },
+      {
+        "word": "apparatus",
+        "emoji": "",
+        "translation": "器械",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 12
+      },
+      {
+        "word": "approval",
+        "emoji": "👍✅",
+        "translation": "批准",
+        "pos": "名词",
+        "frequency": "★★☆☆☆",
+        "example": "The project received the manager's approval.",
+        "exampleCn": "这个项目得到了经理的批准。",
+        "id": 13
+      },
+      {
+        "word": "argument",
+        "emoji": "🗣️🤬",
+        "translation": "争论",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "They had a heated argument about politics.",
+        "exampleCn": "他们就政治问题进行了激烈的争论。",
+        "id": 14
+      },
+      {
+        "word": "art",
+        "emoji": "🎨🖌️",
+        "translation": "艺术",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "She has a great talent for art.",
+        "exampleCn": "她在艺术方面非常有天赋。",
+        "id": 15
+      },
+      {
+        "word": "attack",
+        "emoji": "⚔️😱",
+        "translation": "攻击",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "The soldiers launched a surprise attack on the enemy.",
+        "exampleCn": "士兵们对敌人发起了突袭。",
+        "id": 16
+      },
+      {
+        "word": "attempt",
+        "emoji": "",
+        "translation": "尝试",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 17
+      },
+      {
+        "word": "attention",
+        "emoji": "👀🧠",
+        "translation": "注意",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "Please pay attention to the following instructions.",
+        "exampleCn": "请注意以下说明。",
+        "id": 18
+      },
+      {
+        "word": "attraction",
+        "emoji": "⛲🎡",
+        "translation": "景点",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The Eiffel Tower is a popular attraction in Paris.",
+        "exampleCn": "埃菲尔铁塔是巴黎的一个热门景点。",
+        "id": 19
+      },
+      {
+        "word": "authority",
+        "emoji": "",
+        "translation": "权威",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 20
+      },
+      {
+        "word": "back",
+        "emoji": "🔙⬅️",
+        "translation": "背部",
+        "pos": "名词/副词",
+        "frequency": "★★★★☆",
+        "example": "He carried the backpack on his back.",
+        "exampleCn": "他背着背包。",
+        "id": 21
+      },
+      {
+        "word": "balance",
+        "emoji": "⚖️⚖️",
+        "translation": "平衡",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "She tried to balance on one foot.",
+        "exampleCn": "她试图一只脚保持平衡。",
+        "id": 22
+      },
+      {
+        "word": "base",
+        "emoji": "",
+        "translation": "基础",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 23
+      },
+      {
+        "word": "behavior",
+        "emoji": "",
+        "translation": "行为",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 24
+      },
+      {
+        "word": "belief",
+        "emoji": "",
+        "translation": "信念",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 25
+      },
+      {
+        "word": "birth",
+        "emoji": "",
+        "translation": "出生",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 26
+      },
+      {
+        "word": "bit",
+        "emoji": "",
+        "translation": "一点",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 27
+      },
+      {
+        "word": "bite",
+        "emoji": "",
+        "translation": "咬",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 28
+      },
+      {
+        "word": "blood",
+        "emoji": "",
+        "translation": "血",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 29
+      },
+      {
+        "word": "blow",
+        "emoji": "",
+        "translation": "打击",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 30
+      },
+      {
+        "word": "body",
+        "emoji": "👤💪",
+        "translation": "身体",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "Regular exercise is good for your body.",
+        "exampleCn": "定期锻炼对身体有好处。",
+        "id": 31
+      },
+      {
+        "word": "brass",
+        "emoji": "",
+        "translation": "黄铜",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 32
+      },
+      {
+        "word": "bread",
+        "emoji": "🍞",
+        "translation": "面包",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "She bought a loaf of bread from the bakery.",
+        "exampleCn": "她从面包店买了一条面包。",
+        "id": 33
+      },
+      {
+        "word": "breath",
+        "emoji": "",
+        "translation": "呼吸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 34
+      },
+      {
+        "word": "brother",
+        "emoji": "👦👧❤️",
+        "translation": "兄弟",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "He has a younger brother and an older sister.",
+        "exampleCn": "他有一个弟弟和一个姐姐。",
+        "id": 35
+      },
+      {
+        "word": "building",
+        "emoji": "",
+        "translation": "建筑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 36
+      },
+      {
+        "word": "burn",
+        "emoji": "",
+        "translation": "烧伤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 37
+      },
+      {
+        "word": "burst",
+        "emoji": "",
+        "translation": "爆裂",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 38
+      },
+      {
+        "word": "business",
+        "emoji": "💼💵",
+        "translation": "生意",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "He runs his own business and is very successful.",
+        "exampleCn": "他经营自己的生意，非常成功。",
+        "id": 39
+      },
+      {
+        "word": "butter",
+        "emoji": "",
+        "translation": "黄油",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 40
+      },
+      {
+        "word": "canvas",
+        "emoji": "",
+        "translation": "帆布",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 41
+      },
+      {
+        "word": "care",
+        "emoji": "",
+        "translation": "照料",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 42
+      },
+      {
+        "word": "cause",
+        "emoji": "",
+        "translation": "原因",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 43
+      },
+      {
+        "word": "chalk",
+        "emoji": "",
+        "translation": "粉笔",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 44
+      },
+      {
+        "word": "chance",
+        "emoji": "",
+        "translation": "机会",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 45
+      },
+      {
+        "word": "change",
+        "emoji": "💰🔄",
+        "translation": "改变",
+        "pos": "名词/动词",
+        "frequency": "★★★★☆",
+        "example": "It's time for a change in my life.",
+        "exampleCn": "我的生活需要改变了。",
+        "id": 46
+      },
+      {
+        "word": "cloth",
+        "emoji": "",
+        "translation": "布料",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 47
+      },
+      {
+        "word": "coal",
+        "emoji": "",
+        "translation": "煤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 48
+      },
+      {
+        "word": "color",
+        "emoji": "🌈🖍️",
+        "translation": "颜色",
+        "pos": "名词/动词",
+        "frequency": "★★★★☆",
+        "example": "Please choose your favorite color from the options.",
+        "exampleCn": "请从选项中选择你最喜欢的颜色。",
+        "id": 49
+      },
+      {
+        "word": "comfort",
+        "emoji": "",
+        "translation": "舒适",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 50
+      },
+      {
+        "word": "committee",
+        "emoji": "",
+        "translation": "委员会",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 51
+      },
+      {
+        "word": "company",
+        "emoji": "",
+        "translation": "公司",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 52
+      },
+      {
+        "word": "comparison",
+        "emoji": "",
+        "translation": "比较",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 53
+      },
+      {
+        "word": "competition",
+        "emoji": "",
+        "translation": "竞争",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 54
+      },
+      {
+        "word": "condition",
+        "emoji": "",
+        "translation": "条件",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 55
+      },
+      {
+        "word": "connection",
+        "emoji": "",
+        "translation": "连接",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 56
+      },
+      {
+        "word": "control",
+        "emoji": "",
+        "translation": "控制",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 57
+      },
+      {
+        "word": "cook",
+        "emoji": "👩‍🍳🍳",
+        "translation": "厨师",
+        "pos": "名词/动词",
+        "frequency": "★★★☆☆",
+        "example": "She likes to cook delicious meals for her family.",
+        "exampleCn": "她喜欢给家人做美味的饭菜。",
+        "id": 58
+      },
+      {
+        "word": "copper",
+        "emoji": "",
+        "translation": "铜",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 59
+      },
+      {
+        "word": "copy",
+        "emoji": "📝🖊️",
+        "translation": "复制",
+        "pos": "动词/名词",
+        "frequency": "★★★☆☆",
+        "example": "Please make a copy of this document for me.",
+        "exampleCn": "请给我复印一份这个文件。",
+        "id": 60
+      },
+      {
+        "word": "cork",
+        "emoji": "",
+        "translation": "软木塞",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 61
+      },
+      {
+        "word": "cotton",
+        "emoji": "",
+        "translation": "棉花",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 62
+      },
+      {
+        "word": "cough",
+        "emoji": "",
+        "translation": "咳嗽",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 63
+      },
+      {
+        "word": "country",
+        "emoji": "🌍🚩",
+        "translation": "国家",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "They went on a road trip to explore the country.",
+        "exampleCn": "他们进行了一次公路旅行，探索这个国家。",
+        "id": 64
+      },
+      {
+        "word": "cover",
+        "emoji": "📖🗞️",
+        "translation": "封面/覆盖",
+        "pos": "名词/动词",
+        "frequency": "★★★★☆",
+        "example": "The book has an interesting cover.",
+        "exampleCn": "这本书的封面很有趣。",
+        "id": 65
+      },
+      {
+        "word": "crack",
+        "emoji": "",
+        "translation": "裂缝",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 66
+      },
+      {
+        "word": "credit",
+        "emoji": "💳📊",
+        "translation": "信用",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "He has good credit and always pays his bills on time.",
+        "exampleCn": "他的信用很好，总是按时支付账单。",
+        "id": 67
+      },
+      {
+        "word": "crime",
+        "emoji": "👮‍♀️🔍",
+        "translation": "罪案",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The police are investigating the crime.",
+        "exampleCn": "警方正在调查这起犯罪案件。",
+        "id": 68
+      },
+      {
+        "word": "crush",
+        "emoji": "",
+        "translation": "压碎",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 69
+      },
+      {
+        "word": "cry",
+        "emoji": "😢😭",
+        "translation": "哭",
+        "pos": "动词",
+        "frequency": "★★★☆☆",
+        "example": "The baby started to cry after he fell down.",
+        "exampleCn": "小宝宝摔倒后开始哭泣。",
+        "id": 70
+      },
+      {
+        "word": "current",
+        "emoji": "",
+        "translation": "水流",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 71
+      },
+      {
+        "word": "curve",
+        "emoji": "",
+        "translation": "曲线",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 72
+      },
+      {
+        "word": "damage",
+        "emoji": "",
+        "translation": "损害",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 73
+      },
+      {
+        "word": "danger",
+        "emoji": "⚠️🚨",
+        "translation": "危险",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "They were in great danger and had to escape quickly.",
+        "exampleCn": "他们处在巨大的危险中，必须迅速逃走。",
+        "id": 74
+      },
+      {
+        "word": "daughter",
+        "emoji": "👧👩‍👧",
+        "translation": "女儿",
+        "pos": "名词",
+        "frequency": "★★★★☆",
+        "example": "She has a beautiful daughter.",
+        "exampleCn": "她有一个漂亮的女儿。",
+        "id": 75
+      },
+      {
+        "word": "day",
+        "emoji": "☀️🌙",
+        "translation": "白天/一天",
+        "pos": "名词",
+        "frequency": "★★★★★",
+        "example": "I usually go for a walk in the park during the day.",
+        "exampleCn": "我通常在白天去公园散步。",
+        "id": 76
+      },
+      {
+        "word": "death",
+        "emoji": "⚰️🌹",
+        "translation": "死亡",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The news of his death shocked everyone.",
+        "exampleCn": "他去世的消息震惊了所有人。",
+        "id": 77
+      },
+      {
+        "word": "debt",
+        "emoji": "",
+        "translation": "债务",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 78
+      },
+      {
+        "word": "decision",
+        "emoji": "",
+        "translation": "决定",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 79
+      },
+      {
+        "word": "degree",
+        "emoji": "",
+        "translation": "程度",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 80
+      },
+      {
+        "word": "design",
+        "emoji": "🎨✏️",
+        "translation": "设计",
+        "pos": "名词/动词",
+        "frequency": "★★★★☆",
+        "example": "She works as a fashion designer.",
+        "exampleCn": "她是一名时装设计师。",
+        "id": 81
+      },
+      {
+        "word": "desire",
+        "emoji": "",
+        "translation": "欲望",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 82
+      },
+      {
+        "word": "destruction",
+        "emoji": "",
+        "translation": "破坏",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 83
+      },
+      {
+        "word": "detail",
+        "emoji": "",
+        "translation": "细节",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 84
+      },
+      {
+        "word": "development",
+        "emoji": "",
+        "translation": "发展",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 85
+      },
+      {
+        "word": "digestion",
+        "emoji": "",
+        "translation": "消化",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 86
+      },
+      {
+        "word": "direction",
+        "emoji": "🧭🗺️",
+        "translation": "方向",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "Can you give me directions to the nearest post office?",
+        "exampleCn": "你能告诉我去最近的邮局怎么走吗？",
+        "id": 87
+      },
+      {
+        "word": "discovery",
+        "emoji": "",
+        "translation": "发现",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 88
+      },
+      {
+        "word": "discussion",
+        "emoji": "",
+        "translation": "讨论",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 89
+      },
+      {
+        "word": "disease",
+        "emoji": "🤒💉",
+        "translation": "疾病",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The doctor diagnosed her with a rare disease.",
+        "exampleCn": "医生诊断她患了一种罕见的疾病。",
+        "id": 90
+      },
+      {
+        "word": "disgust",
+        "emoji": "",
+        "translation": "厌恶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 91
+      },
+      {
+        "word": "distance",
+        "emoji": "📏🗺️",
+        "translation": "距离",
+        "pos": "名词",
+        "frequency": "★★★☆☆",
+        "example": "The distance between the two cities is 200 kilometers.",
+        "exampleCn": "这两个城市之间的距离是200公里。",
+        "id": 92
+      },
+      {
+        "word": "distribution",
+        "emoji": "",
+        "translation": "分配",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 93
+      },
+      {
+        "word": "division",
+        "emoji": "",
+        "translation": "分割",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 94
+      },
+      {
+        "word": "doubt",
+        "emoji": "",
+        "translation": "怀疑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 95
+      },
+      {
+        "word": "drink",
+        "emoji": "",
+        "translation": "饮料",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 96
+      },
+      {
+        "word": "driving",
+        "emoji": "",
+        "translation": "驾驶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 97
+      },
+      {
+        "word": "dust",
+        "emoji": "",
+        "translation": "灰尘",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 98
+      },
+      {
+        "word": "earth",
+        "emoji": "",
+        "translation": "地球",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 99
+      },
+      {
+        "word": "edge",
+        "emoji": "",
+        "translation": "边缘",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 100
+      },
+      {
+        "word": "education",
+        "emoji": "",
+        "translation": "教育",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 101
+      },
+      {
+        "word": "effect",
+        "emoji": "",
+        "translation": "效果",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 102
+      },
+      {
+        "word": "end",
+        "emoji": "",
+        "translation": "结束",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 103
+      },
+      {
+        "word": "error",
+        "emoji": "",
+        "translation": "错误",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 104
+      },
+      {
+        "word": "event",
+        "emoji": "",
+        "translation": "事件",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 105
+      },
+      {
+        "word": "example",
+        "emoji": "",
+        "translation": "例子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 106
+      },
+      {
+        "word": "exchange",
+        "emoji": "",
+        "translation": "交换",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 107
+      },
+      {
+        "word": "existence",
+        "emoji": "",
+        "translation": "存在",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 108
+      },
+      {
+        "word": "expansion",
+        "emoji": "",
+        "translation": "扩张",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 109
+      },
+      {
+        "word": "experience",
+        "emoji": "",
+        "translation": "经验",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 110
+      },
+      {
+        "word": "expert",
+        "emoji": "",
+        "translation": "专家",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 111
+      },
+      {
+        "word": "fact",
+        "emoji": "",
+        "translation": "事实",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 112
+      },
+      {
+        "word": "fall",
+        "emoji": "",
+        "translation": "下落",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 113
+      },
+      {
+        "word": "family",
+        "emoji": "",
+        "translation": "家庭",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 114
+      },
+      {
+        "word": "father",
+        "emoji": "",
+        "translation": "父亲",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 115
+      },
+      {
+        "word": "fear",
+        "emoji": "",
+        "translation": "恐惧",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 116
+      },
+      {
+        "word": "feeling",
+        "emoji": "",
+        "translation": "感觉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 117
+      },
+      {
+        "word": "fiction",
+        "emoji": "",
+        "translation": "小说",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 118
+      },
+      {
+        "word": "field",
+        "emoji": "",
+        "translation": "田野",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 119
+      },
+      {
+        "word": "fight",
+        "emoji": "",
+        "translation": "战斗",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 120
+      },
+      {
+        "word": "fire",
+        "emoji": "",
+        "translation": "火",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 121
+      },
+      {
+        "word": "flame",
+        "emoji": "",
+        "translation": "火焰",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 122
+      },
+      {
+        "word": "flight",
+        "emoji": "",
+        "translation": "飞行",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 123
+      },
+      {
+        "word": "flower",
+        "emoji": "",
+        "translation": "花",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 124
+      },
+      {
+        "word": "fold",
+        "emoji": "",
+        "translation": "折叠",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 125
+      },
+      {
+        "word": "food",
+        "emoji": "",
+        "translation": "食物",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 126
+      },
+      {
+        "word": "force",
+        "emoji": "",
+        "translation": "力量",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 127
+      },
+      {
+        "word": "form",
+        "emoji": "",
+        "translation": "形式",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 128
+      },
+      {
+        "word": "friend",
+        "emoji": "",
+        "translation": "朋友",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 129
+      },
+      {
+        "word": "front",
+        "emoji": "",
+        "translation": "前面",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 130
+      },
+      {
+        "word": "fruit",
+        "emoji": "",
+        "translation": "水果",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 131
+      },
+      {
+        "word": "glass",
+        "emoji": "",
+        "translation": "玻璃",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 132
+      },
+      {
+        "word": "gold",
+        "emoji": "",
+        "translation": "黄金",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 133
+      },
+      {
+        "word": "government",
+        "emoji": "",
+        "translation": "政府",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 134
+      },
+      {
+        "word": "grain",
+        "emoji": "",
+        "translation": "谷物",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 135
+      },
+      {
+        "word": "grass",
+        "emoji": "",
+        "translation": "草",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 136
+      },
+      {
+        "word": "grip",
+        "emoji": "",
+        "translation": "紧握",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 137
+      },
+      {
+        "word": "group",
+        "emoji": "",
+        "translation": "群体",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 138
+      },
+      {
+        "word": "growth",
+        "emoji": "",
+        "translation": "成长",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 139
+      },
+      {
+        "word": "guide",
+        "emoji": "",
+        "translation": "向导",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 140
+      },
+      {
+        "word": "harbor",
+        "emoji": "",
+        "translation": "港口",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 141
+      },
+      {
+        "word": "harmony",
+        "emoji": "",
+        "translation": "和谐",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 142
+      },
+      {
+        "word": "hate",
+        "emoji": "",
+        "translation": "憎恨",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 143
+      },
+      {
+        "word": "hearing",
+        "emoji": "",
+        "translation": "听力",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 144
+      },
+      {
+        "word": "heat",
+        "emoji": "",
+        "translation": "热",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 145
+      },
+      {
+        "word": "help",
+        "emoji": "",
+        "translation": "帮助",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 146
+      },
+      {
+        "word": "history",
+        "emoji": "",
+        "translation": "历史",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 147
+      },
+      {
+        "word": "hole",
+        "emoji": "",
+        "translation": "洞",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 148
+      },
+      {
+        "word": "hope",
+        "emoji": "",
+        "translation": "希望",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 149
+      },
+      {
+        "word": "hour",
+        "emoji": "",
+        "translation": "小时",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 150
+      },
+      {
+        "word": "humor",
+        "emoji": "",
+        "translation": "幽默",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 151
+      },
+      {
+        "word": "ice",
+        "emoji": "",
+        "translation": "冰",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 152
+      },
+      {
+        "word": "idea",
+        "emoji": "",
+        "translation": "想法",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 153
+      },
+      {
+        "word": "impulse",
+        "emoji": "",
+        "translation": "冲动",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 154
+      },
+      {
+        "word": "increase",
+        "emoji": "",
+        "translation": "增加",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 155
+      },
+      {
+        "word": "industry",
+        "emoji": "",
+        "translation": "工业",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 156
+      },
+      {
+        "word": "ink",
+        "emoji": "",
+        "translation": "墨水",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 157
+      },
+      {
+        "word": "insect",
+        "emoji": "",
+        "translation": "昆虫",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 158
+      },
+      {
+        "word": "instrument",
+        "emoji": "",
+        "translation": "乐器",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 159
+      },
+      {
+        "word": "insurance",
+        "emoji": "",
+        "translation": "保险",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 160
+      },
+      {
+        "word": "interest",
+        "emoji": "",
+        "translation": "兴趣",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 161
+      },
+      {
+        "word": "invention",
+        "emoji": "",
+        "translation": "发明",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 162
+      },
+      {
+        "word": "iron",
+        "emoji": "",
+        "translation": "铁",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 163
+      },
+      {
+        "word": "jelly",
+        "emoji": "",
+        "translation": "果冻",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 164
+      },
+      {
+        "word": "join",
+        "emoji": "",
+        "translation": "连接",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 165
+      },
+      {
+        "word": "journey",
+        "emoji": "",
+        "translation": "旅程",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 166
+      },
+      {
+        "word": "judge",
+        "emoji": "",
+        "translation": "法官",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 167
+      },
+      {
+        "word": "jump",
+        "emoji": "",
+        "translation": "跳跃",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 168
+      },
+      {
+        "word": "kick",
+        "emoji": "",
+        "translation": "踢",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 169
+      },
+      {
+        "word": "kiss",
+        "emoji": "",
+        "translation": "吻",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 170
+      },
+      {
+        "word": "knowledge",
+        "emoji": "",
+        "translation": "知识",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 171
+      },
+      {
+        "word": "land",
+        "emoji": "",
+        "translation": "土地",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 172
+      },
+      {
+        "word": "language",
+        "emoji": "",
+        "translation": "语言",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 173
+      },
+      {
+        "word": "laugh",
+        "emoji": "",
+        "translation": "笑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 174
+      },
+      {
+        "word": "law",
+        "emoji": "",
+        "translation": "法律",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 175
+      },
+      {
+        "word": "lead",
+        "emoji": "",
+        "translation": "铅",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 176
+      },
+      {
+        "word": "learning",
+        "emoji": "",
+        "translation": "学习",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 177
+      },
+      {
+        "word": "leather",
+        "emoji": "",
+        "translation": "皮革",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 178
+      },
+      {
+        "word": "letter",
+        "emoji": "",
+        "translation": "信",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 179
+      },
+      {
+        "word": "level",
+        "emoji": "",
+        "translation": "水平",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 180
+      },
+      {
+        "word": "lift",
+        "emoji": "",
+        "translation": "电梯",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 181
+      },
+      {
+        "word": "light",
+        "emoji": "",
+        "translation": "光",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 182
+      },
+      {
+        "word": "limit",
+        "emoji": "",
+        "translation": "限制",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 183
+      },
+      {
+        "word": "linen",
+        "emoji": "",
+        "translation": "亚麻布",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 184
+      },
+      {
+        "word": "liquid",
+        "emoji": "",
+        "translation": "液体",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 185
+      },
+      {
+        "word": "list",
+        "emoji": "",
+        "translation": "列表",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 186
+      },
+      {
+        "word": "look",
+        "emoji": "",
+        "translation": "看",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 187
+      },
+      {
+        "word": "loss",
+        "emoji": "",
+        "translation": "损失",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 188
+      },
+      {
+        "word": "love",
+        "emoji": "",
+        "translation": "爱",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 189
+      },
+      {
+        "word": "machine",
+        "emoji": "",
+        "translation": "机器",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 190
+      },
+      {
+        "word": "man",
+        "emoji": "",
+        "translation": "男人",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 191
+      },
+      {
+        "word": "manager",
+        "emoji": "",
+        "translation": "经理",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 192
+      },
+      {
+        "word": "mark",
+        "emoji": "",
+        "translation": "标记",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 193
+      },
+      {
+        "word": "market",
+        "emoji": "",
+        "translation": "市场",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 194
+      },
+      {
+        "word": "mass",
+        "emoji": "",
+        "translation": "质量",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 195
+      },
+      {
+        "word": "meal",
+        "emoji": "",
+        "translation": "一餐",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 196
+      },
+      {
+        "word": "measure",
+        "emoji": "",
+        "translation": "测量",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 197
+      },
+      {
+        "word": "meat",
+        "emoji": "",
+        "translation": "肉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 198
+      },
+      {
+        "word": "meeting",
+        "emoji": "",
+        "translation": "会议",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 199
+      },
+      {
+        "word": "memory",
+        "emoji": "",
+        "translation": "记忆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 200
+      },
+      {
+        "word": "metal",
+        "emoji": "",
+        "translation": "金属",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 201
+      },
+      {
+        "word": "middle",
+        "emoji": "",
+        "translation": "中间",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 202
+      },
+      {
+        "word": "milk",
+        "emoji": "",
+        "translation": "牛奶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 203
+      },
+      {
+        "word": "mind",
+        "emoji": "",
+        "translation": "头脑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 204
+      },
+      {
+        "word": "mine",
+        "emoji": "",
+        "translation": "矿",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 205
+      },
+      {
+        "word": "minute",
+        "emoji": "",
+        "translation": "分钟",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 206
+      },
+      {
+        "word": "mist",
+        "emoji": "",
+        "translation": "薄雾",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 207
+      },
+      {
+        "word": "money",
+        "emoji": "",
+        "translation": "钱",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 208
+      },
+      {
+        "word": "month",
+        "emoji": "",
+        "translation": "月",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 209
+      },
+      {
+        "word": "morning",
+        "emoji": "",
+        "translation": "早晨",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 210
+      },
+      {
+        "word": "mother",
+        "emoji": "",
+        "translation": "母亲",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 211
+      },
+      {
+        "word": "motion",
+        "emoji": "",
+        "translation": "运动",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 212
+      },
+      {
+        "word": "mountain",
+        "emoji": "",
+        "translation": "山",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 213
+      },
+      {
+        "word": "move",
+        "emoji": "",
+        "translation": "移动",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 214
+      },
+      {
+        "word": "music",
+        "emoji": "",
+        "translation": "音乐",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 215
+      },
+      {
+        "word": "name",
+        "emoji": "",
+        "translation": "名字",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 216
+      },
+      {
+        "word": "nation",
+        "emoji": "",
+        "translation": "国家",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 217
+      },
+      {
+        "word": "need",
+        "emoji": "",
+        "translation": "需要",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 218
+      },
+      {
+        "word": "news",
+        "emoji": "",
+        "translation": "新闻",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 219
+      },
+      {
+        "word": "night",
+        "emoji": "",
+        "translation": "夜晚",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 220
+      },
+      {
+        "word": "noise",
+        "emoji": "",
+        "translation": "噪音",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 221
+      },
+      {
+        "word": "note",
+        "emoji": "",
+        "translation": "笔记",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 222
+      },
+      {
+        "word": "number",
+        "emoji": "",
+        "translation": "数字",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 223
+      },
+      {
+        "word": "observation",
+        "emoji": "",
+        "translation": "观察",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 224
+      },
+      {
+        "word": "offer",
+        "emoji": "",
+        "translation": "提议",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 225
+      },
+      {
+        "word": "oil",
+        "emoji": "",
+        "translation": "油",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 226
+      },
+      {
+        "word": "operation",
+        "emoji": "",
+        "translation": "手术",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 227
+      },
+      {
+        "word": "opinion",
+        "emoji": "",
+        "translation": "意见",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 228
+      },
+      {
+        "word": "order",
+        "emoji": "",
+        "translation": "命令",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 229
+      },
+      {
+        "word": "organization",
+        "emoji": "",
+        "translation": "组织",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 230
+      },
+      {
+        "word": "ornament",
+        "emoji": "",
+        "translation": "装饰",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 231
+      },
+      {
+        "word": "owner",
+        "emoji": "",
+        "translation": "主人",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 232
+      },
+      {
+        "word": "page",
+        "emoji": "",
+        "translation": "页",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 233
+      },
+      {
+        "word": "pain",
+        "emoji": "",
+        "translation": "疼痛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 234
+      },
+      {
+        "word": "paint",
+        "emoji": "",
+        "translation": "油漆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 235
+      },
+      {
+        "word": "paper",
+        "emoji": "",
+        "translation": "纸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 236
+      },
+      {
+        "word": "part",
+        "emoji": "",
+        "translation": "部分",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 237
+      },
+      {
+        "word": "paste",
+        "emoji": "",
+        "translation": "糨糊",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 238
+      },
+      {
+        "word": "payment",
+        "emoji": "",
+        "translation": "付款",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 239
+      },
+      {
+        "word": "peace",
+        "emoji": "",
+        "translation": "和平",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 240
+      },
+      {
+        "word": "person",
+        "emoji": "",
+        "translation": "人",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 241
+      },
+      {
+        "word": "place",
+        "emoji": "",
+        "translation": "地方",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 242
+      },
+      {
+        "word": "plant",
+        "emoji": "",
+        "translation": "植物",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 243
+      },
+      {
+        "word": "play",
+        "emoji": "",
+        "translation": "戏剧",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 244
+      },
+      {
+        "word": "pleasure",
+        "emoji": "",
+        "translation": "快乐",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 245
+      },
+      {
+        "word": "point",
+        "emoji": "",
+        "translation": "点",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 246
+      },
+      {
+        "word": "poison",
+        "emoji": "",
+        "translation": "毒药",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 247
+      },
+      {
+        "word": "polish",
+        "emoji": "",
+        "translation": "抛光",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 248
+      },
+      {
+        "word": "porter",
+        "emoji": "",
+        "translation": "搬运工",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 249
+      },
+      {
+        "word": "position",
+        "emoji": "",
+        "translation": "位置",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 250
+      },
+      {
+        "word": "powder",
+        "emoji": "",
+        "translation": "粉末",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 251
+      },
+      {
+        "word": "power",
+        "emoji": "",
+        "translation": "权力",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 252
+      },
+      {
+        "word": "price",
+        "emoji": "",
+        "translation": "价格",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 253
+      },
+      {
+        "word": "print",
+        "emoji": "",
+        "translation": "印刷",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 254
+      },
+      {
+        "word": "process",
+        "emoji": "",
+        "translation": "过程",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 255
+      },
+      {
+        "word": "produce",
+        "emoji": "",
+        "translation": "农产品",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 256
+      },
+      {
+        "word": "profit",
+        "emoji": "",
+        "translation": "利润",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 257
+      },
+      {
+        "word": "property",
+        "emoji": "",
+        "translation": "财产",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 258
+      },
+      {
+        "word": "prose",
+        "emoji": "",
+        "translation": "散文",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 259
+      },
+      {
+        "word": "protest",
+        "emoji": "",
+        "translation": "抗议",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 260
+      },
+      {
+        "word": "pull",
+        "emoji": "",
+        "translation": "拉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 261
+      },
+      {
+        "word": "punishment",
+        "emoji": "",
+        "translation": "惩罚",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 262
+      },
+      {
+        "word": "purpose",
+        "emoji": "",
+        "translation": "目的",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 263
+      },
+      {
+        "word": "push",
+        "emoji": "",
+        "translation": "推",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 264
+      },
+      {
+        "word": "quality",
+        "emoji": "",
+        "translation": "品质",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 265
+      },
+      {
+        "word": "question",
+        "emoji": "",
+        "translation": "问题",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 266
+      },
+      {
+        "word": "rain",
+        "emoji": "",
+        "translation": "雨",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 267
+      },
+      {
+        "word": "range",
+        "emoji": "",
+        "translation": "范围",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 268
+      },
+      {
+        "word": "rate",
+        "emoji": "",
+        "translation": "比率",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 269
+      },
+      {
+        "word": "ray",
+        "emoji": "",
+        "translation": "光线",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 270
+      },
+      {
+        "word": "reaction",
+        "emoji": "",
+        "translation": "反应",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 271
+      },
+      {
+        "word": "reading",
+        "emoji": "",
+        "translation": "阅读",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 272
+      },
+      {
+        "word": "reason",
+        "emoji": "",
+        "translation": "理由",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 273
+      },
+      {
+        "word": "record",
+        "emoji": "",
+        "translation": "记录",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 274
+      },
+      {
+        "word": "regret",
+        "emoji": "",
+        "translation": "遗憾",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 275
+      },
+      {
+        "word": "relation",
+        "emoji": "",
+        "translation": "关系",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 276
+      },
+      {
+        "word": "religion",
+        "emoji": "",
+        "translation": "宗教",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 277
+      },
+      {
+        "word": "representative",
+        "emoji": "",
+        "translation": "代表",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 278
+      },
+      {
+        "word": "request",
+        "emoji": "",
+        "translation": "请求",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 279
+      },
+      {
+        "word": "respect",
+        "emoji": "",
+        "translation": "尊重",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 280
+      },
+      {
+        "word": "rest",
+        "emoji": "",
+        "translation": "休息",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 281
+      },
+      {
+        "word": "reward",
+        "emoji": "",
+        "translation": "奖励",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 282
+      },
+      {
+        "word": "rhythm",
+        "emoji": "",
+        "translation": "节奏",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 283
+      },
+      {
+        "word": "rice",
+        "emoji": "",
+        "translation": "大米",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 284
+      },
+      {
+        "word": "river",
+        "emoji": "",
+        "translation": "河",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 285
+      },
+      {
+        "word": "road",
+        "emoji": "",
+        "translation": "路",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 286
+      },
+      {
+        "word": "roll",
+        "emoji": "",
+        "translation": "卷",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 287
+      },
+      {
+        "word": "room",
+        "emoji": "",
+        "translation": "房间",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 288
+      },
+      {
+        "word": "rub",
+        "emoji": "",
+        "translation": "摩擦",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 289
+      },
+      {
+        "word": "rule",
+        "emoji": "",
+        "translation": "规则",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 290
+      },
+      {
+        "word": "run",
+        "emoji": "",
+        "translation": "奔跑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 291
+      },
+      {
+        "word": "salt",
+        "emoji": "",
+        "translation": "盐",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 292
+      },
+      {
+        "word": "sand",
+        "emoji": "",
+        "translation": "沙",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 293
+      },
+      {
+        "word": "scale",
+        "emoji": "",
+        "translation": "刻度",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 294
+      },
+      {
+        "word": "science",
+        "emoji": "",
+        "translation": "科学",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 295
+      },
+      {
+        "word": "sea",
+        "emoji": "",
+        "translation": "海",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 296
+      },
+      {
+        "word": "seat",
+        "emoji": "",
+        "translation": "座位",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 297
+      },
+      {
+        "word": "secretary",
+        "emoji": "",
+        "translation": "秘书",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 298
+      },
+      {
+        "word": "selection",
+        "emoji": "",
+        "translation": "选择",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 299
+      },
+      {
+        "word": "self",
+        "emoji": "",
+        "translation": "自我",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 300
+      },
+      {
+        "word": "sense",
+        "emoji": "",
+        "translation": "感觉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 301
+      },
+      {
+        "word": "servant",
+        "emoji": "",
+        "translation": "仆人",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 302
+      },
+      {
+        "word": "sex",
+        "emoji": "",
+        "translation": "性别",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 303
+      },
+      {
+        "word": "shade",
+        "emoji": "",
+        "translation": "阴影",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 304
+      },
+      {
+        "word": "shake",
+        "emoji": "",
+        "translation": "摇动",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 305
+      },
+      {
+        "word": "shame",
+        "emoji": "",
+        "translation": "羞耻",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 306
+      },
+      {
+        "word": "shock",
+        "emoji": "",
+        "translation": "震惊",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 307
+      },
+      {
+        "word": "side",
+        "emoji": "",
+        "translation": "侧面",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 308
+      },
+      {
+        "word": "sign",
+        "emoji": "",
+        "translation": "标志",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 309
+      },
+      {
+        "word": "silk",
+        "emoji": "",
+        "translation": "丝绸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 310
+      },
+      {
+        "word": "silver",
+        "emoji": "",
+        "translation": "银",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 311
+      },
+      {
+        "word": "sister",
+        "emoji": "",
+        "translation": "姐妹",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 312
+      },
+      {
+        "word": "size",
+        "emoji": "",
+        "translation": "尺寸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 313
+      },
+      {
+        "word": "sky",
+        "emoji": "",
+        "translation": "天空",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 314
+      },
+      {
+        "word": "sleep",
+        "emoji": "",
+        "translation": "睡眠",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 315
+      },
+      {
+        "word": "slip",
+        "emoji": "",
+        "translation": "滑倒",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 316
+      },
+      {
+        "word": "slope",
+        "emoji": "",
+        "translation": "斜坡",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 317
+      },
+      {
+        "word": "smash",
+        "emoji": "",
+        "translation": "打碎",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 318
+      },
+      {
+        "word": "smell",
+        "emoji": "",
+        "translation": "气味",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 319
+      },
+      {
+        "word": "smile",
+        "emoji": "",
+        "translation": "微笑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 320
+      },
+      {
+        "word": "smoke",
+        "emoji": "",
+        "translation": "烟",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 321
+      },
+      {
+        "word": "sneeze",
+        "emoji": "",
+        "translation": "喷嚏",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 322
+      },
+      {
+        "word": "snow",
+        "emoji": "",
+        "translation": "雪",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 323
+      },
+      {
+        "word": "soap",
+        "emoji": "",
+        "translation": "肥皂",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 324
+      },
+      {
+        "word": "society",
+        "emoji": "",
+        "translation": "社会",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 325
+      },
+      {
+        "word": "son",
+        "emoji": "",
+        "translation": "儿子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 326
+      },
+      {
+        "word": "song",
+        "emoji": "",
+        "translation": "歌曲",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 327
+      },
+      {
+        "word": "sort",
+        "emoji": "",
+        "translation": "种类",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 328
+      },
+      {
+        "word": "sound",
+        "emoji": "",
+        "translation": "声音",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 329
+      },
+      {
+        "word": "soup",
+        "emoji": "",
+        "translation": "汤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 330
+      },
+      {
+        "word": "space",
+        "emoji": "",
+        "translation": "空间",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 331
+      },
+      {
+        "word": "stage",
+        "emoji": "",
+        "translation": "舞台",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 332
+      },
+      {
+        "word": "start",
+        "emoji": "",
+        "translation": "开始",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 333
+      },
+      {
+        "word": "statement",
+        "emoji": "",
+        "translation": "陈述",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 334
+      },
+      {
+        "word": "steam",
+        "emoji": "",
+        "translation": "蒸汽",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 335
+      },
+      {
+        "word": "steel",
+        "emoji": "",
+        "translation": "钢",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 336
+      },
+      {
+        "word": "step",
+        "emoji": "",
+        "translation": "步骤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 337
+      },
+      {
+        "word": "stitch",
+        "emoji": "",
+        "translation": "针脚",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 338
+      },
+      {
+        "word": "stone",
+        "emoji": "",
+        "translation": "石头",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 339
+      },
+      {
+        "word": "stop",
+        "emoji": "",
+        "translation": "停止",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 340
+      },
+      {
+        "word": "story",
+        "emoji": "",
+        "translation": "故事",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 341
+      },
+      {
+        "word": "stretch",
+        "emoji": "",
+        "translation": "伸展",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 342
+      },
+      {
+        "word": "structure",
+        "emoji": "",
+        "translation": "结构",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 343
+      },
+      {
+        "word": "substance",
+        "emoji": "",
+        "translation": "物质",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 344
+      },
+      {
+        "word": "sugar",
+        "emoji": "",
+        "translation": "糖",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 345
+      },
+      {
+        "word": "suggestion",
+        "emoji": "",
+        "translation": "建议",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 346
+      },
+      {
+        "word": "summer",
+        "emoji": "",
+        "translation": "夏天",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 347
+      },
+      {
+        "word": "support",
+        "emoji": "",
+        "translation": "支持",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 348
+      },
+      {
+        "word": "surprise",
+        "emoji": "",
+        "translation": "惊喜",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 349
+      },
+      {
+        "word": "swim",
+        "emoji": "",
+        "translation": "游泳",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 350
+      },
+      {
+        "word": "system",
+        "emoji": "",
+        "translation": "系统",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 351
+      },
+      {
+        "word": "talk",
+        "emoji": "",
+        "translation": "谈话",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 352
+      },
+      {
+        "word": "taste",
+        "emoji": "",
+        "translation": "味道",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 353
+      },
+      {
+        "word": "tax",
+        "emoji": "",
+        "translation": "税",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 354
+      },
+      {
+        "word": "teaching",
+        "emoji": "",
+        "translation": "教学",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 355
+      },
+      {
+        "word": "tendency",
+        "emoji": "",
+        "translation": "趋势",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 356
+      },
+      {
+        "word": "test",
+        "emoji": "",
+        "translation": "测试",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 357
+      },
+      {
+        "word": "theory",
+        "emoji": "",
+        "translation": "理论",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 358
+      },
+      {
+        "word": "thing",
+        "emoji": "",
+        "translation": "事物",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 359
+      },
+      {
+        "word": "thought",
+        "emoji": "",
+        "translation": "思想",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 360
+      },
+      {
+        "word": "thunder",
+        "emoji": "",
+        "translation": "雷",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 361
+      },
+      {
+        "word": "time",
+        "emoji": "",
+        "translation": "时间",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 362
+      },
+      {
+        "word": "tin",
+        "emoji": "",
+        "translation": "锡",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 363
+      },
+      {
+        "word": "top",
+        "emoji": "",
+        "translation": "顶部",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 364
+      },
+      {
+        "word": "touch",
+        "emoji": "",
+        "translation": "触摸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 365
+      },
+      {
+        "word": "trade",
+        "emoji": "",
+        "translation": "贸易",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 366
+      },
+      {
+        "word": "transport",
+        "emoji": "",
+        "translation": "运输",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 367
+      },
+      {
+        "word": "trick",
+        "emoji": "",
+        "translation": "诡计",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 368
+      },
+      {
+        "word": "trouble",
+        "emoji": "",
+        "translation": "麻烦",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 369
+      },
+      {
+        "word": "turn",
+        "emoji": "",
+        "translation": "转弯",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 370
+      },
+      {
+        "word": "twist",
+        "emoji": "",
+        "translation": "扭转",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 371
+      },
+      {
+        "word": "unit",
+        "emoji": "",
+        "translation": "单位",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 372
+      },
+      {
+        "word": "use",
+        "emoji": "",
+        "translation": "使用",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 373
+      },
+      {
+        "word": "value",
+        "emoji": "",
+        "translation": "价值",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 374
+      },
+      {
+        "word": "verse",
+        "emoji": "",
+        "translation": "诗句",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 375
+      },
+      {
+        "word": "vessel",
+        "emoji": "",
+        "translation": "船只",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 376
+      },
+      {
+        "word": "view",
+        "emoji": "",
+        "translation": "景象",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 377
+      },
+      {
+        "word": "voice",
+        "emoji": "",
+        "translation": "嗓音",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 378
+      },
+      {
+        "word": "walk",
+        "emoji": "",
+        "translation": "步行",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 379
+      },
+      {
+        "word": "war",
+        "emoji": "",
+        "translation": "战争",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 380
+      },
+      {
+        "word": "wash",
+        "emoji": "",
+        "translation": "洗涤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 381
+      },
+      {
+        "word": "waste",
+        "emoji": "",
+        "translation": "废物",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 382
+      },
+      {
+        "word": "water",
+        "emoji": "",
+        "translation": "水",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 383
+      },
+      {
+        "word": "wave",
+        "emoji": "",
+        "translation": "波浪",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 384
+      },
+      {
+        "word": "wax",
+        "emoji": "",
+        "translation": "蜡",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 385
+      },
+      {
+        "word": "way",
+        "emoji": "",
+        "translation": "道路",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 386
+      },
+      {
+        "word": "weather",
+        "emoji": "",
+        "translation": "天气",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 387
+      },
+      {
+        "word": "week",
+        "emoji": "",
+        "translation": "星期",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 388
+      },
+      {
+        "word": "weight",
+        "emoji": "",
+        "translation": "重量",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 389
+      },
+      {
+        "word": "wind",
+        "emoji": "",
+        "translation": "风",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 390
+      },
+      {
+        "word": "wine",
+        "emoji": "",
+        "translation": "葡萄酒",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 391
+      },
+      {
+        "word": "winter",
+        "emoji": "",
+        "translation": "冬天",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 392
+      },
+      {
+        "word": "woman",
+        "emoji": "",
+        "translation": "女人",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 393
+      },
+      {
+        "word": "wood",
+        "emoji": "",
+        "translation": "木头",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 394
+      },
+      {
+        "word": "wool",
+        "emoji": "",
+        "translation": "羊毛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 395
+      },
+      {
+        "word": "word",
+        "emoji": "",
+        "translation": "单词",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 396
+      },
+      {
+        "word": "work",
+        "emoji": "",
+        "translation": "工作",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 397
+      },
+      {
+        "word": "wound",
+        "emoji": "",
+        "translation": "伤口",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 398
+      },
+      {
+        "word": "writing",
+        "emoji": "",
+        "translation": "写作",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 399
+      },
+      {
+        "word": "year",
+        "emoji": "",
+        "translation": "年",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 400
+      }
+    ]
+  },
+  "things_picturable": {
+    "title": "THINGS",
+    "subtitle": "200 Picturable words",
+    "words": [
+      {
+        "word": "angle",
+        "emoji": "",
+        "translation": "角",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 1
+      },
+      {
+        "word": "ant",
+        "emoji": "",
+        "translation": "蚂蚁",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 2
+      },
+      {
+        "word": "apple",
+        "emoji": "",
+        "translation": "苹果",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 3
+      },
+      {
+        "word": "arch",
+        "emoji": "",
+        "translation": "拱门",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 4
+      },
+      {
+        "word": "arm",
+        "emoji": "",
+        "translation": "手臂",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 5
+      },
+      {
+        "word": "army",
+        "emoji": "",
+        "translation": "军队",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 6
+      },
+      {
+        "word": "baby",
+        "emoji": "",
+        "translation": "婴儿",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 7
+      },
+      {
+        "word": "bag",
+        "emoji": "",
+        "translation": "袋子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 8
+      },
+      {
+        "word": "ball",
+        "emoji": "",
+        "translation": "球",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 9
+      },
+      {
+        "word": "band",
+        "emoji": "",
+        "translation": "带子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 10
+      },
+      {
+        "word": "basin",
+        "emoji": "",
+        "translation": "盆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 11
+      },
+      {
+        "word": "basket",
+        "emoji": "",
+        "translation": "篮子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 12
+      },
+      {
+        "word": "bath",
+        "emoji": "",
+        "translation": "洗澡",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 13
+      },
+      {
+        "word": "bed",
+        "emoji": "",
+        "translation": "床",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 14
+      },
+      {
+        "word": "bee",
+        "emoji": "",
+        "translation": "蜜蜂",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 15
+      },
+      {
+        "word": "bell",
+        "emoji": "",
+        "translation": "铃铛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 16
+      },
+      {
+        "word": "berry",
+        "emoji": "",
+        "translation": "浆果",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 17
+      },
+      {
+        "word": "bird",
+        "emoji": "",
+        "translation": "鸟",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 18
+      },
+      {
+        "word": "blade",
+        "emoji": "",
+        "translation": "刀片",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 19
+      },
+      {
+        "word": "board",
+        "emoji": "",
+        "translation": "木板",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 20
+      },
+      {
+        "word": "boat",
+        "emoji": "",
+        "translation": "船",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 21
+      },
+      {
+        "word": "bone",
+        "emoji": "",
+        "translation": "骨头",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 22
+      },
+      {
+        "word": "book",
+        "emoji": "",
+        "translation": "书",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 23
+      },
+      {
+        "word": "boot",
+        "emoji": "",
+        "translation": "靴子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 24
+      },
+      {
+        "word": "bottle",
+        "emoji": "",
+        "translation": "瓶子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 25
+      },
+      {
+        "word": "box",
+        "emoji": "",
+        "translation": "盒子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 26
+      },
+      {
+        "word": "boy",
+        "emoji": "",
+        "translation": "男孩",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 27
+      },
+      {
+        "word": "brain",
+        "emoji": "",
+        "translation": "大脑",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 28
+      },
+      {
+        "word": "brake",
+        "emoji": "",
+        "translation": "刹车",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 29
+      },
+      {
+        "word": "branch",
+        "emoji": "",
+        "translation": "树枝",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 30
+      },
+      {
+        "word": "brick",
+        "emoji": "",
+        "translation": "砖",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 31
+      },
+      {
+        "word": "bridge",
+        "emoji": "",
+        "translation": "桥",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 32
+      },
+      {
+        "word": "brush",
+        "emoji": "",
+        "translation": "刷子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 33
+      },
+      {
+        "word": "bucket",
+        "emoji": "",
+        "translation": "桶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 34
+      },
+      {
+        "word": "bulb",
+        "emoji": "",
+        "translation": "灯泡",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 35
+      },
+      {
+        "word": "button",
+        "emoji": "",
+        "translation": "纽扣",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 36
+      },
+      {
+        "word": "cake",
+        "emoji": "",
+        "translation": "蛋糕",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 37
+      },
+      {
+        "word": "camera",
+        "emoji": "",
+        "translation": "相机",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 38
+      },
+      {
+        "word": "card",
+        "emoji": "",
+        "translation": "卡片",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 39
+      },
+      {
+        "word": "cart",
+        "emoji": "",
+        "translation": "手推车",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 40
+      },
+      {
+        "word": "carriage",
+        "emoji": "",
+        "translation": "马车",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 41
+      },
+      {
+        "word": "cat",
+        "emoji": "",
+        "translation": "猫",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 42
+      },
+      {
+        "word": "chain",
+        "emoji": "",
+        "translation": "链条",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 43
+      },
+      {
+        "word": "cheese",
+        "emoji": "",
+        "translation": "奶酪",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 44
+      },
+      {
+        "word": "chest",
+        "emoji": "",
+        "translation": "胸膛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 45
+      },
+      {
+        "word": "chin",
+        "emoji": "",
+        "translation": "下巴",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 46
+      },
+      {
+        "word": "church",
+        "emoji": "",
+        "translation": "教堂",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 47
+      },
+      {
+        "word": "circle",
+        "emoji": "",
+        "translation": "圆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 48
+      },
+      {
+        "word": "clock",
+        "emoji": "",
+        "translation": "时钟",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 49
+      },
+      {
+        "word": "cloud",
+        "emoji": "",
+        "translation": "云",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 50
+      },
+      {
+        "word": "coat",
+        "emoji": "",
+        "translation": "外套",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 51
+      },
+      {
+        "word": "collar",
+        "emoji": "",
+        "translation": "衣领",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 52
+      },
+      {
+        "word": "comb",
+        "emoji": "",
+        "translation": "梳子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 53
+      },
+      {
+        "word": "cord",
+        "emoji": "",
+        "translation": "绳子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 54
+      },
+      {
+        "word": "cow",
+        "emoji": "",
+        "translation": "奶牛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 55
+      },
+      {
+        "word": "cup",
+        "emoji": "",
+        "translation": "杯子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 56
+      },
+      {
+        "word": "curtain",
+        "emoji": "",
+        "translation": "窗帘",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 57
+      },
+      {
+        "word": "cushion",
+        "emoji": "",
+        "translation": "垫子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 58
+      },
+      {
+        "word": "dog",
+        "emoji": "",
+        "translation": "狗",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 59
+      },
+      {
+        "word": "door",
+        "emoji": "",
+        "translation": "门",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 60
+      },
+      {
+        "word": "drain",
+        "emoji": "",
+        "translation": "排水管",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 61
+      },
+      {
+        "word": "drawer",
+        "emoji": "",
+        "translation": "抽屉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 62
+      },
+      {
+        "word": "dress",
+        "emoji": "",
+        "translation": "连衣裙",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 63
+      },
+      {
+        "word": "drop",
+        "emoji": "",
+        "translation": "水滴",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 64
+      },
+      {
+        "word": "ear",
+        "emoji": "",
+        "translation": "耳朵",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 65
+      },
+      {
+        "word": "egg",
+        "emoji": "",
+        "translation": "鸡蛋",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 66
+      },
+      {
+        "word": "engine",
+        "emoji": "",
+        "translation": "发动机",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 67
+      },
+      {
+        "word": "eye",
+        "emoji": "",
+        "translation": "眼睛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 68
+      },
+      {
+        "word": "face",
+        "emoji": "",
+        "translation": "脸",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 69
+      },
+      {
+        "word": "farm",
+        "emoji": "",
+        "translation": "农场",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 70
+      },
+      {
+        "word": "feather",
+        "emoji": "",
+        "translation": "羽毛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 71
+      },
+      {
+        "word": "finger",
+        "emoji": "",
+        "translation": "手指",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 72
+      },
+      {
+        "word": "fish",
+        "emoji": "",
+        "translation": "鱼",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 73
+      },
+      {
+        "word": "flag",
+        "emoji": "",
+        "translation": "旗帜",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 74
+      },
+      {
+        "word": "floor",
+        "emoji": "",
+        "translation": "地板",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 75
+      },
+      {
+        "word": "fly",
+        "emoji": "",
+        "translation": "苍蝇",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 76
+      },
+      {
+        "word": "foot",
+        "emoji": "",
+        "translation": "脚",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 77
+      },
+      {
+        "word": "fork",
+        "emoji": "",
+        "translation": "叉子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 78
+      },
+      {
+        "word": "fowl",
+        "emoji": "",
+        "translation": "家禽",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 79
+      },
+      {
+        "word": "frame",
+        "emoji": "",
+        "translation": "框架",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 80
+      },
+      {
+        "word": "garden",
+        "emoji": "",
+        "translation": "花园",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 81
+      },
+      {
+        "word": "girl",
+        "emoji": "",
+        "translation": "女孩",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 82
+      },
+      {
+        "word": "glove",
+        "emoji": "",
+        "translation": "手套",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 83
+      },
+      {
+        "word": "goat",
+        "emoji": "",
+        "translation": "山羊",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 84
+      },
+      {
+        "word": "gun",
+        "emoji": "",
+        "translation": "枪",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 85
+      },
+      {
+        "word": "hair",
+        "emoji": "",
+        "translation": "头发",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 86
+      },
+      {
+        "word": "hammer",
+        "emoji": "",
+        "translation": "锤子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 87
+      },
+      {
+        "word": "hand",
+        "emoji": "",
+        "translation": "手",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 88
+      },
+      {
+        "word": "hat",
+        "emoji": "",
+        "translation": "帽子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 89
+      },
+      {
+        "word": "head",
+        "emoji": "",
+        "translation": "头",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 90
+      },
+      {
+        "word": "heart",
+        "emoji": "",
+        "translation": "心脏",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 91
+      },
+      {
+        "word": "hook",
+        "emoji": "",
+        "translation": "钩子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 92
+      },
+      {
+        "word": "horn",
+        "emoji": "",
+        "translation": "角",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 93
+      },
+      {
+        "word": "horse",
+        "emoji": "",
+        "translation": "马",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 94
+      },
+      {
+        "word": "hospital",
+        "emoji": "",
+        "translation": "医院",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 95
+      },
+      {
+        "word": "house",
+        "emoji": "",
+        "translation": "房子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 96
+      },
+      {
+        "word": "island",
+        "emoji": "",
+        "translation": "岛",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 97
+      },
+      {
+        "word": "jewel",
+        "emoji": "",
+        "translation": "珠宝",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 98
+      },
+      {
+        "word": "kettle",
+        "emoji": "",
+        "translation": "水壶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 99
+      },
+      {
+        "word": "key",
+        "emoji": "",
+        "translation": "钥匙",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 100
+      },
+      {
+        "word": "knee",
+        "emoji": "",
+        "translation": "膝盖",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 101
+      },
+      {
+        "word": "knife",
+        "emoji": "",
+        "translation": "刀",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 102
+      },
+      {
+        "word": "knot",
+        "emoji": "",
+        "translation": "结",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 103
+      },
+      {
+        "word": "leaf",
+        "emoji": "",
+        "translation": "叶子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 104
+      },
+      {
+        "word": "leg",
+        "emoji": "",
+        "translation": "腿",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 105
+      },
+      {
+        "word": "library",
+        "emoji": "",
+        "translation": "图书馆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 106
+      },
+      {
+        "word": "line",
+        "emoji": "",
+        "translation": "线",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 107
+      },
+      {
+        "word": "lip",
+        "emoji": "",
+        "translation": "嘴唇",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 108
+      },
+      {
+        "word": "lock",
+        "emoji": "",
+        "translation": "锁",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 109
+      },
+      {
+        "word": "map",
+        "emoji": "",
+        "translation": "地图",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 110
+      },
+      {
+        "word": "match",
+        "emoji": "",
+        "translation": "火柴",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 111
+      },
+      {
+        "word": "monkey",
+        "emoji": "",
+        "translation": "猴子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 112
+      },
+      {
+        "word": "moon",
+        "emoji": "",
+        "translation": "月亮",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 113
+      },
+      {
+        "word": "mouth",
+        "emoji": "",
+        "translation": "嘴",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 114
+      },
+      {
+        "word": "muscle",
+        "emoji": "",
+        "translation": "肌肉",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 115
+      },
+      {
+        "word": "nail",
+        "emoji": "",
+        "translation": "钉子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 116
+      },
+      {
+        "word": "neck",
+        "emoji": "",
+        "translation": "脖子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 117
+      },
+      {
+        "word": "needle",
+        "emoji": "",
+        "translation": "针",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 118
+      },
+      {
+        "word": "nerve",
+        "emoji": "",
+        "translation": "神经",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 119
+      },
+      {
+        "word": "net",
+        "emoji": "",
+        "translation": "网",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 120
+      },
+      {
+        "word": "nose",
+        "emoji": "",
+        "translation": "鼻子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 121
+      },
+      {
+        "word": "nut",
+        "emoji": "",
+        "translation": "坚果",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 122
+      },
+      {
+        "word": "office",
+        "emoji": "",
+        "translation": "办公室",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 123
+      },
+      {
+        "word": "orange",
+        "emoji": "",
+        "translation": "橙子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 124
+      },
+      {
+        "word": "oven",
+        "emoji": "",
+        "translation": "烤箱",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 125
+      },
+      {
+        "word": "parcel",
+        "emoji": "",
+        "translation": "包裹",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 126
+      },
+      {
+        "word": "pen",
+        "emoji": "",
+        "translation": "钢笔",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 127
+      },
+      {
+        "word": "pencil",
+        "emoji": "",
+        "translation": "铅笔",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 128
+      },
+      {
+        "word": "picture",
+        "emoji": "",
+        "translation": "图画",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 129
+      },
+      {
+        "word": "pig",
+        "emoji": "",
+        "translation": "猪",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 130
+      },
+      {
+        "word": "pin",
+        "emoji": "",
+        "translation": "别针",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 131
+      },
+      {
+        "word": "pipe",
+        "emoji": "",
+        "translation": "管子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 132
+      },
+      {
+        "word": "plane",
+        "emoji": "",
+        "translation": "飞机",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 133
+      },
+      {
+        "word": "plate",
+        "emoji": "",
+        "translation": "盘子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 134
+      },
+      {
+        "word": "plough",
+        "emoji": "",
+        "translation": "犁",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 135
+      },
+      {
+        "word": "pocket",
+        "emoji": "",
+        "translation": "口袋",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 136
+      },
+      {
+        "word": "pot",
+        "emoji": "",
+        "translation": "锅",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 137
+      },
+      {
+        "word": "potato",
+        "emoji": "",
+        "translation": "土豆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 138
+      },
+      {
+        "word": "prison",
+        "emoji": "",
+        "translation": "监狱",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 139
+      },
+      {
+        "word": "pump",
+        "emoji": "",
+        "translation": "泵",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 140
+      },
+      {
+        "word": "rail",
+        "emoji": "",
+        "translation": "铁轨",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 141
+      },
+      {
+        "word": "rat",
+        "emoji": "",
+        "translation": "老鼠",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 142
+      },
+      {
+        "word": "receipt",
+        "emoji": "",
+        "translation": "收据",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 143
+      },
+      {
+        "word": "ring",
+        "emoji": "",
+        "translation": "戒指",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 144
+      },
+      {
+        "word": "rod",
+        "emoji": "",
+        "translation": "杆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 145
+      },
+      {
+        "word": "roof",
+        "emoji": "",
+        "translation": "屋顶",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 146
+      },
+      {
+        "word": "root",
+        "emoji": "",
+        "translation": "根",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 147
+      },
+      {
+        "word": "sail",
+        "emoji": "",
+        "translation": "帆",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 148
+      },
+      {
+        "word": "school",
+        "emoji": "",
+        "translation": "学校",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 149
+      },
+      {
+        "word": "scissors",
+        "emoji": "",
+        "translation": "剪刀",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 150
+      },
+      {
+        "word": "screw",
+        "emoji": "",
+        "translation": "螺丝",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 151
+      },
+      {
+        "word": "seed",
+        "emoji": "",
+        "translation": "种子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 152
+      },
+      {
+        "word": "sheep",
+        "emoji": "",
+        "translation": "羊",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 153
+      },
+      {
+        "word": "shelf",
+        "emoji": "",
+        "translation": "架子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 154
+      },
+      {
+        "word": "ship",
+        "emoji": "",
+        "translation": "船",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 155
+      },
+      {
+        "word": "shirt",
+        "emoji": "",
+        "translation": "衬衫",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 156
+      },
+      {
+        "word": "shoe",
+        "emoji": "",
+        "translation": "鞋",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 157
+      },
+      {
+        "word": "skin",
+        "emoji": "",
+        "translation": "皮肤",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 158
+      },
+      {
+        "word": "skirt",
+        "emoji": "",
+        "translation": "裙子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 159
+      },
+      {
+        "word": "snake",
+        "emoji": "",
+        "translation": "蛇",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 160
+      },
+      {
+        "word": "sock",
+        "emoji": "",
+        "translation": "袜子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 161
+      },
+      {
+        "word": "spade",
+        "emoji": "",
+        "translation": "铲子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 162
+      },
+      {
+        "word": "sponge",
+        "emoji": "",
+        "translation": "海绵",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 163
+      },
+      {
+        "word": "spoon",
+        "emoji": "",
+        "translation": "勺子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 164
+      },
+      {
+        "word": "spring",
+        "emoji": "",
+        "translation": "弹簧",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 165
+      },
+      {
+        "word": "square",
+        "emoji": "",
+        "translation": "正方形",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 166
+      },
+      {
+        "word": "stamp",
+        "emoji": "",
+        "translation": "邮票",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 167
+      },
+      {
+        "word": "star",
+        "emoji": "",
+        "translation": "星星",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 168
+      },
+      {
+        "word": "station",
+        "emoji": "",
+        "translation": "车站",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 169
+      },
+      {
+        "word": "stem",
+        "emoji": "",
+        "translation": "茎",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 170
+      },
+      {
+        "word": "stick",
+        "emoji": "",
+        "translation": "棍子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 171
+      },
+      {
+        "word": "stocking",
+        "emoji": "",
+        "translation": "长袜",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 172
+      },
+      {
+        "word": "stomach",
+        "emoji": "",
+        "translation": "胃",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 173
+      },
+      {
+        "word": "store",
+        "emoji": "",
+        "translation": "商店",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 174
+      },
+      {
+        "word": "street",
+        "emoji": "",
+        "translation": "街道",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 175
+      },
+      {
+        "word": "sun",
+        "emoji": "",
+        "translation": "太阳",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 176
+      },
+      {
+        "word": "table",
+        "emoji": "",
+        "translation": "桌子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 177
+      },
+      {
+        "word": "tail",
+        "emoji": "",
+        "translation": "尾巴",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 178
+      },
+      {
+        "word": "thread",
+        "emoji": "",
+        "translation": "线",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 179
+      },
+      {
+        "word": "throat",
+        "emoji": "",
+        "translation": "喉咙",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 180
+      },
+      {
+        "word": "thumb",
+        "emoji": "",
+        "translation": "拇指",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 181
+      },
+      {
+        "word": "ticket",
+        "emoji": "",
+        "translation": "票",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 182
+      },
+      {
+        "word": "toe",
+        "emoji": "",
+        "translation": "脚趾",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 183
+      },
+      {
+        "word": "tongue",
+        "emoji": "",
+        "translation": "舌头",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 184
+      },
+      {
+        "word": "tooth",
+        "emoji": "",
+        "translation": "牙齿",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 185
+      },
+      {
+        "word": "town",
+        "emoji": "",
+        "translation": "城镇",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 186
+      },
+      {
+        "word": "train",
+        "emoji": "",
+        "translation": "火车",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 187
+      },
+      {
+        "word": "tray",
+        "emoji": "",
+        "translation": "托盘",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 188
+      },
+      {
+        "word": "tree",
+        "emoji": "",
+        "translation": "树",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 189
+      },
+      {
+        "word": "trousers",
+        "emoji": "",
+        "translation": "裤子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 190
+      },
+      {
+        "word": "umbrella",
+        "emoji": "",
+        "translation": "雨伞",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 191
+      },
+      {
+        "word": "wall",
+        "emoji": "",
+        "translation": "墙",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 192
+      },
+      {
+        "word": "watch",
+        "emoji": "",
+        "translation": "手表",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 193
+      },
+      {
+        "word": "wheel",
+        "emoji": "",
+        "translation": "轮子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 194
+      },
+      {
+        "word": "whip",
+        "emoji": "",
+        "translation": "鞭子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 195
+      },
+      {
+        "word": "whistle",
+        "emoji": "",
+        "translation": "哨子",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 196
+      },
+      {
+        "word": "window",
+        "emoji": "",
+        "translation": "窗户",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 197
+      },
+      {
+        "word": "wing",
+        "emoji": "",
+        "translation": "翅膀",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 198
+      },
+      {
+        "word": "wire",
+        "emoji": "",
+        "translation": "金属线",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 199
+      },
+      {
+        "word": "worm",
+        "emoji": "",
+        "translation": "虫",
+        "pos": "名词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 200
+      }
+    ]
+  },
+  "qualities_general": {
+    "title": "QUALITIES",
+    "subtitle": "100 General",
+    "words": [
+      {
+        "word": "able",
+        "emoji": "💪",
+        "translation": "能够的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She is able to solve complex problems.",
+        "exampleCn": "她能够解决复杂的问题。",
+        "id": 1
+      },
+      {
+        "word": "acid",
+        "emoji": "🧪",
+        "translation": "酸的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "Be careful, the acid can be corrosive.",
+        "exampleCn": "小心，这种酸具有腐蚀性。",
+        "id": 2
+      },
+      {
+        "word": "angry",
+        "emoji": "😡",
+        "translation": "生气的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He was angry at me for forgetting his birthday.",
+        "exampleCn": "他因为我忘记了他的生日而生气。",
+        "id": 3
+      },
+      {
+        "word": "automatic",
+        "emoji": "🤖",
+        "translation": "自动的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The doors open automatically as you approach them.",
+        "exampleCn": "当你靠近时，门会自动打开。",
+        "id": 4
+      },
+      {
+        "word": "beautiful",
+        "emoji": "💖",
+        "translation": "美丽的",
+        "pos": "形容词",
+        "frequency": "★★★★★",
+        "example": "The sunset over the ocean was incredibly beautiful.",
+        "exampleCn": "海上的日落非常美丽。",
+        "id": 5
+      },
+      {
+        "word": "black",
+        "emoji": "⚫️",
+        "translation": "黑色的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She wore a stunning black dress to the party.",
+        "exampleCn": "她穿了一条令人惊艳的黑色连衣裙去参加派对。",
+        "id": 6
+      },
+      {
+        "word": "boiling",
+        "emoji": "🌡️",
+        "translation": "沸腾的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The water in the pot is boiling hot, be careful.",
+        "exampleCn": "锅里的水滚烫，小心点。",
+        "id": 7
+      },
+      {
+        "word": "bright",
+        "emoji": "🌟",
+        "translation": "明亮的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The room was filled with bright sunlight.",
+        "exampleCn": "房间里充满了明亮的阳光。",
+        "id": 8
+      },
+      {
+        "word": "broken",
+        "emoji": "💔",
+        "translation": "破碎的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He dropped the vase and it broke into pieces.",
+        "exampleCn": "他把花瓶摔碎了。",
+        "id": 9
+      },
+      {
+        "word": "brown",
+        "emoji": "🟤",
+        "translation": "棕色的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She has beautiful brown hair and big brown eyes.",
+        "exampleCn": "她有着美丽的棕色头发和大大的棕色眼睛。",
+        "id": 10
+      },
+      {
+        "word": "cheap",
+        "emoji": "💰",
+        "translation": "便宜的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "I bought this shirt because it was really cheap.",
+        "exampleCn": "我买了这件衬衫因为它真的很便宜。",
+        "id": 11
+      },
+      {
+        "word": "chemical",
+        "emoji": "⚗️",
+        "translation": "化学的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "He works in a chemical laboratory.",
+        "exampleCn": "他在一个化学实验室工作。",
+        "id": 12
+      },
+      {
+        "word": "chief",
+        "emoji": "🤵‍♂️",
+        "translation": "主要的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "She is the chief engineer in the company.",
+        "exampleCn": "她是这家公司的首席工程师。",
+        "id": 13
+      },
+      {
+        "word": "clean",
+        "emoji": "🧼",
+        "translation": "干净的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The room was spotlessly clean.",
+        "exampleCn": "房间异常干净。",
+        "id": 14
+      },
+      {
+        "word": "clear",
+        "emoji": "🌤️",
+        "translation": "清晰的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "His explanation was clear and easy to understand.",
+        "exampleCn": "他的解释清晰易懂。",
+        "id": 15
+      },
+      {
+        "word": "common",
+        "emoji": "👥",
+        "translation": "常见的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "It is a common mistake that many people make.",
+        "exampleCn": "这是很多人犯的一个常见错误。",
+        "id": 16
+      },
+      {
+        "word": "complex",
+        "emoji": "🔄",
+        "translation": "复杂的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The problem requires a complex solution.",
+        "exampleCn": "这个问题需要一个复杂的解决方案。",
+        "id": 17
+      },
+      {
+        "word": "conscious",
+        "emoji": "😌",
+        "translation": "有意识的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "He was conscious of the fact that he had made a mistake.",
+        "exampleCn": "他有意识到自己犯了一个错误的事实。",
+        "id": 18
+      },
+      {
+        "word": "cut",
+        "emoji": "✂️",
+        "translation": "切割的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "Be careful with that knife, it's very sharp and can cut.",
+        "exampleCn": "小心那把刀，它很锋利，会割伤的。",
+        "id": 19
+      },
+      {
+        "word": "deep",
+        "emoji": "🌊",
+        "translation": "深的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The lake is deep and you should be careful when swimming.",
+        "exampleCn": "这个湖水很深，游泳时要小心。",
+        "id": 20
+      },
+      {
+        "word": "dependent",
+        "emoji": "👪",
+        "translation": "依赖的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "Children are dependent on their parents for support.",
+        "exampleCn": "孩子们依赖父母的支持。",
+        "id": 21
+      },
+      {
+        "word": "early",
+        "emoji": "🌅",
+        "translation": "早的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "I woke up early this morning to catch the sunrise.",
+        "exampleCn": "今天早上我早早醒来看日出。",
+        "id": 22
+      },
+      {
+        "word": "elastic",
+        "emoji": "🧦",
+        "translation": "有弹性的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The waistband of my pants is made of elastic material.",
+        "exampleCn": "我的裤子腰带是用弹性材料制成的。",
+        "id": 23
+      },
+      {
+        "word": "electric",
+        "emoji": "⚡️",
+        "translation": "电的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "We need to fix the electric wiring in the house.",
+        "exampleCn": "我们需要修理房子里的电线。",
+        "id": 24
+      },
+      {
+        "word": "equal",
+        "emoji": "⚖️",
+        "translation": "相等的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "All students have an equal opportunity to succeed.",
+        "exampleCn": "所有学生都有平等的机会去成功。",
+        "id": 25
+      },
+      {
+        "word": "fat",
+        "emoji": "🍔",
+        "translation": "肥胖的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He needs to lose weight because he is too fat.",
+        "exampleCn": "他需要减肥，因为他太胖了。",
+        "id": 26
+      },
+      {
+        "word": "fertile",
+        "emoji": "🌱",
+        "translation": "肥沃的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The soil in this area is very fertile for farming.",
+        "exampleCn": "这个地区的土壤非常适合耕作。",
+        "id": 27
+      },
+      {
+        "word": "first",
+        "emoji": "🥇",
+        "translation": "第一的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She won first place in the race.",
+        "exampleCn": "她在比赛中获得第一名。",
+        "id": 28
+      },
+      {
+        "word": "fixed",
+        "emoji": "🔧",
+        "translation": "固定的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The shelf is securely fixed to the wall.",
+        "exampleCn": "这个架子牢固地固定在墙上。",
+        "id": 29
+      },
+      {
+        "word": "flat",
+        "emoji": "🏢",
+        "translation": "平的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The table top is flat and smooth.",
+        "exampleCn": "桌面是平坦而光滑的。",
+        "id": 30
+      },
+      {
+        "word": "free",
+        "emoji": "🆓",
+        "translation": "自由的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "We have some free time this afternoon.",
+        "exampleCn": "我们今天下午有些时间空闲。",
+        "id": 31
+      },
+      {
+        "word": "frequent",
+        "emoji": "🔄",
+        "translation": "频繁的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She makes frequent trips to the city for work.",
+        "exampleCn": "她经常去城里工作。",
+        "id": 32
+      },
+      {
+        "word": "full",
+        "emoji": "🌕",
+        "translation": "满的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The restaurant was full of customers during lunchtime.",
+        "exampleCn": "午餐时间餐厅里挤满了顾客。",
+        "id": 33
+      },
+      {
+        "word": "general",
+        "emoji": "👨‍⚖️",
+        "translation": "一般的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He gave a general description of the problem.",
+        "exampleCn": "他对问题进行了一般性的描述。",
+        "id": 34
+      },
+      {
+        "word": "good",
+        "emoji": "👍",
+        "translation": "好的",
+        "pos": "形容词",
+        "frequency": "★★★★★",
+        "example": "She is a good friend who always supports me.",
+        "exampleCn": "她是一个好朋友，总是支持我。",
+        "id": 35
+      },
+      {
+        "word": "great",
+        "emoji": "🌟",
+        "translation": "伟大的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The team achieved a great victory in the championship.",
+        "exampleCn": "这个团队在锦标赛中取得了巨大的胜利。",
+        "id": 36
+      },
+      {
+        "word": "grey",
+        "emoji": "⚪️",
+        "translation": "灰色的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He has a few strands of grey hair.",
+        "exampleCn": "他有几根灰色的头发。",
+        "id": 37
+      },
+      {
+        "word": "hanging",
+        "emoji": "🧺",
+        "translation": "悬挂的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The curtains were hanging loosely from the rod.",
+        "exampleCn": "窗帘从杆子上悬挂着。",
+        "id": 38
+      },
+      {
+        "word": "happy",
+        "emoji": "😊",
+        "translation": "快乐的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She always has a smile on her face and looks happy.",
+        "exampleCn": "她总是面带微笑，看起来很开心。",
+        "id": 39
+      },
+      {
+        "word": "hard",
+        "emoji": "💪",
+        "translation": "困难的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Studying for this exam is really hard.",
+        "exampleCn": "学习这门考试真的很困难。",
+        "id": 40
+      },
+      {
+        "word": "healthy",
+        "emoji": "🥦",
+        "translation": "健康的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Eating a balanced diet is important for a healthy body.",
+        "exampleCn": "饮食均衡对于保持健康身体很重要。",
+        "id": 41
+      },
+      {
+        "word": "high",
+        "emoji": "🏔️",
+        "translation": "高的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The mountain peak is very high and covered in snow.",
+        "exampleCn": "山顶很高，被积雪覆盖着。",
+        "id": 42
+      },
+      {
+        "word": "hollow",
+        "emoji": "🕳️",
+        "translation": "中空的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The tree trunk had a hollow space inside.",
+        "exampleCn": "树干内部有一个中空的空间。",
+        "id": 43
+      },
+      {
+        "word": "important",
+        "emoji": "‼️",
+        "translation": "重要的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "It is important to have a good education.",
+        "exampleCn": "拥有良好的教育是很重要的。",
+        "id": 44
+      },
+      {
+        "word": "kind",
+        "emoji": "😇",
+        "translation": "亲切的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She is a kind person who always helps others.",
+        "exampleCn": "她是一个总是乐于助人的亲切的人。",
+        "id": 45
+      },
+      {
+        "word": "like",
+        "emoji": "❤️",
+        "translation": "喜欢的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "I am a movie lover, and I particularly like action films.",
+        "exampleCn": "我是个电影爱好者，尤其喜欢动作片。",
+        "id": 46
+      },
+      {
+        "word": "living",
+        "emoji": "🏡",
+        "translation": "活的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The room was filled with living plants and flowers.",
+        "exampleCn": "房间里摆满了活的植物和鲜花。",
+        "id": 47
+      },
+      {
+        "word": "long",
+        "emoji": "📏",
+        "translation": "长的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The bridge is very long and stretches across the river.",
+        "exampleCn": "桥很长，横跨在河上。",
+        "id": 48
+      },
+      {
+        "word": "male",
+        "emoji": "👨",
+        "translation": "男性的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He is a male actor who has appeared in many movies.",
+        "exampleCn": "他是一位参演过许多电影的男演员。",
+        "id": 49
+      },
+      {
+        "word": "married",
+        "emoji": "💍",
+        "translation": "已婚的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She is happily married to her husband for 10 years.",
+        "exampleCn": "她和丈夫幸福地已婚10年了。",
+        "id": 50
+      },
+      {
+        "word": "material",
+        "emoji": "📦",
+        "translation": "材料的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The dress is made of high-quality material.",
+        "exampleCn": "这条裙子是用高质量的材料制作的。",
+        "id": 51
+      },
+      {
+        "word": "medical",
+        "emoji": "🩺",
+        "translation": "医学的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He works in a medical laboratory as a researcher.",
+        "exampleCn": "他在一家医学实验室担任研究员。",
+        "id": 52
+      },
+      {
+        "word": "military",
+        "emoji": "⚔️",
+        "translation": "军事的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He served in the military for five years.",
+        "exampleCn": "他在军队服役了五年。",
+        "id": 53
+      },
+      {
+        "word": "natural",
+        "emoji": "🌿",
+        "translation": "自然的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The park is known for its natural beauty and wildlife.",
+        "exampleCn": "这个公园以其自然美景和野生动物而闻名。",
+        "id": 54
+      },
+      {
+        "word": "necessary",
+        "emoji": "✅",
+        "translation": "必要的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "It is necessary to have a valid ID for this event.",
+        "exampleCn": "参加这个活动需要有有效的身份证明。",
+        "id": 55
+      },
+      {
+        "word": "new",
+        "emoji": "🆕",
+        "translation": "新的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She bought a new car yesterday.",
+        "exampleCn": "她昨天买了一辆新车。",
+        "id": 56
+      },
+      {
+        "word": "normal",
+        "emoji": "☑️",
+        "translation": "正常的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "It's normal to feel tired after a long day of work.",
+        "exampleCn": "工作了一整天感到疲倦是正常的。",
+        "id": 57
+      },
+      {
+        "word": "open",
+        "emoji": "🚪😀",
+        "translation": "开放的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The store is open until 9 pm.",
+        "exampleCn": "商店开到晚上9点。",
+        "id": 58
+      },
+      {
+        "word": "parallel",
+        "emoji": "",
+        "translation": "平行的",
+        "pos": "形容词",
+        "frequency": "形容词",
+        "example": "★★☆☆☆",
+        "exampleCn": "The two roads run parallel to each other.",
+        "id": 59
+      },
+      {
+        "word": "past",
+        "emoji": "⏰↩️",
+        "translation": "过去的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "In the past, people used to write letters.",
+        "exampleCn": "在过去，人们习惯写信。",
+        "id": 60
+      },
+      {
+        "word": "physical",
+        "emoji": "💪🏋️",
+        "translation": "物理的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "Regular exercise is important for physical health.",
+        "exampleCn": "定期锻炼对身体健康很重要。",
+        "id": 61
+      },
+      {
+        "word": "political",
+        "emoji": "🗳️🏛️",
+        "translation": "政治的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She has a strong interest in political affairs.",
+        "exampleCn": "她对政治事务有浓厚的兴趣。",
+        "id": 62
+      },
+      {
+        "word": "poor",
+        "emoji": "😔💔",
+        "translation": "贫穷的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The poor old man couldn't afford basic necessities.",
+        "exampleCn": "这个可怜的老人买不起基本生活必需品。",
+        "id": 63
+      },
+      {
+        "word": "possible",
+        "emoji": "🤔🔍",
+        "translation": "可能的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Is it possible to learn a new language in a month?",
+        "exampleCn": "一个月内学会一门新语言可能吗？",
+        "id": 64
+      },
+      {
+        "word": "present",
+        "emoji": "🎁🎉",
+        "translation": "现在的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "I'm not available at the present moment.",
+        "exampleCn": "我现在不方便。",
+        "id": 65
+      },
+      {
+        "word": "private",
+        "emoji": "🔒🤐",
+        "translation": "私人的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Please keep this information private.",
+        "exampleCn": "请保密这些信息。",
+        "id": 66
+      },
+      {
+        "word": "probable",
+        "emoji": "🤔🔮",
+        "translation": "可能的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "It's probable that it will rain tomorrow.",
+        "exampleCn": "明天可能会下雨。",
+        "id": 67
+      },
+      {
+        "word": "quick",
+        "emoji": "⚡🏃",
+        "translation": "快的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "He was quick to respond to my request.",
+        "exampleCn": "他对我的请求反应很快。",
+        "id": 68
+      },
+      {
+        "word": "quiet",
+        "emoji": "🤫🔇",
+        "translation": "安静的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The library is a quiet place for studying.",
+        "exampleCn": "图书馆是一个安静的学习场所。",
+        "id": 69
+      },
+      {
+        "word": "ready",
+        "emoji": "📦✅",
+        "translation": "准备好的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Are you ready to go?",
+        "exampleCn": "你准备好了吗？",
+        "id": 70
+      },
+      {
+        "word": "red",
+        "emoji": "🔴🌹",
+        "translation": "红色的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She wore a beautiful red dress to the party.",
+        "exampleCn": "她穿了一件漂亮的红色连衣裙去参加派对。",
+        "id": 71
+      },
+      {
+        "word": "regular",
+        "emoji": "🔄🗓️",
+        "translation": "规则的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He goes to the gym on a regular basis.",
+        "exampleCn": "他定期去健身房。",
+        "id": 72
+      },
+      {
+        "word": "responsible",
+        "emoji": "🙋‍♀️✔️",
+        "translation": "负责任的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "As the team leader, he is responsible for the project.",
+        "exampleCn": "作为团队领导，他对该项目负起责任。",
+        "id": 73
+      },
+      {
+        "word": "right",
+        "emoji": "👉✅",
+        "translation": "正确的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "What is the right answer to this question?",
+        "exampleCn": "这个问题的正确答案是什么？",
+        "id": 74
+      },
+      {
+        "word": "round",
+        "emoji": "🌕⚽",
+        "translation": "圆的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The moon is a round object in the sky.",
+        "exampleCn": "月亮是天空中的一个圆形物体。",
+        "id": 75
+      },
+      {
+        "word": "same",
+        "emoji": "👥🤝",
+        "translation": "相同的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "We have the same opinion on this matter.",
+        "exampleCn": "我们在这个问题上有相同的观点。",
+        "id": 76
+      },
+      {
+        "word": "second",
+        "emoji": "🕒✌️",
+        "translation": "第二的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "He finished in second place in the race.",
+        "exampleCn": "他在比赛中获得第二名。",
+        "id": 77
+      },
+      {
+        "word": "separate",
+        "emoji": "➗🔀",
+        "translation": "分离的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The twins decided to live in separate cities.",
+        "exampleCn": "这对双胞胎决定住在不同的城市。",
+        "id": 78
+      },
+      {
+        "word": "serious",
+        "emoji": "😟😨",
+        "translation": "严肃的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The doctor told her the test results were serious.",
+        "exampleCn": "医生告诉她检测结果很严重。",
+        "id": 79
+      },
+      {
+        "word": "sharp",
+        "emoji": "🗡️✂️",
+        "translation": "锋利的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Be careful with that sharp knife.",
+        "exampleCn": "小心那把锋利的刀子。",
+        "id": 80
+      },
+      {
+        "word": "smooth",
+        "emoji": "🌊🛶",
+        "translation": "光滑的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The surface of the lake was smooth as glass.",
+        "exampleCn": "湖面平滑如镜。",
+        "id": 81
+      },
+      {
+        "word": "sticky",
+        "emoji": "🍯🐜",
+        "translation": "黏的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "Her hands were sticky after eating candy.",
+        "exampleCn": "吃了糖果后她的手黏黏的。",
+        "id": 82
+      },
+      {
+        "word": "stiff",
+        "emoji": "😫🚶",
+        "translation": "僵硬的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "After sitting for hours, her legs felt stiff.",
+        "exampleCn": "坐了几个小时后，她的腿感到僵硬。",
+        "id": 83
+      },
+      {
+        "word": "straight",
+        "emoji": "➡️↕️",
+        "translation": "直的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "He walked in a straight line towards the exit.",
+        "exampleCn": "他朝着出口沿着一条直线走去。",
+        "id": 84
+      },
+      {
+        "word": "strong",
+        "emoji": "💪🦾",
+        "translation": "强壮的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She is a strong and independent woman.",
+        "exampleCn": "她是一个强大独立的女性。",
+        "id": 85
+      },
+      {
+        "word": "sudden",
+        "emoji": "😱❗",
+        "translation": "突然的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The sudden noise startled everyone in the room.",
+        "exampleCn": "突然的声音吓坏了房间里的每个人。",
+        "id": 86
+      },
+      {
+        "word": "sweet",
+        "emoji": "🍬🍭",
+        "translation": "甜的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She loves the sweet taste of chocolate.",
+        "exampleCn": "她喜欢巧克力的甜味。",
+        "id": 87
+      },
+      {
+        "word": "tall",
+        "emoji": "🏙️📏",
+        "translation": "高的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "He is a tall basketball player.",
+        "exampleCn": "他是一个高个子的篮球运动员。",
+        "id": 88
+      },
+      {
+        "word": "thick",
+        "emoji": "🌫️📚",
+        "translation": "厚的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The fog was so thick that I could hardly see.",
+        "exampleCn": "雾很浓，我几乎看不见。",
+        "id": 89
+      },
+      {
+        "word": "tight",
+        "emoji": "🤏🔒",
+        "translation": "紧的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The lid was on tight and couldn't be opened.",
+        "exampleCn": "盖子盖得很紧，打不开。",
+        "id": 90
+      },
+      {
+        "word": "tired",
+        "emoji": "😴💤",
+        "translation": "疲倦的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "After a long day at work, she felt tired.",
+        "exampleCn": "工作了一整天后，她感到疲倦。",
+        "id": 91
+      },
+      {
+        "word": "true",
+        "emoji": "✅👌",
+        "translation": "真实的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "His words turned out to be true.",
+        "exampleCn": "事实证明他说的是真的。",
+        "id": 92
+      },
+      {
+        "word": "violent",
+        "emoji": "💥🤬",
+        "translation": "暴力的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The movie contains violent scenes.",
+        "exampleCn": "电影包含暴力场景。",
+        "id": 93
+      },
+      {
+        "word": "waiting",
+        "emoji": "⏳⌛",
+        "translation": "等待的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She sat on the bench, waiting for the bus.",
+        "exampleCn": "她坐在长椅上等待公交车。",
+        "id": 94
+      },
+      {
+        "word": "warm",
+        "emoji": "☀️🔥",
+        "translation": "温暖的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The sun provides warm light.",
+        "exampleCn": "太阳提供温暖的光线。",
+        "id": 95
+      },
+      {
+        "word": "wet",
+        "emoji": "💦☔",
+        "translation": "潮湿的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She got caught in the rain and her clothes were wet.",
+        "exampleCn": "她被雨淋湿了，衣服都湿透了。",
+        "id": 96
+      },
+      {
+        "word": "wide",
+        "emoji": "🌌🛣️",
+        "translation": "宽的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The river is wide and difficult to swim across.",
+        "exampleCn": "这条河很宽，不容易穿过。",
+        "id": 97
+      },
+      {
+        "word": "wise",
+        "emoji": "👴📚",
+        "translation": "明智的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "He is known for his wise decision-making.",
+        "exampleCn": "他以明智的决策而闻名。",
+        "id": 98
+      },
+      {
+        "word": "yellow",
+        "emoji": "💛🌻",
+        "translation": "黄色的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The ripe bananas are yellow in color.",
+        "exampleCn": "成熟的香蕉是黄色的。",
+        "id": 99
+      },
+      {
+        "word": "young",
+        "emoji": "👧🎒",
+        "translation": "年轻的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She is a talented young artist.",
+        "exampleCn": "她是一位有才华的年轻艺术家。",
+        "id": 100
+      }
+    ]
+  },
+  "qualities_opposites": {
+    "title": "QUALITIES",
+    "subtitle": "50 Opposites",
+    "words": [
+      {
+        "word": "awake",
+        "emoji": "😳☀️",
+        "translation": "醒着的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "She lay awake all night, unable to sleep.",
+        "exampleCn": "她整夜都醒着，无法入睡。",
+        "id": 1
+      },
+      {
+        "word": "bad",
+        "emoji": "👎",
+        "translation": "差的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The weather is really bad today.",
+        "exampleCn": "今天的天气真糟糕。",
+        "id": 2
+      },
+      {
+        "word": "bent",
+        "emoji": "🔄↪️",
+        "translation": "弯曲的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The tree was bent by the strong wind.",
+        "exampleCn": "树被强风吹弯了。",
+        "id": 3
+      },
+      {
+        "word": "bitter",
+        "emoji": "😖☕️",
+        "translation": "苦的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The coffee tasted bitter and unpleasant.",
+        "exampleCn": "咖啡尝起来又苦又难喝。",
+        "id": 4
+      },
+      {
+        "word": "blue",
+        "emoji": "💙",
+        "translation": "蓝色的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She was wearing a beautiful blue dress.",
+        "exampleCn": "她穿了一条漂亮的蓝色裙子。",
+        "id": 5
+      },
+      {
+        "word": "certain",
+        "emoji": "✅",
+        "translation": "确定的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "I'm certain that I left my keys at home.",
+        "exampleCn": "我确信我把钥匙丢在家里了。",
+        "id": 6
+      },
+      {
+        "word": "cold",
+        "emoji": "🥶☃️",
+        "translation": "冷的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "It's very cold outside, remember to dress warmly.",
+        "exampleCn": "外面很冷，记得穿暖和一点。",
+        "id": 7
+      },
+      {
+        "word": "complete",
+        "emoji": "🔄✅",
+        "translation": "完整的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She has a complete collection of stamps.",
+        "exampleCn": "她有一个完整的邮票收藏。",
+        "id": 8
+      },
+      {
+        "word": "cruel",
+        "emoji": "😡🔪",
+        "translation": "残忍的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The dictator was known for his cruel actions.",
+        "exampleCn": "这位独裁者以残忍的行径闻名。",
+        "id": 9
+      },
+      {
+        "word": "dark",
+        "emoji": "🌚🌑",
+        "translation": "黑暗的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "We walked through the dark forest at night.",
+        "exampleCn": "我们在黑暗的森林中夜行。",
+        "id": 10
+      },
+      {
+        "word": "dead",
+        "emoji": "💀",
+        "translation": "死的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The flowers in the vase were already dead.",
+        "exampleCn": "花瓶里的花已经枯萎了。",
+        "id": 11
+      },
+      {
+        "word": "dear",
+        "emoji": "💌",
+        "translation": "亲爱的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Dear Mom, I miss you and hope you're doing well.",
+        "exampleCn": "亲爱的妈妈，我想你，希望你一切都好。",
+        "id": 12
+      },
+      {
+        "word": "delicate",
+        "emoji": "🎗🥀",
+        "translation": "精细的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Be careful with the delicate glassware.",
+        "exampleCn": "小心那些精细的玻璃器具。",
+        "id": 13
+      },
+      {
+        "word": "different",
+        "emoji": "👥",
+        "translation": "不同的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "They have different opinions on the matter.",
+        "exampleCn": "他们对这件事持有不同的观点。",
+        "id": 14
+      },
+      {
+        "word": "dirty",
+        "emoji": "😷🚮",
+        "translation": "脏的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "Please clean up your dirty room.",
+        "exampleCn": "请把你的脏房间收拾干净。",
+        "id": 15
+      },
+      {
+        "word": "dry",
+        "emoji": "😵🏜️",
+        "translation": "干的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The clothes will be dry by tomorrow.",
+        "exampleCn": "衣服到明天应该会干。",
+        "id": 16
+      },
+      {
+        "word": "false",
+        "emoji": "❌",
+        "translation": "错误的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He accused her of spreading false rumors.",
+        "exampleCn": "他指责她散布了错误的谣言。",
+        "id": 17
+      },
+      {
+        "word": "feeble",
+        "emoji": "💪🍃",
+        "translation": "无力的",
+        "pos": "形容词",
+        "frequency": "★★☆☆☆",
+        "example": "The old man had a feeble voice.",
+        "exampleCn": "那位老人的声音非常微弱。",
+        "id": 18
+      },
+      {
+        "word": "female",
+        "emoji": "👩♀️",
+        "translation": "女性的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The company hired more female employees.",
+        "exampleCn": "公司雇佣了更多女性员工。",
+        "id": 19
+      },
+      {
+        "word": "foolish",
+        "emoji": "🤦‍♂️🃏",
+        "translation": "愚蠢的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "He made a foolish mistake and regretted it later.",
+        "exampleCn": "他犯了一个愚蠢的错误，后悔不已。",
+        "id": 20
+      },
+      {
+        "word": "future",
+        "emoji": "🚀🔮",
+        "translation": "未来的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She has big plans for her future career.",
+        "exampleCn": "她对未来的职业有着宏大的计划。",
+        "id": 21
+      },
+      {
+        "word": "green",
+        "emoji": "🌱🍏",
+        "translation": "绿色的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The grass is always greener on the other side.",
+        "exampleCn": "对面的草总是更绿一些。",
+        "id": 22
+      },
+      {
+        "word": "ill",
+        "emoji": "😷🌡️",
+        "translation": "生病的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She stayed home from work because she was ill.",
+        "exampleCn": "她因为生病没有去上班。",
+        "id": 23
+      },
+      {
+        "word": "last",
+        "emoji": "⏮️🔚",
+        "translation": "最后的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "This is my last chance to prove myself.",
+        "exampleCn": "这是我证明自己的最后机会。",
+        "id": 24
+      },
+      {
+        "word": "late",
+        "emoji": "⏰🕧",
+        "translation": "晚的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "I'm sorry I'm late for the meeting.",
+        "exampleCn": "很抱歉我开会迟到了。",
+        "id": 25
+      },
+      {
+        "word": "left",
+        "emoji": "👈",
+        "translation": "左边的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The bookstore is on the left side of the street.",
+        "exampleCn": "书店在街道的左边。",
+        "id": 26
+      },
+      {
+        "word": "loose",
+        "emoji": "🔄🔓",
+        "translation": "松的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The screws are loose and need tightening.",
+        "exampleCn": "螺丝松动了，需要拧紧。",
+        "id": 27
+      },
+      {
+        "word": "loud",
+        "emoji": "🔊",
+        "translation": "大声的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The music was too loud for my liking.",
+        "exampleCn": "这音乐对我来说太吵了。",
+        "id": 28
+      },
+      {
+        "word": "low",
+        "emoji": "⬇️⛰️",
+        "translation": "低的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The ceiling is too low for me to stand up straight.",
+        "exampleCn": "我站直时头碰到了天花板。",
+        "id": 29
+      },
+      {
+        "word": "mixed",
+        "emoji": "🔄🌈",
+        "translation": "混合的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The artist used mixed colors in her painting.",
+        "exampleCn": "这位艺术家在她的画作中使用了混合色。",
+        "id": 30
+      },
+      {
+        "word": "narrow",
+        "emoji": "📏↔️",
+        "translation": "狭窄的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The road became narrow as we approached the mountain.",
+        "exampleCn": "随着我们接近山区，道路变得狭窄。",
+        "id": 31
+      },
+      {
+        "word": "old",
+        "emoji": "🧓",
+        "translation": "老的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The building is very old and needs repairs.",
+        "exampleCn": "这座建筑物非常旧，需要修缮。",
+        "id": 32
+      },
+      {
+        "word": "opposite",
+        "emoji": "⬅️➡️",
+        "translation": "相反的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The two ideas are completely opposite.",
+        "exampleCn": "这两个想法完全相反。",
+        "id": 33
+      },
+      {
+        "word": "public",
+        "emoji": "🏢👥",
+        "translation": "公众的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The mayor gave a speech to the public.",
+        "exampleCn": "市长向公众发表了演讲。",
+        "id": 34
+      },
+      {
+        "word": "rough",
+        "emoji": "😣⛰️",
+        "translation": "粗糙的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The texture of the wall was rough.",
+        "exampleCn": "墙面的质地很粗糙。",
+        "id": 35
+      },
+      {
+        "word": "sad",
+        "emoji": "😢💔",
+        "translation": "悲伤的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "She felt sad after hearing the news.",
+        "exampleCn": "听到这个消息后，她感到悲伤。",
+        "id": 36
+      },
+      {
+        "word": "safe",
+        "emoji": "🔒🛡️",
+        "translation": "安全的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "The children are playing in a safe environment.",
+        "exampleCn": "孩子们在一个安全的环境中玩耍。",
+        "id": 37
+      },
+      {
+        "word": "secret",
+        "emoji": "🤫🔐",
+        "translation": "秘密的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "They whispered to each other in secret.",
+        "exampleCn": "他们私下里低声交谈。",
+        "id": 38
+      },
+      {
+        "word": "short",
+        "emoji": "📏⌛️",
+        "translation": "短的",
+        "pos": "形容词",
+        "frequency": "★★★★☆",
+        "example": "She is quite short compared to her friends.",
+        "exampleCn": "她和她的朋友相比，个子算是矮一些。",
+        "id": 39
+      },
+      {
+        "word": "shut",
+        "emoji": "",
+        "translation": "关闭的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 40
+      },
+      {
+        "word": "simple",
+        "emoji": "",
+        "translation": "简单的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 41
+      },
+      {
+        "word": "slow",
+        "emoji": "🐢🚶‍♂️",
+        "translation": "慢的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "The traffic was moving very slowly.",
+        "exampleCn": "交通很慢。",
+        "id": 42
+      },
+      {
+        "word": "small",
+        "emoji": "",
+        "translation": "小的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 43
+      },
+      {
+        "word": "soft",
+        "emoji": "",
+        "translation": "柔软的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 44
+      },
+      {
+        "word": "solid",
+        "emoji": "",
+        "translation": "坚固的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 45
+      },
+      {
+        "word": "special",
+        "emoji": "",
+        "translation": "特殊的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 46
+      },
+      {
+        "word": "strange",
+        "emoji": "",
+        "translation": "奇怪的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 47
+      },
+      {
+        "word": "thin",
+        "emoji": "",
+        "translation": "薄的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 48
+      },
+      {
+        "word": "white",
+        "emoji": "",
+        "translation": "白色的",
+        "pos": "形容词",
+        "frequency": "",
+        "example": "",
+        "exampleCn": "",
+        "id": 49
+      },
+      {
+        "word": "wrong",
+        "emoji": "❌😖",
+        "translation": "错误的",
+        "pos": "形容词",
+        "frequency": "★★★☆☆",
+        "example": "You're holding the wrong key.",
+        "exampleCn": "你拿错了钥匙。",
+        "id": 50
+      }
+    ]
+  }
+}

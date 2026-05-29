@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogden Basic English 850 词 · 单词卡片</title>
+    <meta name="description" content="Ogden 基础英语 850 词单词卡片，含 OPERATIONS、THINGS、QUALITIES 分类，附中文翻译、例句与使用频率。">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        :root {
+            --ogden-primary: #2e7d32;
+            --ogden-primary-dark: #1b5e20;
+            --ogden-light: #e8f5e9;
+            --card-radius: 12px;
+        }
+
+        body {
+            background: #f5f7f5;
+            padding-top: 72px;
+        }
+
+        .ogden-page {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem 3rem;
+        }
+
+        .ogden-hero {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .ogden-hero h1 {
+            font-size: 1.6rem;
+            color: var(--ogden-primary-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .ogden-hero p {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .ogden-hero a {
+            color: var(--ogden-primary);
+            display: inline;
+        }
+
+        .stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-bottom: 1.25rem;
+        }
+
+        .stat-chip {
+            background: #fff;
+            border: 1px solid #c8e6c9;
+            padding: 0.35rem 0.75rem;
+            border-radius: 2rem;
+            font-size: 0.78rem;
+            color: #555;
+        }
+
+        .stat-chip strong {
+            color: var(--ogden-primary-dark);
+        }
+
+        .toolbar {
+            background: #fff;
+            border-radius: var(--card-radius);
+            padding: 1rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            margin-bottom: 1rem;
+            position: sticky;
+            top: 68px;
+            z-index: 100;
+        }
+
+        .category-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.85rem;
+        }
+
+        .category-tab {
+            padding: 0.45rem 0.85rem;
+            border: 1px solid #ddd;
+            border-radius: 2rem;
+            background: #fff;
+            font-size: 0.82rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: #555;
+        }
+
+        .category-tab:hover {
+            border-color: var(--ogden-primary);
+            color: var(--ogden-primary);
+        }
+
+        .category-tab.active {
+            background: var(--ogden-primary);
+            border-color: var(--ogden-primary);
+            color: #fff;
+        }
+
+        .category-tab .count {
+            opacity: 0.85;
+            font-size: 0.75rem;
+            margin-left: 0.2rem;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 180px;
+            padding: 0.55rem 0.85rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+
+        .filter-label {
+            font-size: 0.82rem;
+            color: #666;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .result-hint {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 0.5rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .word-card {
+            background: #fff;
+            border-radius: var(--card-radius);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .word-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46, 125, 50, 0.12);
+            border-color: #a5d6a7;
+        }
+
+        .word-card.expanded {
+            border-color: var(--ogden-primary);
+        }
+
+        .word-card-header {
+            padding: 1rem 1rem 0.75rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .word-emoji {
+            font-size: 2rem;
+            line-height: 1;
+            min-width: 2.5rem;
+            text-align: center;
+        }
+
+        .word-emoji.empty {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .word-main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .word-title-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .word-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #222;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .speak-btn {
+            flex-shrink: 0;
+            width: 2rem;
+            height: 2rem;
+            border: none;
+            border-radius: 50%;
+            background: var(--ogden-light);
+            color: var(--ogden-primary-dark);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            transition: background 0.2s, transform 0.15s;
+        }
+
+        .speak-btn:hover {
+            background: #c8e6c9;
+            transform: scale(1.05);
+        }
+
+        .speak-btn:active,
+        .speak-btn.speaking {
+            background: var(--ogden-primary);
+            color: #fff;
+        }
+
+        .speak-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .word-translation {
+            font-size: 1rem;
+            color: var(--ogden-primary-dark);
+            font-weight: 600;
+        }
+
+        .word-translation.missing {
+            color: #bbb;
+            font-weight: 400;
+            font-size: 0.85rem;
+        }
+
+        .word-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: 0.5rem;
+        }
+
+        .meta-tag {
+            font-size: 0.7rem;
+            padding: 0.15rem 0.45rem;
+            border-radius: 4px;
+            background: var(--ogden-light);
+            color: #555;
+        }
+
+        .meta-tag.pos {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .meta-tag.freq {
+            color: #f57f17;
+            background: #fff8e1;
+            letter-spacing: 1px;
+        }
+
+        .word-card-body {
+            display: none;
+            padding: 0 1rem 1rem;
+            border-top: 1px dashed #eee;
+            margin-top: 0.25rem;
+            padding-top: 0.75rem;
+        }
+
+        .word-card.expanded .word-card-body {
+            display: block;
+        }
+
+        .example-en {
+            font-size: 0.88rem;
+            color: #444;
+            line-height: 1.55;
+            margin-bottom: 0.4rem;
+        }
+
+        .example-cn {
+            font-size: 0.82rem;
+            color: #888;
+            line-height: 1.5;
+        }
+
+        .card-index {
+            font-size: 0.72rem;
+            color: #bbb;
+            padding: 0 1rem 0.5rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #999;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #999;
+            grid-column: 1 / -1;
+        }
+
+        .back-home {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .back-home:hover {
+            color: var(--ogden-primary);
+        }
+
+        @media (max-width: 600px) {
+            .category-tabs {
+                gap: 0.35rem;
+            }
+
+            .category-tab {
+                font-size: 0.75rem;
+                padding: 0.4rem 0.65rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/" style="display: flex; align-items: center;">
+                    <img src="/images/logo.jpg" alt="北瓜英语" class="logo-img"
+                        style="width: 40px; height: 40px; margin-right: 8px;">
+                    <h1>北瓜英语</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">首页</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="ogden-page">
+        <header class="ogden-hero">
+            <h1>Ogden Basic English · 850 词单词卡片</h1>
+            <p>
+                基于 Ogden 基础英语词汇表，用 850 个核心词覆盖约 90% 日常英语表达。
+                中文翻译与例句参考
+                <a href="https://github.com/HANXU2018/BASIC-ENGLISH-VOCABULARY" target="_blank" rel="noopener">BASIC-ENGLISH-VOCABULARY</a>
+            </p>
+        </header>
+
+        <div class="stats-bar" id="stats-bar"></div>
+
+        <div class="toolbar">
+            <div class="category-tabs" id="category-tabs"></div>
+            <div class="search-row">
+                <input type="search" class="search-input" id="search-input" placeholder="搜索英文或中文…"
+                    autocomplete="off">
+                <label class="filter-label">
+                    <input type="checkbox" id="filter-translated"> 仅显示有翻译
+                </label>
+            </div>
+            <p class="result-hint" id="result-hint"></p>
+        </div>
+
+        <div class="cards-grid" id="cards-grid">
+            <p class="loading">加载词汇数据…</p>
+        </div>
+
+        <p style="text-align: center;">
+            <a href="/" class="back-home">← 返回北瓜英语首页</a>
+        </p>
+    </main>
+
+    <script>
+        var CATEGORIES = [
+            { id: 'operations', label: 'OPERATIONS', countKey: 'operations' },
+            { id: 'things_general', label: 'THINGS · 400 通用', countKey: 'things_general' },
+            { id: 'things_picturable', label: 'THINGS · 200 具象', countKey: 'things_picturable' },
+            { id: 'qualities_general', label: 'QUALITIES · 100', countKey: 'qualities_general' },
+            { id: 'qualities_opposites', label: 'QUALITIES · 50 反义', countKey: 'qualities_opposites' }
+        ];
+
+        var vocabulary = null;
+        var currentCategory = 'operations';
+        var searchQuery = '';
+        var onlyTranslated = false;
+
+        function loadVocabulary() {
+            return fetch('vocabulary.json')
+                .then(function (r) {
+                    if (!r.ok) throw new Error('load failed');
+                    return r.json();
+                });
+        }
+
+        function renderStats() {
+            var bar = document.getElementById('stats-bar');
+            var total = 0;
+            var translated = 0;
+            CATEGORIES.forEach(function (c) {
+                var words = vocabulary[c.id].words;
+                total += words.length;
+                translated += words.filter(function (w) { return w.translation; }).length;
+            });
+            bar.innerHTML =
+                '<span class="stat-chip"><strong>' + total + '</strong> 词总计</span>' +
+                '<span class="stat-chip"><strong>' + translated + '</strong> 条含中文释义</span>' +
+                '<span class="stat-chip">来源 · Ogden Basic English</span>';
+        }
+
+        function renderTabs() {
+            var tabs = document.getElementById('category-tabs');
+            tabs.innerHTML = CATEGORIES.map(function (c) {
+                var cat = vocabulary[c.id];
+                var active = c.id === currentCategory ? ' active' : '';
+                return '<button type="button" class="category-tab' + active + '" data-id="' + c.id + '">' +
+                    c.label + '<span class="count">(' + cat.words.length + ')</span></button>';
+            }).join('');
+
+            tabs.querySelectorAll('.category-tab').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    currentCategory = btn.getAttribute('data-id');
+                    tabs.querySelectorAll('.category-tab').forEach(function (b) {
+                        b.classList.toggle('active', b === btn);
+                    });
+                    renderCards();
+                });
+            });
+        }
+
+        function getFilteredWords() {
+            var words = vocabulary[currentCategory].words;
+            var q = searchQuery.trim().toLowerCase();
+            return words.filter(function (w) {
+                if (onlyTranslated && !w.translation) return false;
+                if (!q) return true;
+                return (w.word && w.word.toLowerCase().indexOf(q) >= 0) ||
+                    (w.translation && w.translation.indexOf(q) >= 0);
+            });
+        }
+
+        function escapeHtml(s) {
+            if (!s) return '';
+            return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        var speechSupported = 'speechSynthesis' in window;
+        var currentUtterance = null;
+
+        function getEnglishVoice() {
+            var voices = window.speechSynthesis.getVoices();
+            return voices.find(function (v) { return v.lang.indexOf('en') === 0; }) ||
+                voices.find(function (v) { return v.lang.indexOf('en') >= 0; }) ||
+                voices[0];
+        }
+
+        function speakWord(word, btn) {
+            if (!speechSupported || !word) return;
+            window.speechSynthesis.cancel();
+            if (btn) {
+                document.querySelectorAll('.speak-btn.speaking').forEach(function (b) {
+                    b.classList.remove('speaking');
+                    b.disabled = false;
+                });
+            }
+            var utter = new SpeechSynthesisUtterance(word);
+            utter.lang = 'en-US';
+            utter.rate = 0.9;
+            var voice = getEnglishVoice();
+            if (voice) utter.voice = voice;
+            if (btn) {
+                btn.classList.add('speaking');
+                btn.disabled = true;
+                utter.onend = utter.onerror = function () {
+                    btn.classList.remove('speaking');
+                    btn.disabled = false;
+                };
+            }
+            currentUtterance = utter;
+            window.speechSynthesis.speak(utter);
+        }
+
+        if (speechSupported) {
+            window.speechSynthesis.onvoiceschanged = function () {
+                getEnglishVoice();
+            };
+        }
+
+        function renderCards() {
+            var grid = document.getElementById('cards-grid');
+            var hint = document.getElementById('result-hint');
+            var cat = vocabulary[currentCategory];
+            var filtered = getFilteredWords();
+
+            hint.textContent = cat.title + ' · ' + cat.subtitle + ' — 显示 ' + filtered.length + ' / ' + cat.words.length + ' 词';
+
+            if (!filtered.length) {
+                grid.innerHTML = '<p class="empty-state">没有匹配的单词，请换个关键词试试。</p>';
+                return;
+            }
+
+            grid.innerHTML = filtered.map(function (w) {
+                var emoji = w.emoji ? '<span class="word-emoji">' + escapeHtml(w.emoji) + '</span>' :
+                    '<span class="word-emoji empty">📖</span>';
+                var trans = w.translation
+                    ? '<div class="word-translation">' + escapeHtml(w.translation) + '</div>'
+                    : '<div class="word-translation missing">暂无中文释义</div>';
+                var pos = w.pos ? '<span class="meta-tag pos">' + escapeHtml(w.pos) + '</span>' : '';
+                var freq = w.frequency ? '<span class="meta-tag freq">' + escapeHtml(w.frequency) + '</span>' : '';
+                var hasExample = w.example || w.exampleCn;
+                var body = hasExample
+                    ? '<div class="word-card-body">' +
+                    (w.example ? '<p class="example-en">' + escapeHtml(w.example) + '</p>' : '') +
+                    (w.exampleCn ? '<p class="example-cn">' + escapeHtml(w.exampleCn) + '</p>' : '') +
+                    '</div>'
+                    : '<div class="word-card-body"><p class="example-cn">暂无例句</p></div>';
+
+                var speakBtn = speechSupported
+                    ? '<button type="button" class="speak-btn" data-word="' + escapeHtml(w.word) +
+                    '" aria-label="朗读 ' + escapeHtml(w.word) + '" title="朗读发音">🔊</button>'
+                    : '';
+
+                return '<article class="word-card" data-id="' + w.id + '">' +
+                    '<div class="card-index">#' + w.id + '</div>' +
+                    '<div class="word-card-header">' + emoji +
+                    '<div class="word-main">' +
+                    '<div class="word-title-row">' +
+                    '<div class="word-title">' + escapeHtml(w.word) + '</div>' + speakBtn +
+                    '</div>' + trans +
+                    '<div class="word-meta">' + pos + freq + '</div>' +
+                    '</div></div>' + body + '</article>';
+            }).join('');
+
+            grid.querySelectorAll('.speak-btn').forEach(function (btn) {
+                btn.addEventListener('click', function (e) {
+                    e.stopPropagation();
+                    speakWord(btn.getAttribute('data-word'), btn);
+                });
+            });
+
+            grid.querySelectorAll('.word-card').forEach(function (card) {
+                card.addEventListener('click', function () {
+                    var wasExpanded = card.classList.contains('expanded');
+                    grid.querySelectorAll('.word-card.expanded').forEach(function (c) {
+                        c.classList.remove('expanded');
+                    });
+                    if (!wasExpanded) card.classList.add('expanded');
+                });
+            });
+        }
+
+        document.getElementById('search-input').addEventListener('input', function (e) {
+            searchQuery = e.target.value;
+            renderCards();
+        });
+
+        document.getElementById('filter-translated').addEventListener('change', function (e) {
+            onlyTranslated = e.target.checked;
+            renderCards();
+        });
+
+        loadVocabulary()
+            .then(function (data) {
+                vocabulary = data;
+                renderStats();
+                renderTabs();
+                renderCards();
+            })
+            .catch(function () {
+                document.getElementById('cards-grid').innerHTML =
+                    '<p class="empty-state">词汇数据加载失败，请刷新页面重试。</p>';
+            });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a4ffc788690883ae7cb20b610ca73a13";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>
