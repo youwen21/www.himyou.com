@@ -552,6 +552,7 @@
                     '" aria-label="朗读 ' + escapeHtml(w.word) + '" title="朗读发音">🔊</button>'
                     : '';
 
+                    // '<div class="word-meta">' + pos + freq + '</div>' +
                 return '<article class="word-card" data-id="' + w.id + '">' +
                     '<div class="card-index">#' + w.id + '</div>' +
                     '<div class="word-card-header">' + emoji +
@@ -559,7 +560,6 @@
                     '<div class="word-title-row">' +
                     '<div class="word-title">' + escapeHtml(w.word) + '</div>' + speakBtn +
                     '</div>' + trans +
-                    '<div class="word-meta">' + pos + freq + '</div>' +
                     '</div></div>' + body + '</article>';
             }).join('');
 
