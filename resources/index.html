@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语学习资源导航 - 北瓜英语</title>
+    <meta name="description" content="北瓜英语学习资源导航：精选文字链接与微信小程序应用，涵盖四六级、考研、学位英语、申硕英语及词汇表等备考资料。">
+    <meta name="keywords" content="英语学习资源,英语备考,微信小程序,词汇表,北瓜英语">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body {
+            padding-top: 72px;
+            background: #f5f7fa;
+        }
+
+        .resources-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem 3rem;
+        }
+
+        .page-hero {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .page-hero h1 {
+            font-size: 1.75rem;
+            color: #1976D2;
+            margin-bottom: 0.5rem;
+        }
+
+        .page-hero p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .resource-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-head {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.65rem;
+            border-bottom: 2px solid #e3f2fd;
+        }
+
+        .section-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .section-head.links .section-icon {
+            background: #e3f2fd;
+        }
+
+        .section-head.apps .section-icon {
+            background: #fff3e0;
+        }
+
+        .section-head.official .section-icon {
+            background: #fce4ec;
+        }
+
+        .section-head h2 {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .section-head p {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 0.15rem;
+        }
+
+        .resource-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
+        }
+
+        .resource-item {
+            display: block;
+            background: #fff;
+            border-radius: 12px;
+            padding: 1rem 1.15rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+            border: 1px solid transparent;
+        }
+
+        a.resource-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(33, 150, 243, 0.12);
+            border-color: #90caf9;
+        }
+
+        .resource-item.external::after {
+            content: "↗";
+            font-size: 0.85rem;
+            color: #999;
+            margin-left: 0.35rem;
+        }
+
+        .resource-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 0.35rem;
+            line-height: 1.4;
+        }
+
+        a.resource-item:hover .resource-title {
+            color: #1976D2;
+        }
+
+        .resource-desc {
+            font-size: 0.85rem;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 0.4rem;
+        }
+
+        .resource-url {
+            font-size: 0.75rem;
+            color: #90a4ae;
+            word-break: break-all;
+        }
+
+        .resource-tag {
+            display: inline-block;
+            font-size: 0.68rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+            margin-right: 0.35rem;
+        }
+
+        .tag-pdf {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .tag-audio {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .tag-vocab {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .tag-exam {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .tag-mp {
+            background: #e8f8f0;
+            color: #07c160;
+        }
+
+        .tag-alipay {
+            background: #e6f4ff;
+            color: #1677ff;
+        }
+
+        .tag-baidu {
+            background: #fff1f0;
+            color: #de3c2c;
+        }
+
+        .tag-official {
+            background: #fff3e0;
+            color: #e65100;
+        }
+
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .app-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.15rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid transparent;
+        }
+
+        .app-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+            border-color: #ffe0b2;
+        }
+
+        .app-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 0.75rem;
+            border-radius: 8px;
+        }
+
+        .app-card h3 {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 0.35rem;
+        }
+
+        .app-card:hover h3 {
+            color: #e65100;
+        }
+
+        .app-card p {
+            font-size: 0.82rem;
+            color: #666;
+            line-height: 1.45;
+            flex: 1;
+        }
+
+        .app-card .app-cta {
+            margin-top: 0.75rem;
+            font-size: 0.8rem;
+            color: #ff9800;
+            font-weight: 600;
+        }
+
+        .back-home {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .back-home a {
+            color: #666;
+            font-size: 0.88rem;
+            display: inline;
+        }
+
+        .back-home a:hover {
+            color: #2196F3;
+        }
+
+        @media (max-width: 600px) {
+            .page-hero h1 {
+                font-size: 1.45rem;
+            }
+
+            .app-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="/" style="display: flex; align-items: center;">
+                    <img src="/images/logo.jpg" alt="北瓜英语" class="logo-img"
+                        style="width: 40px; height: 40px; margin-right: 8px;">
+                    <h1>北瓜英语</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">首页</a></li>
+                <li><a href="/OgdenBasicEnglishWordsList/index.html">850 词</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="resources-page">
+        <header class="page-hero">
+            <h1>英语学习资源导航</h1>
+            <p>精选外部学习资料、官方考试网站与本站微信小程序，方便快速找到所需资源。</p>
+            <p>资源持续收集更新中。</p>
+        </header>
+
+        <!-- 文字链接 -->
+        <section class="resource-section" id="links">
+            <div class="section-head links">
+                <div class="section-icon">🔗</div>
+                <div>
+                    <h2>外部资源链接</h2>
+                    <p>网页、PDF、词汇表与在线工具</p>
+                </div>
+            </div>
+            <ul class="resource-list">
+                <li>
+                    <a class="resource-item external" href="https://www.cambridgeenglish.org/Images/84669-pet-vocabulary-list.pdf"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">Cambridge English: Preliminary and Preliminary for Schools Vocabulary List</div>
+                        <p class="resource-desc">剑桥英语 B1 预备级（PET）官方词汇表 PDF，适合中级英语学习与考试备考。</p>
+                        <span class="resource-url">cambridgeenglish.org · PDF</span>
+                        <span class="resource-tag tag-pdf">PDF</span>
+                        <span class="resource-tag tag-vocab">词汇表</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="resource-item external" href="https://www.1000englishwords.com/zh-hans/audio/"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">1000 Most Common English Words</div>
+                        <p class="resource-desc">1000 个最常用英语单词，支持简体中文界面，点击单词即可收听发音，适合基础词汇与听力练习。</p>
+                        <span class="resource-url">1000englishwords.com</span>
+                        <span class="resource-tag tag-audio">发音</span>
+                        <span class="resource-tag tag-vocab">词汇</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="resource-item" href="/OgdenBasicEnglishWordsList/index.html">
+                        <div class="resource-title">Ogden Basic English Words List（850 词）</div>
+                        <p class="resource-desc">本站 Ogden 基础英语 850 词单词卡片，含中文释义、词性，支持发音与分类浏览。</p>
+                        <span class="resource-url">本站 · 单词卡片</span>
+                        <span class="resource-tag tag-vocab">850 词</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="resource-item external"
+                        href="https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">Top 3000 Words in English</div>
+                        <p class="resource-desc">EF 英孚英语 · 英语中最常用的 3000 个单词列表，按使用频率排序，适合系统扩充词汇量。</p>
+                        <span class="resource-url">ef.com · English Resources</span>
+                        <span class="resource-tag tag-vocab">词汇</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 应用 -->
+        <section class="resource-section" id="apps">
+            <div class="section-head apps">
+                <div class="section-icon">📱</div>
+                <div>
+                    <h2>推荐应用</h2>
+                    <p>微信小程序 · APP · WEB APP （包括官方、非官方）</p>
+                </div>
+            </div>
+            <div class="app-grid"> 
+                
+                <a href="https://www.neea.edu.cn/" class="app-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="/images/out-resource/中国教育考试网-微信-qr.jpg" alt="中国教育考试网 微信小程序">
+                    <h3>中国教育考试网</h3>
+                    <p>四六级、考研等报名、成绩与证书查询，教师资格考试（微信扫码打开官方小程序）</p>
+                    <span class="resource-tag tag-mp">微信小程序</span>
+                    <span class="app-cta">访问官网 →</span>
+                </a>
+                <a href="https://www.neea.edu.cn/" class="app-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="/images/out-resource/中国教育考试网-支付宝-qr.png" alt="中国教育考试网 支付宝小程序">
+                    <h3>中国教育考试网</h3>
+                    <p>四六级、考研等报名、成绩与证书查询，教师资格考试（支付宝扫码打开官方小程序）</p>
+                    <span class="resource-tag tag-alipay">支付宝小程序</span>
+                    <span class="app-cta">访问官网 →</span>
+                </a>
+                <a href="https://www.neea.edu.cn/" class="app-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="/images/out-resource/中国教育考试网-百度-qr.png" alt="中国教育考试网 百度小程序">
+                    <h3>中国教育考试网</h3>
+                    <p>四六级、考研等报名、成绩与证书查询，教师资格考试（百度扫码打开官方小程序）</p>
+                    <span class="resource-tag tag-baidu">百度小程序</span>
+                    <span class="app-cta">访问官网 →</span>
+                </a>
+
+                <a href="/apps/dasiliuyingyu.html" class="app-card">
+                    <img src="/images/beigua-46-qr.png" alt="北瓜大四六英语">
+                    <h3>北瓜大四六英语</h3>
+                    <p>大学英语四级 / 六级历年真题、解析、高频词与专项练习</p>
+                    <span class="resource-tag tag-mp">微信小程序</span>
+                    <span class="app-cta">查看介绍 →</span>
+                </a>
+                <a href="/apps/kaoyanyingyu.html" class="app-card">
+                    <img src="/images/beigua-kaoyan-qr.jpg" alt="北瓜考研英语">
+                    <h3>北瓜考研英语</h3>
+                    <p>考研英语一 / 二历年真题、解析与专项练习</p>
+                    <span class="resource-tag tag-mp">微信小程序</span>
+                    <span class="app-cta">查看介绍 →</span>
+                </a>
+                <a href="/apps/shenshuoyingyu.html" class="app-card">
+                    <img src="/images/beigua-shenshuo-qr.jpg" alt="北瓜申硕英语">
+                    <h3>北瓜申硕英语</h3>
+                    <p>同等学力申硕英语历年真题、高频单词与词组</p>
+                    <span class="resource-tag tag-mp">微信小程序</span>
+                    <span class="app-cta">查看介绍 →</span>
+                </a>
+                <a href="/apps/xueweiyingyu.html" class="app-card">
+                    <img src="/images/beigua-xuewei-qr.jpg" alt="北瓜学位英语">
+                    <h3>北瓜学位英语</h3>
+                    <p>北京成人本科学士学位英语真题与解析</p>
+                    <span class="resource-tag tag-mp">微信小程序</span>
+                    <span class="app-cta">查看介绍 →</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 官方资源链接 -->
+        <section class="resource-section" id="official">
+            <div class="section-head official">
+                <div class="section-icon">🏛️</div>
+                <div>
+                    <h2>官方资源链接</h2>
+                    <p>教育考试院 · 报名、查分、准考证</p>
+                </div>
+            </div>
+            <ul class="resource-list">
+                <li>
+                    <a class="resource-item external" href="https://www.bjeea.cn/"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">北京教育考试院</div>
+                        <p class="resource-desc">北京成人本科学士学位英语考试报名、查询成绩、打印准考证等考务信息，请以官网通知为准。</p>
+                        <span class="resource-url">bjeea.cn</span>
+                        <span class="resource-tag tag-official">官方</span>
+                        <span class="resource-tag tag-exam">学位英语</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="resource-item external" href="https://www.neea.edu.cn/"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">中国教育考试网</div>
+                        <p class="resource-desc">教育部教育考试院主办，提供四六级、考研、教师资格等考试报名、成绩查询、证书查询及考试资讯，请以官网通知为准。</p>
+                        <span class="resource-url">neea.edu.cn</span>
+                        <span class="resource-tag tag-official">官方</span>
+                        <span class="resource-tag tag-exam">四六级</span>
+                        <span class="resource-tag tag-exam">考研</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <p class="back-home">
+            <a href="/">← 返回北瓜英语首页</a>
+        </p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 北瓜英语</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a4ffc788690883ae7cb20b610ca73a13";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>
