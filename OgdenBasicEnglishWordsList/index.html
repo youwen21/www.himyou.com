@@ -159,7 +159,6 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
             overflow: hidden;
             transition: transform 0.2s, box-shadow 0.2s;
-            cursor: pointer;
             border: 1px solid transparent;
         }
 
@@ -167,10 +166,6 @@
             transform: translateY(-3px);
             box-shadow: 0 6px 20px rgba(46, 125, 50, 0.12);
             border-color: #a5d6a7;
-        }
-
-        .word-card.expanded {
-            border-color: var(--ogden-primary);
         }
 
         .word-card-header {
@@ -283,15 +278,10 @@
         }
 
         .word-card-body {
-            display: none;
             padding: 0 1rem 1rem;
             border-top: 1px dashed #eee;
             margin-top: 0.25rem;
             padding-top: 0.75rem;
-        }
-
-        .word-card.expanded .word-card-body {
-            display: block;
         }
 
         .example-en {
@@ -567,16 +557,6 @@
                 btn.addEventListener('click', function (e) {
                     e.stopPropagation();
                     speakWord(btn.getAttribute('data-word'), btn);
-                });
-            });
-
-            grid.querySelectorAll('.word-card').forEach(function (card) {
-                card.addEventListener('click', function () {
-                    var wasExpanded = card.classList.contains('expanded');
-                    grid.querySelectorAll('.word-card.expanded').forEach(function (c) {
-                        c.classList.remove('expanded');
-                    });
-                    if (!wasExpanded) card.classList.add('expanded');
                 });
             });
         }
