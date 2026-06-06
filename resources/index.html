@@ -265,6 +265,130 @@
             color: #2196F3;
         }
 
+        .external-dialog {
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            background: rgba(15, 23, 42, 0.45);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+        }
+
+        .external-dialog.is-open {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .external-dialog-panel {
+            width: 100%;
+            max-width: 420px;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+            padding: 1.5rem 1.5rem 1.25rem;
+            transform: translateY(12px) scale(0.98);
+            transition: transform 0.2s;
+        }
+
+        .external-dialog.is-open .external-dialog-panel {
+            transform: translateY(0) scale(1);
+        }
+
+        .external-dialog-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.45rem;
+        }
+
+        .external-dialog-icon {
+            width: 2.25rem;
+            height: 2.25rem;
+            border-radius: 10px;
+            background: #e3f2fd;
+            color: #1976D2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.15rem;
+            flex-shrink: 0;
+        }
+
+        .external-dialog-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #222;
+            margin: 0;
+        }
+
+        .external-dialog-desc {
+            font-size: 0.88rem;
+            color: #666;
+            line-height: 1.55;
+            margin-bottom: 1rem;
+        }
+
+        .external-dialog-target {
+            background: #f5f7fa;
+            border: 1px solid #e8edf2;
+            border-radius: 10px;
+            padding: 0.85rem 0.95rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .external-dialog-name {
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.45;
+            margin-bottom: 0.35rem;
+        }
+
+        .external-dialog-url {
+            font-size: 0.78rem;
+            color: #90a4ae;
+            word-break: break-all;
+            line-height: 1.45;
+        }
+
+        .external-dialog-actions {
+            display: flex;
+            gap: 0.65rem;
+            justify-content: flex-end;
+        }
+
+        .external-dialog-btn {
+            border: none;
+            border-radius: 8px;
+            padding: 0.55rem 1rem;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .external-dialog-btn-cancel {
+            background: #f1f5f9;
+            color: #555;
+        }
+
+        .external-dialog-btn-cancel:hover {
+            background: #e2e8f0;
+        }
+
+        .external-dialog-btn-confirm {
+            background: #1976D2;
+            color: #fff;
+        }
+
+        .external-dialog-btn-confirm:hover {
+            background: #1565c0;
+        }
+
         @media (max-width: 600px) {
             .page-hero h1 {
                 font-size: 1.45rem;
@@ -272,6 +396,14 @@
 
             .app-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .external-dialog-actions {
+                flex-direction: column-reverse;
+            }
+
+            .external-dialog-btn {
+                width: 100%;
             }
         }
     </style>
@@ -391,6 +523,17 @@
                         <span class="resource-tag tag-exam">新概念英语</span>
                     </a>
                 </li>
+
+                <li>
+                    <a class="resource-item external"
+                        href="https://www.gutenberg.org/"
+                        target="_blank" rel="noopener noreferrer">
+                        <div class="resource-title">Gutenberg</div>
+                        <p class="resource-desc">免费英文电子书图书馆，收录 75,000+ 本经典文学作品，支持在线阅读或下载 EPUB / Kindle 格式，适合英语阅读练习。</p>
+                        <span class="resource-url">gutenberg.org</span>
+                        <span class="resource-tag tag-vocab">阅读</span>
+                    </a>
+                </li>
             </ul>
         </section>
 
@@ -508,6 +651,81 @@
         </div>
     </footer>
 
+    <div class="external-dialog" id="external-dialog" role="dialog" aria-modal="true" aria-labelledby="external-dialog-title" hidden>
+        <div class="external-dialog-panel">
+            <div class="external-dialog-header">
+                <div class="external-dialog-icon" aria-hidden="true">↗</div>
+                <h3 class="external-dialog-title" id="external-dialog-title">跳转到外部网站</h3>
+            </div>
+            <p class="external-dialog-desc">你即将离开北瓜英语，前往第三方网站。请确认是否继续访问。</p>
+            <div class="external-dialog-target">
+                <div class="external-dialog-name" id="external-dialog-name"></div>
+                <div class="external-dialog-url" id="external-dialog-url"></div>
+            </div>
+            <div class="external-dialog-actions">
+                <button type="button" class="external-dialog-btn external-dialog-btn-cancel" id="external-dialog-cancel">取消</button>
+                <button type="button" class="external-dialog-btn external-dialog-btn-confirm" id="external-dialog-confirm">继续访问</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function () {
+            var dialog = document.getElementById('external-dialog');
+            var nameEl = document.getElementById('external-dialog-name');
+            var urlEl = document.getElementById('external-dialog-url');
+            var cancelBtn = document.getElementById('external-dialog-cancel');
+            var confirmBtn = document.getElementById('external-dialog-confirm');
+            var pendingUrl = '';
+
+            function openDialog(name, url) {
+                pendingUrl = url;
+                nameEl.textContent = name;
+                urlEl.textContent = url;
+                dialog.hidden = false;
+                requestAnimationFrame(function () {
+                    dialog.classList.add('is-open');
+                });
+                confirmBtn.focus();
+            }
+
+            function closeDialog() {
+                dialog.classList.remove('is-open');
+                pendingUrl = '';
+                setTimeout(function () {
+                    dialog.hidden = true;
+                }, 200);
+            }
+
+            document.querySelectorAll('#links .resource-item.external').forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    var url = link.getAttribute('href');
+                    var title = link.querySelector('.resource-title');
+                    var name = title ? title.textContent.trim() : url;
+                    openDialog(name, url);
+                });
+            });
+
+            cancelBtn.addEventListener('click', closeDialog);
+
+            confirmBtn.addEventListener('click', function () {
+                if (pendingUrl) {
+                    window.open(pendingUrl, '_blank', 'noopener,noreferrer');
+                }
+                closeDialog();
+            });
+
+            dialog.addEventListener('click', function (e) {
+                if (e.target === dialog) closeDialog();
+            });
+
+            document.addEventListener('keydown', function (e) {
+                if (!dialog.classList.contains('is-open')) return;
+                if (e.key === 'Escape') closeDialog();
+            });
+        })();
+    </script>
     <script>
         var _hmt = _hmt || [];
         (function () {
